@@ -1,0 +1,84 @@
+[
+  {
+    "description": "              As a registered user\n              I want to log in to the application\n  So that I can access the dashboard",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;title",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "title",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 792201900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the user launches the application",
+            "match": {
+              "location": "features\\stepdefinitions\\Steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2191492000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the user logs in with valid username \"sagesyntaxacademy\" and password \"BuildingExcellence@111\" credentials",
+            "match": {
+              "location": "features\\stepdefinitions\\Steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 514296700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the dashboard should be displayed",
+            "match": {
+              "location": "features\\stepdefinitions\\Steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2293053700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 546220099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]
