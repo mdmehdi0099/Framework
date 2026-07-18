@@ -298,3 +298,1710 @@
 2026-07-19 00:38:37 [INFO] --------------------------------------
 2026-07-19 00:38:37 [INFO] Command : npx cucumber-js --tags "@Login" --parallel 1
 2026-07-19 00:38:37 [INFO] ======================================
+2026-07-19 00:42:21 [INFO] ======================================
+2026-07-19 00:42:21 [INFO] Starting Test Execution
+2026-07-19 00:42:21 [INFO] Environment : qa
+2026-07-19 00:42:21 [INFO] ======================================
+2026-07-19 00:42:21 [INFO] Initializing TestRail...
+2026-07-19 00:42:21 [INFO] TestRail credentials loaded.
+2026-07-19 00:42:21 [INFO] initializeTestCasesFromPlan is called
+2026-07-19 00:42:22 [INFO] Plan JSON : {
+  "id": 126,
+  "name": "Collection Automation June Sprint 2026",
+  "refs": null,
+  "description": null,
+  "milestone_id": 33,
+  "assignedto_id": null,
+  "is_completed": false,
+  "completed_on": null,
+  "is_archived": false,
+  "archived_on": null,
+  "passed_count": 7,
+  "blocked_count": 0,
+  "untested_count": 7,
+  "retest_count": 0,
+  "failed_count": 0,
+  "custom_status1_count": 0,
+  "custom_status2_count": 0,
+  "custom_status3_count": 0,
+  "custom_status4_count": 0,
+  "custom_status5_count": 0,
+  "custom_status6_count": 0,
+  "custom_status7_count": 0,
+  "project_id": 2,
+  "created_on": 1784266674,
+  "start_on": 1784246400,
+  "due_on": 1785456000,
+  "created_by": 2,
+  "url": "https://tatacapital.testrail.io/index.php?/plans/view/126",
+  "entries": [
+    {
+      "id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+      "suite_id": 6,
+      "name": "Collection June 2026 Sprint Test Run",
+      "refs": null,
+      "description": null,
+      "include_all": false,
+      "dynamic_filters": null,
+      "runs": [
+        {
+          "id": 127,
+          "suite_id": 6,
+          "name": "Collection June 2026 Sprint Test Run",
+          "description": null,
+          "milestone_id": 33,
+          "assignedto_id": null,
+          "include_all": false,
+          "is_completed": false,
+          "completed_on": null,
+          "is_archived": false,
+          "archived_on": null,
+          "passed_count": 7,
+          "blocked_count": 0,
+          "untested_count": 7,
+          "retest_count": 0,
+          "failed_count": 0,
+          "custom_status1_count": 0,
+          "custom_status2_count": 0,
+          "custom_status3_count": 0,
+          "custom_status4_count": 0,
+          "custom_status5_count": 0,
+          "custom_status6_count": 0,
+          "custom_status7_count": 0,
+          "project_id": 2,
+          "plan_id": 126,
+          "entry_index": 1,
+          "entry_id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+          "config": null,
+          "config_ids": [],
+          "created_on": 1784266674,
+          "refs": null,
+          "created_by": 2,
+          "start_on": null,
+          "due_on": null,
+          "dynamic_filters": null,
+          "url": "https://tatacapital.testrail.io/index.php?/runs/view/127"
+        }
+      ]
+    }
+  ]
+}
+2026-07-19 00:42:22 [INFO] Build Name : Collection Automation June Sprint 2026
+2026-07-19 00:42:22 [INFO] Project : {"id":2,"name":"Collection","announcement":null,"show_announcement":false,"is_completed":false,"completed_on":null,"suite_mode":1,"default_role_id":null,"url":"https://tatacapital.testrail.io/index.php?/projects/overview/2","users":[{"user_id":2,"global_role_id":1,"global_role":"Lead","project_role_id":1,"project_role":"Lead","i18n_custom_id":"roles_lead"},{"user_id":4,"global_role_id":4,"global_role":"Read-only","project_role_id":4,"project_role":"Read-only","i18n_custom_id":"roles_read_only"},{"user_id":5,"global_role_id":3,"global_role":"Tester","project_role_id":3,"project_role":"Tester","i18n_custom_id":"roles_tester"}],"groups":[]}
+2026-07-19 00:42:22 [INFO] Project Name : Collection
+2026-07-19 00:42:23 [INFO] Test Case Map Loaded with 14 cases.
+2026-07-19 00:42:23 [INFO] Test Case Id : null
+2026-07-19 00:42:23 [INFO] Scenario : title
+2026-07-19 00:42:23 [INFO] Project : Collection
+2026-07-19 00:42:23 [INFO] Build : SagesyntaxBuild
+2026-07-19 00:42:23 [INFO] Browser : chromium
+2026-07-19 00:42:24 [INFO] Trace Started
+2026-07-19 00:42:24 [INFO] ======================================
+2026-07-19 00:42:24 [INFO] Scenario Started : title
+2026-07-19 00:42:24 [INFO] ======================================
+2026-07-19 00:42:25 [INFO] Fill -> #username : sagesyntaxacademy
+2026-07-19 00:42:25 [INFO] Fill -> #password : BuildingExcellence@111
+2026-07-19 00:42:25 [INFO] Click -> button[type='submit']
+2026-07-19 00:42:28 [INFO] Scenario Finished : title
+2026-07-19 00:42:28 [INFO] Status : PASSED
+2026-07-19 00:42:28 [INFO] Trace Saved
+2026-07-19 00:42:28 [INFO] Browser Closed
+2026-07-19 00:42:28 [INFO] ======================================
+2026-07-19 00:42:28 [INFO] Execution Completed
+2026-07-19 00:42:28 [INFO] ======================================
+2026-07-19 00:42:18 [INFO] ======================================
+2026-07-19 00:42:18 [INFO]  Playwright Enterprise Test Runner
+2026-07-19 00:42:18 [INFO] ======================================
+2026-07-19 00:42:18 [INFO] Environment : qa
+2026-07-19 00:42:18 [INFO] Browser    : chromium
+2026-07-19 00:42:18 [INFO] Parallel   : 1
+2026-07-19 00:42:18 [INFO] Tag        : @Login
+2026-07-19 00:42:18 [INFO] --------------------------------------
+2026-07-19 00:42:18 [INFO] Command : npx cucumber-js --tags "@Login" --parallel 1
+2026-07-19 00:42:18 [INFO] ======================================
+2026-07-19 01:03:22 [INFO] ======================================
+2026-07-19 01:03:22 [INFO] Starting Test Execution
+2026-07-19 01:03:22 [INFO] Environment : qa
+2026-07-19 01:03:22 [INFO] ======================================
+2026-07-19 01:03:22 [INFO] Initializing TestRail...
+2026-07-19 01:03:22 [INFO] TestRail credentials loaded.
+2026-07-19 01:03:22 [INFO] initializeTestCasesFromPlan is called
+2026-07-19 01:03:25 [INFO] Plan JSON : {
+  "id": 126,
+  "name": "Collection Automation June Sprint 2026",
+  "refs": null,
+  "description": null,
+  "milestone_id": 33,
+  "assignedto_id": null,
+  "is_completed": false,
+  "completed_on": null,
+  "is_archived": false,
+  "archived_on": null,
+  "passed_count": 7,
+  "blocked_count": 0,
+  "untested_count": 7,
+  "retest_count": 0,
+  "failed_count": 0,
+  "custom_status1_count": 0,
+  "custom_status2_count": 0,
+  "custom_status3_count": 0,
+  "custom_status4_count": 0,
+  "custom_status5_count": 0,
+  "custom_status6_count": 0,
+  "custom_status7_count": 0,
+  "project_id": 2,
+  "created_on": 1784266674,
+  "start_on": 1784246400,
+  "due_on": 1785456000,
+  "created_by": 2,
+  "url": "https://tatacapital.testrail.io/index.php?/plans/view/126",
+  "entries": [
+    {
+      "id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+      "suite_id": 6,
+      "name": "Collection June 2026 Sprint Test Run",
+      "refs": null,
+      "description": null,
+      "include_all": false,
+      "dynamic_filters": null,
+      "runs": [
+        {
+          "id": 127,
+          "suite_id": 6,
+          "name": "Collection June 2026 Sprint Test Run",
+          "description": null,
+          "milestone_id": 33,
+          "assignedto_id": null,
+          "include_all": false,
+          "is_completed": false,
+          "completed_on": null,
+          "is_archived": false,
+          "archived_on": null,
+          "passed_count": 7,
+          "blocked_count": 0,
+          "untested_count": 7,
+          "retest_count": 0,
+          "failed_count": 0,
+          "custom_status1_count": 0,
+          "custom_status2_count": 0,
+          "custom_status3_count": 0,
+          "custom_status4_count": 0,
+          "custom_status5_count": 0,
+          "custom_status6_count": 0,
+          "custom_status7_count": 0,
+          "project_id": 2,
+          "plan_id": 126,
+          "entry_index": 1,
+          "entry_id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+          "config": null,
+          "config_ids": [],
+          "created_on": 1784266674,
+          "refs": null,
+          "created_by": 2,
+          "start_on": null,
+          "due_on": null,
+          "dynamic_filters": null,
+          "url": "https://tatacapital.testrail.io/index.php?/runs/view/127"
+        }
+      ]
+    }
+  ]
+}
+2026-07-19 01:03:25 [INFO] Build Name : Collection Automation June Sprint 2026
+2026-07-19 01:03:26 [INFO] Project : {"id":2,"name":"Collection","announcement":null,"show_announcement":false,"is_completed":false,"completed_on":null,"suite_mode":1,"default_role_id":null,"url":"https://tatacapital.testrail.io/index.php?/projects/overview/2","users":[{"user_id":2,"global_role_id":1,"global_role":"Lead","project_role_id":1,"project_role":"Lead","i18n_custom_id":"roles_lead"},{"user_id":4,"global_role_id":4,"global_role":"Read-only","project_role_id":4,"project_role":"Read-only","i18n_custom_id":"roles_read_only"},{"user_id":5,"global_role_id":3,"global_role":"Tester","project_role_id":3,"project_role":"Tester","i18n_custom_id":"roles_tester"}],"groups":[]}
+2026-07-19 01:03:26 [INFO] Project Name : Collection
+2026-07-19 01:03:27 [INFO] Test Case Map Loaded with 14 cases.
+2026-07-19 01:03:27 [INFO] Test Case Id : 5948
+2026-07-19 01:03:27 [INFO] Scenario : title
+2026-07-19 01:03:27 [INFO] Scenario Finished : title
+2026-07-19 01:03:27 [INFO] Status : FAILED
+2026-07-19 01:03:27 [INFO] ======================================
+2026-07-19 01:03:27 [INFO] Execution Completed
+2026-07-19 01:03:27 [INFO] ======================================
+2026-07-19 01:06:29 [INFO] ======================================
+2026-07-19 01:06:29 [INFO] Starting Test Execution
+2026-07-19 01:06:29 [INFO] Environment : qa
+2026-07-19 01:06:29 [INFO] ======================================
+2026-07-19 01:06:29 [INFO] ----------------------------------------------The value of isTestrail is :true
+2026-07-19 01:06:29 [INFO] ----------------------------------------------The value of updateTestRail is:true
+2026-07-19 01:06:29 [INFO] -----------------------------------------------The value of updateLambda is:true
+2026-07-19 01:06:29 [INFO] Initializing TestRail...
+2026-07-19 01:06:29 [INFO] TestRail credentials loaded.
+2026-07-19 01:06:29 [INFO] initializeTestCasesFromPlan is called
+2026-07-19 01:06:30 [INFO] Plan JSON : {
+  "id": 126,
+  "name": "Collection Automation June Sprint 2026",
+  "refs": null,
+  "description": null,
+  "milestone_id": 33,
+  "assignedto_id": null,
+  "is_completed": false,
+  "completed_on": null,
+  "is_archived": false,
+  "archived_on": null,
+  "passed_count": 7,
+  "blocked_count": 0,
+  "untested_count": 7,
+  "retest_count": 0,
+  "failed_count": 0,
+  "custom_status1_count": 0,
+  "custom_status2_count": 0,
+  "custom_status3_count": 0,
+  "custom_status4_count": 0,
+  "custom_status5_count": 0,
+  "custom_status6_count": 0,
+  "custom_status7_count": 0,
+  "project_id": 2,
+  "created_on": 1784266674,
+  "start_on": 1784246400,
+  "due_on": 1785456000,
+  "created_by": 2,
+  "url": "https://tatacapital.testrail.io/index.php?/plans/view/126",
+  "entries": [
+    {
+      "id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+      "suite_id": 6,
+      "name": "Collection June 2026 Sprint Test Run",
+      "refs": null,
+      "description": null,
+      "include_all": false,
+      "dynamic_filters": null,
+      "runs": [
+        {
+          "id": 127,
+          "suite_id": 6,
+          "name": "Collection June 2026 Sprint Test Run",
+          "description": null,
+          "milestone_id": 33,
+          "assignedto_id": null,
+          "include_all": false,
+          "is_completed": false,
+          "completed_on": null,
+          "is_archived": false,
+          "archived_on": null,
+          "passed_count": 7,
+          "blocked_count": 0,
+          "untested_count": 7,
+          "retest_count": 0,
+          "failed_count": 0,
+          "custom_status1_count": 0,
+          "custom_status2_count": 0,
+          "custom_status3_count": 0,
+          "custom_status4_count": 0,
+          "custom_status5_count": 0,
+          "custom_status6_count": 0,
+          "custom_status7_count": 0,
+          "project_id": 2,
+          "plan_id": 126,
+          "entry_index": 1,
+          "entry_id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+          "config": null,
+          "config_ids": [],
+          "created_on": 1784266674,
+          "refs": null,
+          "created_by": 2,
+          "start_on": null,
+          "due_on": null,
+          "dynamic_filters": null,
+          "url": "https://tatacapital.testrail.io/index.php?/runs/view/127"
+        }
+      ]
+    }
+  ]
+}
+2026-07-19 01:06:30 [INFO] Build Name : Collection Automation June Sprint 2026
+2026-07-19 01:06:31 [INFO] Project : {"id":2,"name":"Collection","announcement":null,"show_announcement":false,"is_completed":false,"completed_on":null,"suite_mode":1,"default_role_id":null,"url":"https://tatacapital.testrail.io/index.php?/projects/overview/2","users":[{"user_id":2,"global_role_id":1,"global_role":"Lead","project_role_id":1,"project_role":"Lead","i18n_custom_id":"roles_lead"},{"user_id":4,"global_role_id":4,"global_role":"Read-only","project_role_id":4,"project_role":"Read-only","i18n_custom_id":"roles_read_only"},{"user_id":5,"global_role_id":3,"global_role":"Tester","project_role_id":3,"project_role":"Tester","i18n_custom_id":"roles_tester"}],"groups":[]}
+2026-07-19 01:06:31 [INFO] Project Name : Collection
+2026-07-19 01:06:32 [INFO] Test Case Map Loaded with 14 cases.
+2026-07-19 01:06:32 [INFO] Test Case Id : 5948
+2026-07-19 01:06:32 [INFO] Scenario : title
+2026-07-19 01:06:33 [INFO] Project : Collection
+2026-07-19 01:06:33 [INFO] Build : SagesyntaxBuild
+2026-07-19 01:06:33 [INFO] Browser : chromium
+2026-07-19 01:06:34 [INFO] Trace Started
+2026-07-19 01:06:34 [INFO] ======================================
+2026-07-19 01:06:34 [INFO] Scenario Started : title
+2026-07-19 01:06:34 [INFO] ======================================
+2026-07-19 01:06:37 [INFO] Fill -> #username : sagesyntaxacademy
+2026-07-19 01:06:37 [INFO] Fill -> #password : BuildingExcellence@111
+2026-07-19 01:06:37 [INFO] Click -> button[type='submit']
+2026-07-19 01:06:40 [INFO] Scenario Finished : title
+2026-07-19 01:06:40 [INFO] Status : PASSED
+2026-07-19 01:06:40 [INFO] Trace Saved
+2026-07-19 01:06:40 [INFO] Browser Closed
+2026-07-19 01:06:40 [INFO] ======================================
+2026-07-19 01:06:40 [INFO] Execution Completed
+2026-07-19 01:06:40 [INFO] ======================================
+2026-07-19 01:06:26 [INFO] ======================================
+2026-07-19 01:06:26 [INFO]  Playwright Enterprise Test Runner
+2026-07-19 01:06:26 [INFO] ======================================
+2026-07-19 01:06:26 [INFO] Environment : qa
+2026-07-19 01:06:26 [INFO] Browser    : chromium
+2026-07-19 01:06:26 [INFO] Parallel   : 1
+2026-07-19 01:06:26 [INFO] Tag        : @C5948
+2026-07-19 01:06:26 [INFO] --------------------------------------
+2026-07-19 01:06:26 [INFO] Command : npx cucumber-js --tags "@C5948" --parallel 1
+2026-07-19 01:06:26 [INFO] ======================================
+2026-07-19 01:09:53 [INFO] ======================================
+2026-07-19 01:09:53 [INFO] Starting Test Execution
+2026-07-19 01:09:53 [INFO] Environment : qa
+2026-07-19 01:09:53 [INFO] ======================================
+2026-07-19 01:09:53 [INFO] ----------------------------------------------The value of isTestrail is :true
+2026-07-19 01:09:53 [INFO] ----------------------------------------------The value of updateTestRail is:true
+2026-07-19 01:09:53 [INFO] -----------------------------------------------The value of updateLambda is:true
+2026-07-19 01:09:53 [INFO] Initializing TestRail...
+2026-07-19 01:09:53 [INFO] TestRail credentials loaded.
+2026-07-19 01:09:53 [INFO] initializeTestCasesFromPlan is called
+2026-07-19 01:09:55 [ERROR] Error initializing TestRail Plan
+2026-07-19 01:09:55 [ERROR] APIException: TestRail API returned HTTP 400 (Field :plan_id is not a valid test plan.)
+    at APIClient.sendRequest (E:\AutomationProject\Framework\com.gurock\testrail\APIClient.js:173:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async APIClient.sendGet (E:\AutomationProject\Framework\com.gurock\testrail\APIClient.js:47:16)
+    at async TestRailManager.initializeTestCasesFromPlan (E:\AutomationProject\Framework\com.gurock\qa.testrailManager\TestRailManager.js:130:26)
+    at async CustomWorld.<anonymous> (E:\AutomationProject\Framework\features\hooks\hooks.js:71:11)
+    at async wrapPromiseWithTimeout (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\time.js:34:12)
+    at async Object.run (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\user_code_runner.js:64:22)
+    at async Object.run (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:31:26)
+    at async TestCaseRunner.invokeStep (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:90:16)
+    at async TestCaseRunner.runHook (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:203:28)
+2026-07-19 01:09:55 [INFO] Test Case Id : 5948
+2026-07-19 01:09:55 [INFO] Scenario : title
+2026-07-19 01:09:55 [INFO] Project : Collection
+2026-07-19 01:09:55 [INFO] Build : SagesyntaxBuild
+2026-07-19 01:09:55 [INFO] Browser : chromium
+2026-07-19 01:09:56 [INFO] Trace Started
+2026-07-19 01:09:56 [INFO] ======================================
+2026-07-19 01:09:56 [INFO] Scenario Started : title
+2026-07-19 01:09:56 [INFO] ======================================
+2026-07-19 01:09:58 [INFO] Fill -> #username : sagesyntaxacademy
+2026-07-19 01:09:58 [INFO] Fill -> #password : BuildingExcellence@111
+2026-07-19 01:09:58 [INFO] Click -> button[type='submit']
+2026-07-19 01:10:01 [INFO] Scenario Finished : title
+2026-07-19 01:10:01 [INFO] Status : PASSED
+2026-07-19 01:10:01 [INFO] Trace Saved
+2026-07-19 01:10:01 [INFO] Browser Closed
+2026-07-19 01:10:01 [INFO] ======================================
+2026-07-19 01:10:01 [INFO] Execution Completed
+2026-07-19 01:10:01 [INFO] ======================================
+2026-07-19 01:09:49 [INFO] ======================================
+2026-07-19 01:09:49 [INFO]  Playwright Enterprise Test Runner
+2026-07-19 01:09:49 [INFO] ======================================
+2026-07-19 01:09:49 [INFO] Environment : qa
+2026-07-19 01:09:49 [INFO] Browser    : chromium
+2026-07-19 01:09:49 [INFO] Parallel   : 1
+2026-07-19 01:09:49 [INFO] Tag        : @C5948
+2026-07-19 01:09:49 [INFO] --------------------------------------
+2026-07-19 01:09:49 [INFO] Command : npx cucumber-js --tags "@C5948" --parallel 1
+2026-07-19 01:09:49 [INFO] ======================================
+2026-07-19 01:10:19 [INFO] ======================================
+2026-07-19 01:10:19 [INFO] Starting Test Execution
+2026-07-19 01:10:19 [INFO] Environment : qa
+2026-07-19 01:10:19 [INFO] ======================================
+2026-07-19 01:10:19 [INFO] ----------------------------------------------The value of isTestrail is :true
+2026-07-19 01:10:19 [INFO] ----------------------------------------------The value of updateTestRail is:true
+2026-07-19 01:10:19 [INFO] -----------------------------------------------The value of updateLambda is:true
+2026-07-19 01:10:19 [INFO] Initializing TestRail...
+2026-07-19 01:10:19 [INFO] TestRail credentials loaded.
+2026-07-19 01:10:19 [INFO] initializeTestCasesFromPlan is called
+2026-07-19 01:10:19 [ERROR] Error initializing TestRail Plan
+2026-07-19 01:10:19 [ERROR] APIException: TestRail API returned HTTP 400 (Field :plan_id is not a valid test plan.)
+    at APIClient.sendRequest (E:\AutomationProject\Framework\com.gurock\testrail\APIClient.js:173:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async APIClient.sendGet (E:\AutomationProject\Framework\com.gurock\testrail\APIClient.js:47:16)
+    at async TestRailManager.initializeTestCasesFromPlan (E:\AutomationProject\Framework\com.gurock\qa.testrailManager\TestRailManager.js:130:26)
+    at async CustomWorld.<anonymous> (E:\AutomationProject\Framework\features\hooks\hooks.js:71:11)
+    at async wrapPromiseWithTimeout (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\time.js:34:12)
+    at async Object.run (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\user_code_runner.js:64:22)
+    at async Object.run (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:31:26)
+    at async TestCaseRunner.invokeStep (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:90:16)
+    at async TestCaseRunner.runHook (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:203:28)
+2026-07-19 01:10:19 [INFO] Test Case Id : 5948
+2026-07-19 01:10:19 [INFO] Scenario : title
+2026-07-19 01:10:20 [INFO] Project : Collection
+2026-07-19 01:10:20 [INFO] Build : SagesyntaxBuild
+2026-07-19 01:10:20 [INFO] Browser : chromium
+2026-07-19 01:10:21 [INFO] Trace Started
+2026-07-19 01:10:21 [INFO] ======================================
+2026-07-19 01:10:21 [INFO] Scenario Started : title
+2026-07-19 01:10:21 [INFO] ======================================
+2026-07-19 01:10:23 [INFO] Fill -> #username : sagesyntaxacademy
+2026-07-19 01:10:23 [INFO] Fill -> #password : BuildingExcellence@111
+2026-07-19 01:10:23 [INFO] Click -> button[type='submit']
+2026-07-19 01:10:26 [INFO] Scenario Finished : title
+2026-07-19 01:10:26 [INFO] Status : PASSED
+2026-07-19 01:10:26 [INFO] Trace Saved
+2026-07-19 01:10:27 [INFO] Browser Closed
+2026-07-19 01:10:27 [INFO] ======================================
+2026-07-19 01:10:27 [INFO] Execution Completed
+2026-07-19 01:10:27 [INFO] ======================================
+2026-07-19 01:10:16 [INFO] ======================================
+2026-07-19 01:10:16 [INFO]  Playwright Enterprise Test Runner
+2026-07-19 01:10:16 [INFO] ======================================
+2026-07-19 01:10:16 [INFO] Environment : qa
+2026-07-19 01:10:16 [INFO] Browser    : chromium
+2026-07-19 01:10:16 [INFO] Parallel   : 1
+2026-07-19 01:10:16 [INFO] Tag        : @C5948
+2026-07-19 01:10:16 [INFO] --------------------------------------
+2026-07-19 01:10:16 [INFO] Command : npx cucumber-js --tags "@C5948" --parallel 1
+2026-07-19 01:10:16 [INFO] ======================================
+2026-07-19 01:21:51 [INFO] ======================================
+2026-07-19 01:21:51 [INFO] Starting Test Execution
+2026-07-19 01:21:51 [INFO] Environment : qa
+2026-07-19 01:21:51 [INFO] ======================================
+2026-07-19 01:21:51 [INFO] ----------------------------------------------The value of isTestrail is :true
+2026-07-19 01:21:51 [INFO] ----------------------------------------------The value of updateTestRail is:true
+2026-07-19 01:21:51 [INFO] -----------------------------------------------The value of updateLambda is:true
+2026-07-19 01:21:51 [INFO] Initializing TestRail...
+2026-07-19 01:21:51 [INFO] TestRail credentials loaded.
+2026-07-19 01:21:51 [INFO] initializeTestCasesFromPlan is called
+2026-07-19 01:21:52 [INFO] Plan JSON : {
+  "id": 126,
+  "name": "Collection Automation June Sprint 2026",
+  "refs": null,
+  "description": null,
+  "milestone_id": 33,
+  "assignedto_id": null,
+  "is_completed": false,
+  "completed_on": null,
+  "is_archived": false,
+  "archived_on": null,
+  "passed_count": 7,
+  "blocked_count": 0,
+  "untested_count": 7,
+  "retest_count": 0,
+  "failed_count": 0,
+  "custom_status1_count": 0,
+  "custom_status2_count": 0,
+  "custom_status3_count": 0,
+  "custom_status4_count": 0,
+  "custom_status5_count": 0,
+  "custom_status6_count": 0,
+  "custom_status7_count": 0,
+  "project_id": 2,
+  "created_on": 1784266674,
+  "start_on": 1784246400,
+  "due_on": 1785456000,
+  "created_by": 2,
+  "url": "https://tatacapital.testrail.io/index.php?/plans/view/126",
+  "entries": [
+    {
+      "id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+      "suite_id": 6,
+      "name": "Collection June 2026 Sprint Test Run",
+      "refs": null,
+      "description": null,
+      "include_all": false,
+      "dynamic_filters": null,
+      "runs": [
+        {
+          "id": 127,
+          "suite_id": 6,
+          "name": "Collection June 2026 Sprint Test Run",
+          "description": null,
+          "milestone_id": 33,
+          "assignedto_id": null,
+          "include_all": false,
+          "is_completed": false,
+          "completed_on": null,
+          "is_archived": false,
+          "archived_on": null,
+          "passed_count": 7,
+          "blocked_count": 0,
+          "untested_count": 7,
+          "retest_count": 0,
+          "failed_count": 0,
+          "custom_status1_count": 0,
+          "custom_status2_count": 0,
+          "custom_status3_count": 0,
+          "custom_status4_count": 0,
+          "custom_status5_count": 0,
+          "custom_status6_count": 0,
+          "custom_status7_count": 0,
+          "project_id": 2,
+          "plan_id": 126,
+          "entry_index": 1,
+          "entry_id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+          "config": null,
+          "config_ids": [],
+          "created_on": 1784266674,
+          "refs": null,
+          "created_by": 2,
+          "start_on": null,
+          "due_on": null,
+          "dynamic_filters": null,
+          "url": "https://tatacapital.testrail.io/index.php?/runs/view/127"
+        }
+      ]
+    }
+  ]
+}
+2026-07-19 01:21:52 [INFO] Build Name : Collection Automation June Sprint 2026
+2026-07-19 01:21:54 [INFO] Project : {"id":2,"name":"Collection","announcement":null,"show_announcement":false,"is_completed":false,"completed_on":null,"suite_mode":1,"default_role_id":null,"url":"https://tatacapital.testrail.io/index.php?/projects/overview/2","users":[{"user_id":2,"global_role_id":1,"global_role":"Lead","project_role_id":1,"project_role":"Lead","i18n_custom_id":"roles_lead"},{"user_id":4,"global_role_id":4,"global_role":"Read-only","project_role_id":4,"project_role":"Read-only","i18n_custom_id":"roles_read_only"},{"user_id":5,"global_role_id":3,"global_role":"Tester","project_role_id":3,"project_role":"Tester","i18n_custom_id":"roles_tester"}],"groups":[]}
+2026-07-19 01:21:54 [INFO] Project Name : Collection
+2026-07-19 01:21:55 [INFO] Test Case Map Loaded with 14 cases.
+2026-07-19 01:21:55 [INFO] Test Case Id : 5948
+2026-07-19 01:21:55 [INFO] Scenario : title
+2026-07-19 01:21:56 [INFO] Scenario Finished : title
+2026-07-19 01:21:56 [INFO] Status : FAILED
+2026-07-19 01:21:56 [INFO] ======================================
+2026-07-19 01:21:56 [INFO] Execution Completed
+2026-07-19 01:21:56 [INFO] ======================================
+2026-07-19 01:34:45 [INFO] ======================================
+2026-07-19 01:34:45 [INFO] Starting Test Execution
+2026-07-19 01:34:45 [INFO] Environment : qa
+2026-07-19 01:34:45 [INFO] ======================================
+2026-07-19 01:34:45 [INFO] ----------------------------------------------The value of isTestrail is :true
+2026-07-19 01:34:45 [INFO] ----------------------------------------------The value of updateTestRail is:true
+2026-07-19 01:34:45 [INFO] -----------------------------------------------The value of updateLambda is:true
+2026-07-19 01:34:45 [INFO] Initializing TestRail...
+2026-07-19 01:34:45 [INFO] TestRail credentials loaded.
+2026-07-19 01:34:45 [INFO] initializeTestCasesFromPlan is called
+2026-07-19 01:34:47 [INFO] Plan JSON : {
+  "id": 126,
+  "name": "Collection Automation June Sprint 2026",
+  "refs": null,
+  "description": null,
+  "milestone_id": 33,
+  "assignedto_id": null,
+  "is_completed": false,
+  "completed_on": null,
+  "is_archived": false,
+  "archived_on": null,
+  "passed_count": 7,
+  "blocked_count": 0,
+  "untested_count": 7,
+  "retest_count": 0,
+  "failed_count": 0,
+  "custom_status1_count": 0,
+  "custom_status2_count": 0,
+  "custom_status3_count": 0,
+  "custom_status4_count": 0,
+  "custom_status5_count": 0,
+  "custom_status6_count": 0,
+  "custom_status7_count": 0,
+  "project_id": 2,
+  "created_on": 1784266674,
+  "start_on": 1784246400,
+  "due_on": 1785456000,
+  "created_by": 2,
+  "url": "https://tatacapital.testrail.io/index.php?/plans/view/126",
+  "entries": [
+    {
+      "id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+      "suite_id": 6,
+      "name": "Collection June 2026 Sprint Test Run",
+      "refs": null,
+      "description": null,
+      "include_all": false,
+      "dynamic_filters": null,
+      "runs": [
+        {
+          "id": 127,
+          "suite_id": 6,
+          "name": "Collection June 2026 Sprint Test Run",
+          "description": null,
+          "milestone_id": 33,
+          "assignedto_id": null,
+          "include_all": false,
+          "is_completed": false,
+          "completed_on": null,
+          "is_archived": false,
+          "archived_on": null,
+          "passed_count": 7,
+          "blocked_count": 0,
+          "untested_count": 7,
+          "retest_count": 0,
+          "failed_count": 0,
+          "custom_status1_count": 0,
+          "custom_status2_count": 0,
+          "custom_status3_count": 0,
+          "custom_status4_count": 0,
+          "custom_status5_count": 0,
+          "custom_status6_count": 0,
+          "custom_status7_count": 0,
+          "project_id": 2,
+          "plan_id": 126,
+          "entry_index": 1,
+          "entry_id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+          "config": null,
+          "config_ids": [],
+          "created_on": 1784266674,
+          "refs": null,
+          "created_by": 2,
+          "start_on": null,
+          "due_on": null,
+          "dynamic_filters": null,
+          "url": "https://tatacapital.testrail.io/index.php?/runs/view/127"
+        }
+      ]
+    }
+  ]
+}
+2026-07-19 01:34:47 [INFO] Build Name : Collection Automation June Sprint 2026
+2026-07-19 01:34:48 [INFO] Project : {"id":2,"name":"Collection","announcement":null,"show_announcement":false,"is_completed":false,"completed_on":null,"suite_mode":1,"default_role_id":null,"url":"https://tatacapital.testrail.io/index.php?/projects/overview/2","users":[{"user_id":2,"global_role_id":1,"global_role":"Lead","project_role_id":1,"project_role":"Lead","i18n_custom_id":"roles_lead"},{"user_id":4,"global_role_id":4,"global_role":"Read-only","project_role_id":4,"project_role":"Read-only","i18n_custom_id":"roles_read_only"},{"user_id":5,"global_role_id":3,"global_role":"Tester","project_role_id":3,"project_role":"Tester","i18n_custom_id":"roles_tester"}],"groups":[]}
+2026-07-19 01:34:48 [INFO] Project Name : Collection
+2026-07-19 01:34:49 [INFO] Test Case Map Loaded with 14 cases.
+2026-07-19 01:34:49 [INFO] Test Case Id : 5948
+2026-07-19 01:34:49 [INFO] Scenario : title
+2026-07-19 01:34:50 [INFO] Project : Collection
+2026-07-19 01:46:42 [INFO] ======================================
+2026-07-19 01:46:42 [INFO] Starting Test Execution
+2026-07-19 01:46:42 [INFO] Environment : qa
+2026-07-19 01:46:42 [INFO] ======================================
+2026-07-19 01:46:42 [INFO] ----------------------------------------------The value of isTestrail is :true
+2026-07-19 01:46:42 [INFO] ----------------------------------------------The value of updateTestRail is:true
+2026-07-19 01:46:42 [INFO] -----------------------------------------------The value of updateLambda is:true
+2026-07-19 01:46:42 [INFO] Initializing TestRail...
+2026-07-19 01:46:42 [INFO] TestRail credentials loaded.
+2026-07-19 01:46:42 [INFO] initializeTestCasesFromPlan is called
+2026-07-19 01:46:43 [INFO] Plan JSON : {
+  "id": 126,
+  "name": "Collection Automation June Sprint 2026",
+  "refs": null,
+  "description": null,
+  "milestone_id": 33,
+  "assignedto_id": null,
+  "is_completed": false,
+  "completed_on": null,
+  "is_archived": false,
+  "archived_on": null,
+  "passed_count": 7,
+  "blocked_count": 0,
+  "untested_count": 7,
+  "retest_count": 0,
+  "failed_count": 0,
+  "custom_status1_count": 0,
+  "custom_status2_count": 0,
+  "custom_status3_count": 0,
+  "custom_status4_count": 0,
+  "custom_status5_count": 0,
+  "custom_status6_count": 0,
+  "custom_status7_count": 0,
+  "project_id": 2,
+  "created_on": 1784266674,
+  "start_on": 1784246400,
+  "due_on": 1785456000,
+  "created_by": 2,
+  "url": "https://tatacapital.testrail.io/index.php?/plans/view/126",
+  "entries": [
+    {
+      "id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+      "suite_id": 6,
+      "name": "Collection June 2026 Sprint Test Run",
+      "refs": null,
+      "description": null,
+      "include_all": false,
+      "dynamic_filters": null,
+      "runs": [
+        {
+          "id": 127,
+          "suite_id": 6,
+          "name": "Collection June 2026 Sprint Test Run",
+          "description": null,
+          "milestone_id": 33,
+          "assignedto_id": null,
+          "include_all": false,
+          "is_completed": false,
+          "completed_on": null,
+          "is_archived": false,
+          "archived_on": null,
+          "passed_count": 7,
+          "blocked_count": 0,
+          "untested_count": 7,
+          "retest_count": 0,
+          "failed_count": 0,
+          "custom_status1_count": 0,
+          "custom_status2_count": 0,
+          "custom_status3_count": 0,
+          "custom_status4_count": 0,
+          "custom_status5_count": 0,
+          "custom_status6_count": 0,
+          "custom_status7_count": 0,
+          "project_id": 2,
+          "plan_id": 126,
+          "entry_index": 1,
+          "entry_id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+          "config": null,
+          "config_ids": [],
+          "created_on": 1784266674,
+          "refs": null,
+          "created_by": 2,
+          "start_on": null,
+          "due_on": null,
+          "dynamic_filters": null,
+          "url": "https://tatacapital.testrail.io/index.php?/runs/view/127"
+        }
+      ]
+    }
+  ]
+}
+2026-07-19 01:46:43 [INFO] Build Name : Collection Automation June Sprint 2026
+2026-07-19 01:46:44 [INFO] Project : {"id":2,"name":"Collection","announcement":null,"show_announcement":false,"is_completed":false,"completed_on":null,"suite_mode":1,"default_role_id":null,"url":"https://tatacapital.testrail.io/index.php?/projects/overview/2","users":[{"user_id":2,"global_role_id":1,"global_role":"Lead","project_role_id":1,"project_role":"Lead","i18n_custom_id":"roles_lead"},{"user_id":4,"global_role_id":4,"global_role":"Read-only","project_role_id":4,"project_role":"Read-only","i18n_custom_id":"roles_read_only"},{"user_id":5,"global_role_id":3,"global_role":"Tester","project_role_id":3,"project_role":"Tester","i18n_custom_id":"roles_tester"}],"groups":[]}
+2026-07-19 01:46:44 [INFO] Project Name : Collection
+2026-07-19 01:46:45 [INFO] Test Case Map Loaded with 14 cases.
+2026-07-19 01:46:45 [INFO] Test Case Id : 5948
+2026-07-19 01:46:45 [INFO] Scenario : title
+2026-07-19 01:46:45 [INFO] Project : Collection
+2026-07-19 01:46:45 [INFO] Build : SagesyntaxBuild
+2026-07-19 01:46:45 [INFO] Browser : chromium
+2026-07-19 01:46:46 [INFO] Trace Started
+2026-07-19 01:46:46 [INFO] ======================================
+2026-07-19 01:46:46 [INFO] Scenario Started : title
+2026-07-19 01:46:46 [INFO] ======================================
+2026-07-19 01:46:48 [INFO] Fill -> #username : sagesyntaxacademy
+2026-07-19 01:46:48 [INFO] Fill -> #password : BuildingExcellence@111
+2026-07-19 01:46:49 [INFO] Click -> button[type='submit']
+2026-07-19 01:46:51 [INFO] =================================================
+2026-07-19 01:46:51 [INFO] After Scenario Started
+2026-07-19 01:46:51 [INFO] Scenario Name : title
+2026-07-19 01:46:51 [INFO] =================================================
+2026-07-19 01:46:51 [INFO] LambdaTest status updated : passed
+2026-07-19 01:46:51 [INFO] Updating TestRail PASS
+2026-07-19 01:46:51 [ERROR] Failed to update TestRail : TestRailManager.testRailPassUpdate is not a function
+2026-07-19 01:46:52 [INFO] Trace Saved
+2026-07-19 01:46:52 [INFO] Browser Closed
+2026-07-19 01:46:52 [INFO] =================================================
+2026-07-19 01:46:52 [INFO] After Scenario Completed
+2026-07-19 01:46:52 [INFO] =================================================
+2026-07-19 01:46:52 [INFO] Scenario Finished : title
+2026-07-19 01:46:52 [INFO] Status : PASSED
+2026-07-19 01:46:52 [WARN] Trace was not started. Skipping trace save.
+2026-07-19 01:46:52 [INFO] Browser Closed
+2026-07-19 01:46:52 [INFO] ======================================
+2026-07-19 01:46:52 [INFO] Execution Completed
+2026-07-19 01:46:52 [INFO] ======================================
+2026-07-19 01:46:39 [INFO] ======================================
+2026-07-19 01:46:39 [INFO]  Playwright Enterprise Test Runner
+2026-07-19 01:46:39 [INFO] ======================================
+2026-07-19 01:46:39 [INFO] Environment : qa
+2026-07-19 01:46:39 [INFO] Browser    : chromium
+2026-07-19 01:46:39 [INFO] Parallel   : 1
+2026-07-19 01:46:39 [INFO] Tag        : @C5948
+2026-07-19 01:46:39 [INFO] --------------------------------------
+2026-07-19 01:46:39 [INFO] Command : npx cucumber-js --tags "@C5948" --parallel 1
+2026-07-19 01:46:39 [INFO] ======================================
+2026-07-19 01:50:24 [INFO] ======================================
+2026-07-19 01:50:24 [INFO] Starting Test Execution
+2026-07-19 01:50:24 [INFO] Environment : qa
+2026-07-19 01:50:24 [INFO] ======================================
+2026-07-19 01:50:24 [INFO] ----------------------------------------------The value of isTestrail is :true
+2026-07-19 01:50:24 [INFO] ----------------------------------------------The value of updateTestRail is:true
+2026-07-19 01:50:24 [INFO] -----------------------------------------------The value of updateLambda is:true
+2026-07-19 01:50:24 [INFO] Initializing TestRail...
+2026-07-19 01:50:24 [INFO] TestRail credentials loaded.
+2026-07-19 01:50:24 [INFO] initializeTestCasesFromPlan is called
+2026-07-19 01:50:25 [INFO] Plan JSON : {
+  "id": 126,
+  "name": "Collection Automation June Sprint 2026",
+  "refs": null,
+  "description": null,
+  "milestone_id": 33,
+  "assignedto_id": null,
+  "is_completed": false,
+  "completed_on": null,
+  "is_archived": false,
+  "archived_on": null,
+  "passed_count": 7,
+  "blocked_count": 0,
+  "untested_count": 7,
+  "retest_count": 0,
+  "failed_count": 0,
+  "custom_status1_count": 0,
+  "custom_status2_count": 0,
+  "custom_status3_count": 0,
+  "custom_status4_count": 0,
+  "custom_status5_count": 0,
+  "custom_status6_count": 0,
+  "custom_status7_count": 0,
+  "project_id": 2,
+  "created_on": 1784266674,
+  "start_on": 1784246400,
+  "due_on": 1785456000,
+  "created_by": 2,
+  "url": "https://tatacapital.testrail.io/index.php?/plans/view/126",
+  "entries": [
+    {
+      "id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+      "suite_id": 6,
+      "name": "Collection June 2026 Sprint Test Run",
+      "refs": null,
+      "description": null,
+      "include_all": false,
+      "dynamic_filters": null,
+      "runs": [
+        {
+          "id": 127,
+          "suite_id": 6,
+          "name": "Collection June 2026 Sprint Test Run",
+          "description": null,
+          "milestone_id": 33,
+          "assignedto_id": null,
+          "include_all": false,
+          "is_completed": false,
+          "completed_on": null,
+          "is_archived": false,
+          "archived_on": null,
+          "passed_count": 7,
+          "blocked_count": 0,
+          "untested_count": 7,
+          "retest_count": 0,
+          "failed_count": 0,
+          "custom_status1_count": 0,
+          "custom_status2_count": 0,
+          "custom_status3_count": 0,
+          "custom_status4_count": 0,
+          "custom_status5_count": 0,
+          "custom_status6_count": 0,
+          "custom_status7_count": 0,
+          "project_id": 2,
+          "plan_id": 126,
+          "entry_index": 1,
+          "entry_id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+          "config": null,
+          "config_ids": [],
+          "created_on": 1784266674,
+          "refs": null,
+          "created_by": 2,
+          "start_on": null,
+          "due_on": null,
+          "dynamic_filters": null,
+          "url": "https://tatacapital.testrail.io/index.php?/runs/view/127"
+        }
+      ]
+    }
+  ]
+}
+2026-07-19 01:50:25 [INFO] Build Name : Collection Automation June Sprint 2026
+2026-07-19 01:50:26 [INFO] Project : {"id":2,"name":"Collection","announcement":null,"show_announcement":false,"is_completed":false,"completed_on":null,"suite_mode":1,"default_role_id":null,"url":"https://tatacapital.testrail.io/index.php?/projects/overview/2","users":[{"user_id":2,"global_role_id":1,"global_role":"Lead","project_role_id":1,"project_role":"Lead","i18n_custom_id":"roles_lead"},{"user_id":4,"global_role_id":4,"global_role":"Read-only","project_role_id":4,"project_role":"Read-only","i18n_custom_id":"roles_read_only"},{"user_id":5,"global_role_id":3,"global_role":"Tester","project_role_id":3,"project_role":"Tester","i18n_custom_id":"roles_tester"}],"groups":[]}
+2026-07-19 01:50:26 [INFO] Project Name : Collection
+2026-07-19 01:50:26 [INFO] Test Case Map Loaded with 14 cases.
+2026-07-19 01:50:26 [INFO] Test Case Id : 5948
+2026-07-19 01:50:26 [INFO] Scenario : title
+2026-07-19 01:50:27 [INFO] Project : Collection
+2026-07-19 01:50:27 [INFO] Build : SagesyntaxBuild
+2026-07-19 01:50:27 [INFO] Browser : chromium
+2026-07-19 01:50:27 [INFO] Trace Started
+2026-07-19 01:50:27 [INFO] ======================================
+2026-07-19 01:50:27 [INFO] Scenario Started : title
+2026-07-19 01:50:27 [INFO] ======================================
+2026-07-19 01:50:29 [INFO] Fill -> #username : sagesyntaxacademy
+2026-07-19 01:50:29 [INFO] Fill -> #password : BuildingExcellence@111
+2026-07-19 01:50:30 [INFO] Click -> button[type='submit']
+2026-07-19 01:50:32 [INFO] =================================================
+2026-07-19 01:50:32 [INFO] After Scenario Started
+2026-07-19 01:50:32 [INFO] Scenario Name : title
+2026-07-19 01:50:32 [INFO] =================================================
+2026-07-19 01:50:32 [INFO] Updating TestRail PASS
+2026-07-19 01:50:32 [ERROR] Failed to update TestRail : TestRailManager.testRailPassUpdate is not a function
+2026-07-19 01:50:32 [INFO] Trace Saved
+2026-07-19 01:50:32 [INFO] Browser Closed
+2026-07-19 01:50:32 [INFO] =================================================
+2026-07-19 01:50:32 [INFO] After Scenario Completed
+2026-07-19 01:50:32 [INFO] =================================================
+2026-07-19 01:50:32 [INFO] Scenario Finished : title
+2026-07-19 01:50:32 [INFO] Status : PASSED
+2026-07-19 01:50:32 [WARN] Trace was not started. Skipping trace save.
+2026-07-19 01:50:32 [INFO] Browser Closed
+2026-07-19 01:50:32 [INFO] ======================================
+2026-07-19 01:50:32 [INFO] Execution Completed
+2026-07-19 01:50:32 [INFO] ======================================
+2026-07-19 01:50:21 [INFO] ======================================
+2026-07-19 01:50:21 [INFO]  Playwright Enterprise Test Runner
+2026-07-19 01:50:21 [INFO] ======================================
+2026-07-19 01:50:21 [INFO] Environment : qa
+2026-07-19 01:50:21 [INFO] Browser    : chromium
+2026-07-19 01:50:21 [INFO] Parallel   : 1
+2026-07-19 01:50:21 [INFO] Tag        : @C5948
+2026-07-19 01:50:21 [INFO] --------------------------------------
+2026-07-19 01:50:21 [INFO] Command : npx cucumber-js --tags "@C5948" --parallel 1
+2026-07-19 01:50:21 [INFO] ======================================
+2026-07-19 01:51:58 [INFO] ======================================
+2026-07-19 01:51:58 [INFO] Starting Test Execution
+2026-07-19 01:51:58 [INFO] Environment : qa
+2026-07-19 01:51:58 [INFO] ======================================
+2026-07-19 01:51:58 [INFO] ----------------------------------------------The value of isTestrail is :true
+2026-07-19 01:51:58 [INFO] ----------------------------------------------The value of updateTestRail is:true
+2026-07-19 01:51:58 [INFO] -----------------------------------------------The value of updateLambda is:true
+2026-07-19 01:51:58 [INFO] Initializing TestRail...
+2026-07-19 01:51:58 [INFO] TestRail credentials loaded.
+2026-07-19 01:51:58 [INFO] initializeTestCasesFromPlan is called
+2026-07-19 01:52:00 [INFO] Plan JSON : {
+  "id": 126,
+  "name": "Collection Automation June Sprint 2026",
+  "refs": null,
+  "description": null,
+  "milestone_id": 33,
+  "assignedto_id": null,
+  "is_completed": false,
+  "completed_on": null,
+  "is_archived": false,
+  "archived_on": null,
+  "passed_count": 7,
+  "blocked_count": 0,
+  "untested_count": 7,
+  "retest_count": 0,
+  "failed_count": 0,
+  "custom_status1_count": 0,
+  "custom_status2_count": 0,
+  "custom_status3_count": 0,
+  "custom_status4_count": 0,
+  "custom_status5_count": 0,
+  "custom_status6_count": 0,
+  "custom_status7_count": 0,
+  "project_id": 2,
+  "created_on": 1784266674,
+  "start_on": 1784246400,
+  "due_on": 1785456000,
+  "created_by": 2,
+  "url": "https://tatacapital.testrail.io/index.php?/plans/view/126",
+  "entries": [
+    {
+      "id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+      "suite_id": 6,
+      "name": "Collection June 2026 Sprint Test Run",
+      "refs": null,
+      "description": null,
+      "include_all": false,
+      "dynamic_filters": null,
+      "runs": [
+        {
+          "id": 127,
+          "suite_id": 6,
+          "name": "Collection June 2026 Sprint Test Run",
+          "description": null,
+          "milestone_id": 33,
+          "assignedto_id": null,
+          "include_all": false,
+          "is_completed": false,
+          "completed_on": null,
+          "is_archived": false,
+          "archived_on": null,
+          "passed_count": 7,
+          "blocked_count": 0,
+          "untested_count": 7,
+          "retest_count": 0,
+          "failed_count": 0,
+          "custom_status1_count": 0,
+          "custom_status2_count": 0,
+          "custom_status3_count": 0,
+          "custom_status4_count": 0,
+          "custom_status5_count": 0,
+          "custom_status6_count": 0,
+          "custom_status7_count": 0,
+          "project_id": 2,
+          "plan_id": 126,
+          "entry_index": 1,
+          "entry_id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+          "config": null,
+          "config_ids": [],
+          "created_on": 1784266674,
+          "refs": null,
+          "created_by": 2,
+          "start_on": null,
+          "due_on": null,
+          "dynamic_filters": null,
+          "url": "https://tatacapital.testrail.io/index.php?/runs/view/127"
+        }
+      ]
+    }
+  ]
+}
+2026-07-19 01:52:00 [INFO] Build Name : Collection Automation June Sprint 2026
+2026-07-19 01:52:01 [INFO] Project : {"id":2,"name":"Collection","announcement":null,"show_announcement":false,"is_completed":false,"completed_on":null,"suite_mode":1,"default_role_id":null,"url":"https://tatacapital.testrail.io/index.php?/projects/overview/2","users":[{"user_id":2,"global_role_id":1,"global_role":"Lead","project_role_id":1,"project_role":"Lead","i18n_custom_id":"roles_lead"},{"user_id":4,"global_role_id":4,"global_role":"Read-only","project_role_id":4,"project_role":"Read-only","i18n_custom_id":"roles_read_only"},{"user_id":5,"global_role_id":3,"global_role":"Tester","project_role_id":3,"project_role":"Tester","i18n_custom_id":"roles_tester"}],"groups":[]}
+2026-07-19 01:52:01 [INFO] Project Name : Collection
+2026-07-19 01:52:02 [INFO] Test Case Map Loaded with 14 cases.
+2026-07-19 01:52:02 [INFO] Test Case Id : 5948
+2026-07-19 01:52:02 [INFO] Scenario : title
+2026-07-19 01:52:03 [INFO] Project : Collection
+2026-07-19 01:52:03 [INFO] Build : SagesyntaxBuild
+2026-07-19 01:52:03 [INFO] Browser : chromium
+2026-07-19 01:52:03 [INFO] Trace Started
+2026-07-19 01:52:03 [INFO] ======================================
+2026-07-19 01:52:03 [INFO] Scenario Started : title
+2026-07-19 01:52:03 [INFO] ======================================
+2026-07-19 01:52:05 [INFO] Fill -> #username : sagesyntaxacademy
+2026-07-19 01:52:06 [INFO] Fill -> #password : BuildingExcellence@111
+2026-07-19 01:52:06 [INFO] Click -> button[type='submit']
+2026-07-19 01:52:08 [INFO] =================================================
+2026-07-19 01:52:08 [INFO] After Scenario Started
+2026-07-19 01:52:08 [INFO] Scenario Name : title
+2026-07-19 01:52:08 [INFO] =================================================
+2026-07-19 01:52:08 [INFO] Updating TestRail PASS
+2026-07-19 01:52:08 [ERROR] Failed to update TestRail : this.testRailPassUpdate is not a function
+2026-07-19 01:52:08 [INFO] Trace Saved
+2026-07-19 01:52:09 [INFO] Browser Closed
+2026-07-19 01:52:09 [INFO] =================================================
+2026-07-19 01:52:09 [INFO] After Scenario Completed
+2026-07-19 01:52:09 [INFO] =================================================
+2026-07-19 01:52:09 [INFO] Scenario Finished : title
+2026-07-19 01:52:09 [INFO] Status : PASSED
+2026-07-19 01:52:09 [WARN] Trace was not started. Skipping trace save.
+2026-07-19 01:52:09 [INFO] Browser Closed
+2026-07-19 01:52:09 [INFO] ======================================
+2026-07-19 01:52:09 [INFO] Execution Completed
+2026-07-19 01:52:09 [INFO] ======================================
+2026-07-19 01:51:55 [INFO] ======================================
+2026-07-19 01:51:55 [INFO]  Playwright Enterprise Test Runner
+2026-07-19 01:51:55 [INFO] ======================================
+2026-07-19 01:51:55 [INFO] Environment : qa
+2026-07-19 01:51:55 [INFO] Browser    : chromium
+2026-07-19 01:51:55 [INFO] Parallel   : 1
+2026-07-19 01:51:55 [INFO] Tag        : @C5948
+2026-07-19 01:51:55 [INFO] --------------------------------------
+2026-07-19 01:51:55 [INFO] Command : npx cucumber-js --tags "@C5948" --parallel 1
+2026-07-19 01:51:55 [INFO] ======================================
+2026-07-19 01:52:35 [INFO] ======================================
+2026-07-19 01:52:35 [INFO] Starting Test Execution
+2026-07-19 01:52:35 [INFO] Environment : qa
+2026-07-19 01:52:35 [INFO] ======================================
+2026-07-19 01:52:35 [INFO] ----------------------------------------------The value of isTestrail is :true
+2026-07-19 01:52:35 [INFO] ----------------------------------------------The value of updateTestRail is:true
+2026-07-19 01:52:35 [INFO] -----------------------------------------------The value of updateLambda is:true
+2026-07-19 01:52:35 [INFO] Initializing TestRail...
+2026-07-19 01:52:35 [INFO] TestRail credentials loaded.
+2026-07-19 01:52:35 [INFO] initializeTestCasesFromPlan is called
+2026-07-19 01:52:35 [INFO] Plan JSON : {
+  "id": 126,
+  "name": "Collection Automation June Sprint 2026",
+  "refs": null,
+  "description": null,
+  "milestone_id": 33,
+  "assignedto_id": null,
+  "is_completed": false,
+  "completed_on": null,
+  "is_archived": false,
+  "archived_on": null,
+  "passed_count": 7,
+  "blocked_count": 0,
+  "untested_count": 7,
+  "retest_count": 0,
+  "failed_count": 0,
+  "custom_status1_count": 0,
+  "custom_status2_count": 0,
+  "custom_status3_count": 0,
+  "custom_status4_count": 0,
+  "custom_status5_count": 0,
+  "custom_status6_count": 0,
+  "custom_status7_count": 0,
+  "project_id": 2,
+  "created_on": 1784266674,
+  "start_on": 1784246400,
+  "due_on": 1785456000,
+  "created_by": 2,
+  "url": "https://tatacapital.testrail.io/index.php?/plans/view/126",
+  "entries": [
+    {
+      "id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+      "suite_id": 6,
+      "name": "Collection June 2026 Sprint Test Run",
+      "refs": null,
+      "description": null,
+      "include_all": false,
+      "dynamic_filters": null,
+      "runs": [
+        {
+          "id": 127,
+          "suite_id": 6,
+          "name": "Collection June 2026 Sprint Test Run",
+          "description": null,
+          "milestone_id": 33,
+          "assignedto_id": null,
+          "include_all": false,
+          "is_completed": false,
+          "completed_on": null,
+          "is_archived": false,
+          "archived_on": null,
+          "passed_count": 7,
+          "blocked_count": 0,
+          "untested_count": 7,
+          "retest_count": 0,
+          "failed_count": 0,
+          "custom_status1_count": 0,
+          "custom_status2_count": 0,
+          "custom_status3_count": 0,
+          "custom_status4_count": 0,
+          "custom_status5_count": 0,
+          "custom_status6_count": 0,
+          "custom_status7_count": 0,
+          "project_id": 2,
+          "plan_id": 126,
+          "entry_index": 1,
+          "entry_id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+          "config": null,
+          "config_ids": [],
+          "created_on": 1784266674,
+          "refs": null,
+          "created_by": 2,
+          "start_on": null,
+          "due_on": null,
+          "dynamic_filters": null,
+          "url": "https://tatacapital.testrail.io/index.php?/runs/view/127"
+        }
+      ]
+    }
+  ]
+}
+2026-07-19 01:52:35 [INFO] Build Name : Collection Automation June Sprint 2026
+2026-07-19 01:52:36 [INFO] Project : {"id":2,"name":"Collection","announcement":null,"show_announcement":false,"is_completed":false,"completed_on":null,"suite_mode":1,"default_role_id":null,"url":"https://tatacapital.testrail.io/index.php?/projects/overview/2","users":[{"user_id":2,"global_role_id":1,"global_role":"Lead","project_role_id":1,"project_role":"Lead","i18n_custom_id":"roles_lead"},{"user_id":4,"global_role_id":4,"global_role":"Read-only","project_role_id":4,"project_role":"Read-only","i18n_custom_id":"roles_read_only"},{"user_id":5,"global_role_id":3,"global_role":"Tester","project_role_id":3,"project_role":"Tester","i18n_custom_id":"roles_tester"}],"groups":[]}
+2026-07-19 01:52:36 [INFO] Project Name : Collection
+2026-07-19 01:52:37 [INFO] Test Case Map Loaded with 14 cases.
+2026-07-19 01:52:37 [INFO] Test Case Id : 5948
+2026-07-19 01:52:37 [INFO] Scenario : title
+2026-07-19 01:52:37 [INFO] Project : Collection
+2026-07-19 01:52:37 [INFO] Build : SagesyntaxBuild
+2026-07-19 01:52:37 [INFO] Browser : chromium
+2026-07-19 01:52:38 [INFO] Trace Started
+2026-07-19 01:52:38 [INFO] ======================================
+2026-07-19 01:52:38 [INFO] Scenario Started : title
+2026-07-19 01:52:38 [INFO] ======================================
+2026-07-19 01:52:40 [INFO] Fill -> #username : sagesyntaxacademy
+2026-07-19 01:52:40 [INFO] Fill -> #password : BuildingExcellence@111
+2026-07-19 01:52:40 [INFO] Click -> button[type='submit']
+2026-07-19 01:52:42 [INFO] =================================================
+2026-07-19 01:52:42 [INFO] After Scenario Started
+2026-07-19 01:52:42 [INFO] Scenario Name : title
+2026-07-19 01:52:42 [INFO] =================================================
+2026-07-19 01:52:42 [INFO] Updating TestRail PASS
+2026-07-19 01:52:44 [INFO] Updated TestRail Case 5948
+2026-07-19 01:52:44 [INFO] TestRail updated successfully for Case ID 5948 (PASS)
+2026-07-19 01:52:44 [INFO] Trace Saved
+2026-07-19 01:52:45 [INFO] Browser Closed
+2026-07-19 01:52:45 [INFO] =================================================
+2026-07-19 01:52:45 [INFO] After Scenario Completed
+2026-07-19 01:52:45 [INFO] =================================================
+2026-07-19 01:52:45 [INFO] Scenario Finished : title
+2026-07-19 01:52:45 [INFO] Status : PASSED
+2026-07-19 01:52:45 [WARN] Trace was not started. Skipping trace save.
+2026-07-19 01:52:45 [INFO] Browser Closed
+2026-07-19 01:52:45 [INFO] ======================================
+2026-07-19 01:52:45 [INFO] Execution Completed
+2026-07-19 01:52:45 [INFO] ======================================
+2026-07-19 01:52:32 [INFO] ======================================
+2026-07-19 01:52:32 [INFO]  Playwright Enterprise Test Runner
+2026-07-19 01:52:32 [INFO] ======================================
+2026-07-19 01:52:32 [INFO] Environment : qa
+2026-07-19 01:52:32 [INFO] Browser    : chromium
+2026-07-19 01:52:32 [INFO] Parallel   : 1
+2026-07-19 01:52:32 [INFO] Tag        : @C5948
+2026-07-19 01:52:32 [INFO] --------------------------------------
+2026-07-19 01:52:32 [INFO] Command : npx cucumber-js --tags "@C5948" --parallel 1
+2026-07-19 01:52:32 [INFO] ======================================
+2026-07-19 01:53:56 [INFO] ======================================
+2026-07-19 01:53:56 [INFO] Starting Test Execution
+2026-07-19 01:53:56 [INFO] Environment : qa
+2026-07-19 01:53:56 [INFO] ======================================
+2026-07-19 01:53:56 [INFO] ----------------------------------------------The value of isTestrail is :true
+2026-07-19 01:53:56 [INFO] ----------------------------------------------The value of updateTestRail is:false
+2026-07-19 01:53:56 [INFO] -----------------------------------------------The value of updateLambda is:true
+2026-07-19 01:53:56 [INFO] Initializing TestRail...
+2026-07-19 01:53:56 [INFO] TestRail credentials loaded.
+2026-07-19 01:53:56 [INFO] initializeTestCasesFromPlan is called
+2026-07-19 01:53:57 [INFO] Plan JSON : {
+  "id": 126,
+  "name": "Collection Automation June Sprint 2026",
+  "refs": null,
+  "description": null,
+  "milestone_id": 33,
+  "assignedto_id": null,
+  "is_completed": false,
+  "completed_on": null,
+  "is_archived": false,
+  "archived_on": null,
+  "passed_count": 7,
+  "blocked_count": 0,
+  "untested_count": 7,
+  "retest_count": 0,
+  "failed_count": 0,
+  "custom_status1_count": 0,
+  "custom_status2_count": 0,
+  "custom_status3_count": 0,
+  "custom_status4_count": 0,
+  "custom_status5_count": 0,
+  "custom_status6_count": 0,
+  "custom_status7_count": 0,
+  "project_id": 2,
+  "created_on": 1784266674,
+  "start_on": 1784246400,
+  "due_on": 1785456000,
+  "created_by": 2,
+  "url": "https://tatacapital.testrail.io/index.php?/plans/view/126",
+  "entries": [
+    {
+      "id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+      "suite_id": 6,
+      "name": "Collection June 2026 Sprint Test Run",
+      "refs": null,
+      "description": null,
+      "include_all": false,
+      "dynamic_filters": null,
+      "runs": [
+        {
+          "id": 127,
+          "suite_id": 6,
+          "name": "Collection June 2026 Sprint Test Run",
+          "description": null,
+          "milestone_id": 33,
+          "assignedto_id": null,
+          "include_all": false,
+          "is_completed": false,
+          "completed_on": null,
+          "is_archived": false,
+          "archived_on": null,
+          "passed_count": 7,
+          "blocked_count": 0,
+          "untested_count": 7,
+          "retest_count": 0,
+          "failed_count": 0,
+          "custom_status1_count": 0,
+          "custom_status2_count": 0,
+          "custom_status3_count": 0,
+          "custom_status4_count": 0,
+          "custom_status5_count": 0,
+          "custom_status6_count": 0,
+          "custom_status7_count": 0,
+          "project_id": 2,
+          "plan_id": 126,
+          "entry_index": 1,
+          "entry_id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+          "config": null,
+          "config_ids": [],
+          "created_on": 1784266674,
+          "refs": null,
+          "created_by": 2,
+          "start_on": null,
+          "due_on": null,
+          "dynamic_filters": null,
+          "url": "https://tatacapital.testrail.io/index.php?/runs/view/127"
+        }
+      ]
+    }
+  ]
+}
+2026-07-19 01:53:57 [INFO] Build Name : Collection Automation June Sprint 2026
+2026-07-19 01:53:58 [INFO] Project : {"id":2,"name":"Collection","announcement":null,"show_announcement":false,"is_completed":false,"completed_on":null,"suite_mode":1,"default_role_id":null,"url":"https://tatacapital.testrail.io/index.php?/projects/overview/2","users":[{"user_id":2,"global_role_id":1,"global_role":"Lead","project_role_id":1,"project_role":"Lead","i18n_custom_id":"roles_lead"},{"user_id":4,"global_role_id":4,"global_role":"Read-only","project_role_id":4,"project_role":"Read-only","i18n_custom_id":"roles_read_only"},{"user_id":5,"global_role_id":3,"global_role":"Tester","project_role_id":3,"project_role":"Tester","i18n_custom_id":"roles_tester"}],"groups":[]}
+2026-07-19 01:53:58 [INFO] Project Name : Collection
+2026-07-19 01:53:59 [INFO] Test Case Map Loaded with 14 cases.
+2026-07-19 01:53:59 [INFO] Test Case Id : 5948
+2026-07-19 01:53:59 [INFO] Scenario : title
+2026-07-19 01:54:00 [INFO] Project : Collection
+2026-07-19 01:54:00 [INFO] Build : SagesyntaxBuild
+2026-07-19 01:54:00 [INFO] Browser : chromium
+2026-07-19 01:54:00 [INFO] Trace Started
+2026-07-19 01:54:00 [INFO] ======================================
+2026-07-19 01:54:00 [INFO] Scenario Started : title
+2026-07-19 01:54:00 [INFO] ======================================
+2026-07-19 01:54:02 [INFO] Fill -> #username : sagesyntaxacademy
+2026-07-19 01:54:02 [INFO] Fill -> #password : BuildingExcellence@111
+2026-07-19 01:54:02 [INFO] Click -> button[type='submit']
+2026-07-19 01:54:05 [INFO] =================================================
+2026-07-19 01:54:05 [INFO] After Scenario Started
+2026-07-19 01:54:05 [INFO] Scenario Name : title
+2026-07-19 01:54:05 [INFO] =================================================
+2026-07-19 01:54:05 [INFO] Trace Saved
+2026-07-19 01:54:05 [INFO] Browser Closed
+2026-07-19 01:54:05 [INFO] =================================================
+2026-07-19 01:54:05 [INFO] After Scenario Completed
+2026-07-19 01:54:05 [INFO] =================================================
+2026-07-19 01:54:05 [INFO] Scenario Finished : title
+2026-07-19 01:54:05 [INFO] Status : PASSED
+2026-07-19 01:54:05 [WARN] Trace was not started. Skipping trace save.
+2026-07-19 01:54:05 [INFO] Browser Closed
+2026-07-19 01:54:05 [INFO] ======================================
+2026-07-19 01:54:05 [INFO] Execution Completed
+2026-07-19 01:54:05 [INFO] ======================================
+2026-07-19 01:53:52 [INFO] ======================================
+2026-07-19 01:53:52 [INFO]  Playwright Enterprise Test Runner
+2026-07-19 01:53:52 [INFO] ======================================
+2026-07-19 01:53:52 [INFO] Environment : qa
+2026-07-19 01:53:52 [INFO] Browser    : chromium
+2026-07-19 01:53:52 [INFO] Parallel   : 1
+2026-07-19 01:53:52 [INFO] Tag        : @C5948
+2026-07-19 01:53:52 [INFO] --------------------------------------
+2026-07-19 01:53:52 [INFO] Command : npx cucumber-js --tags "@C5948" --parallel 1
+2026-07-19 01:53:52 [INFO] ======================================
+2026-07-19 01:55:10 [INFO] ======================================
+2026-07-19 01:55:10 [INFO] Starting Test Execution
+2026-07-19 01:55:10 [INFO] Environment : qa
+2026-07-19 01:55:10 [INFO] ======================================
+2026-07-19 01:55:10 [INFO] ----------------------------------------------The value of isTestrail is :true
+2026-07-19 01:55:10 [INFO] ----------------------------------------------The value of updateTestRail is:true
+2026-07-19 01:55:10 [INFO] -----------------------------------------------The value of updateLambda is:true
+2026-07-19 01:55:10 [INFO] Initializing TestRail...
+2026-07-19 01:55:10 [INFO] TestRail credentials loaded.
+2026-07-19 01:55:10 [INFO] initializeTestCasesFromPlan is called
+2026-07-19 01:55:11 [INFO] Plan JSON : {
+  "id": 126,
+  "name": "Collection Automation June Sprint 2026",
+  "refs": null,
+  "description": null,
+  "milestone_id": 33,
+  "assignedto_id": null,
+  "is_completed": false,
+  "completed_on": null,
+  "is_archived": false,
+  "archived_on": null,
+  "passed_count": 7,
+  "blocked_count": 0,
+  "untested_count": 7,
+  "retest_count": 0,
+  "failed_count": 0,
+  "custom_status1_count": 0,
+  "custom_status2_count": 0,
+  "custom_status3_count": 0,
+  "custom_status4_count": 0,
+  "custom_status5_count": 0,
+  "custom_status6_count": 0,
+  "custom_status7_count": 0,
+  "project_id": 2,
+  "created_on": 1784266674,
+  "start_on": 1784246400,
+  "due_on": 1785456000,
+  "created_by": 2,
+  "url": "https://tatacapital.testrail.io/index.php?/plans/view/126",
+  "entries": [
+    {
+      "id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+      "suite_id": 6,
+      "name": "Collection June 2026 Sprint Test Run",
+      "refs": null,
+      "description": null,
+      "include_all": false,
+      "dynamic_filters": null,
+      "runs": [
+        {
+          "id": 127,
+          "suite_id": 6,
+          "name": "Collection June 2026 Sprint Test Run",
+          "description": null,
+          "milestone_id": 33,
+          "assignedto_id": null,
+          "include_all": false,
+          "is_completed": false,
+          "completed_on": null,
+          "is_archived": false,
+          "archived_on": null,
+          "passed_count": 7,
+          "blocked_count": 0,
+          "untested_count": 7,
+          "retest_count": 0,
+          "failed_count": 0,
+          "custom_status1_count": 0,
+          "custom_status2_count": 0,
+          "custom_status3_count": 0,
+          "custom_status4_count": 0,
+          "custom_status5_count": 0,
+          "custom_status6_count": 0,
+          "custom_status7_count": 0,
+          "project_id": 2,
+          "plan_id": 126,
+          "entry_index": 1,
+          "entry_id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+          "config": null,
+          "config_ids": [],
+          "created_on": 1784266674,
+          "refs": null,
+          "created_by": 2,
+          "start_on": null,
+          "due_on": null,
+          "dynamic_filters": null,
+          "url": "https://tatacapital.testrail.io/index.php?/runs/view/127"
+        }
+      ]
+    }
+  ]
+}
+2026-07-19 01:55:11 [INFO] Build Name : Collection Automation June Sprint 2026
+2026-07-19 01:55:12 [INFO] Project : {"id":2,"name":"Collection","announcement":null,"show_announcement":false,"is_completed":false,"completed_on":null,"suite_mode":1,"default_role_id":null,"url":"https://tatacapital.testrail.io/index.php?/projects/overview/2","users":[{"user_id":2,"global_role_id":1,"global_role":"Lead","project_role_id":1,"project_role":"Lead","i18n_custom_id":"roles_lead"},{"user_id":4,"global_role_id":4,"global_role":"Read-only","project_role_id":4,"project_role":"Read-only","i18n_custom_id":"roles_read_only"},{"user_id":5,"global_role_id":3,"global_role":"Tester","project_role_id":3,"project_role":"Tester","i18n_custom_id":"roles_tester"}],"groups":[]}
+2026-07-19 01:55:12 [INFO] Project Name : Collection
+2026-07-19 01:55:12 [INFO] Test Case Map Loaded with 14 cases.
+2026-07-19 01:55:12 [INFO] Test Case Id : 5948
+2026-07-19 01:55:12 [INFO] Scenario : title
+2026-07-19 01:55:13 [INFO] Project : Collection
+2026-07-19 01:55:13 [INFO] Build : SagesyntaxBuild
+2026-07-19 01:55:13 [INFO] Browser : chromium
+2026-07-19 01:55:13 [INFO] Trace Started
+2026-07-19 01:55:13 [INFO] ======================================
+2026-07-19 01:55:13 [INFO] Scenario Started : title
+2026-07-19 01:55:13 [INFO] ======================================
+2026-07-19 01:55:15 [INFO] Fill -> #username : sagesyntaxacademy
+2026-07-19 01:55:16 [INFO] Fill -> #password : BuildingExcellence@111
+2026-07-19 01:55:16 [INFO] Click -> button[type='submit']
+2026-07-19 01:55:18 [INFO] =================================================
+2026-07-19 01:55:18 [INFO] After Scenario Started
+2026-07-19 01:55:18 [INFO] Scenario Name : title
+2026-07-19 01:55:18 [INFO] =================================================
+2026-07-19 01:55:18 [INFO] Updating TestRail PASS
+2026-07-19 01:55:19 [INFO] Updated TestRail Case 5948
+2026-07-19 01:55:19 [INFO] TestRail updated successfully for Case ID 5948 (PASS)
+2026-07-19 01:55:19 [INFO] Trace Saved
+2026-07-19 01:55:21 [INFO] Browser Closed
+2026-07-19 01:55:21 [INFO] =================================================
+2026-07-19 01:55:21 [INFO] After Scenario Completed
+2026-07-19 01:55:21 [INFO] =================================================
+2026-07-19 01:55:21 [INFO] Scenario Finished : title
+2026-07-19 01:55:21 [INFO] Status : PASSED
+2026-07-19 01:55:21 [WARN] Trace was not started. Skipping trace save.
+2026-07-19 01:55:21 [INFO] Browser Closed
+2026-07-19 01:55:21 [INFO] ======================================
+2026-07-19 01:55:21 [INFO] Execution Completed
+2026-07-19 01:55:21 [INFO] ======================================
+2026-07-19 01:55:07 [INFO] ======================================
+2026-07-19 01:55:07 [INFO]  Playwright Enterprise Test Runner
+2026-07-19 01:55:07 [INFO] ======================================
+2026-07-19 01:55:07 [INFO] Environment : qa
+2026-07-19 01:55:07 [INFO] Browser    : chromium
+2026-07-19 01:55:07 [INFO] Parallel   : 1
+2026-07-19 01:55:07 [INFO] Tag        : @C5948
+2026-07-19 01:55:07 [INFO] --------------------------------------
+2026-07-19 01:55:07 [INFO] Command : npx cucumber-js --tags "@C5948" --parallel 1
+2026-07-19 01:55:07 [INFO] ======================================
+2026-07-19 01:58:35 [INFO] ======================================
+2026-07-19 01:58:35 [INFO] Starting Test Execution
+2026-07-19 01:58:35 [INFO] Environment : qa
+2026-07-19 01:58:35 [INFO] ======================================
+2026-07-19 01:58:35 [INFO] ----------------------------------------------The value of isTestrail is :true
+2026-07-19 01:58:35 [INFO] ----------------------------------------------The value of updateTestRail is:true
+2026-07-19 01:58:35 [INFO] -----------------------------------------------The value of updateLambda is:true
+2026-07-19 01:58:35 [INFO] Initializing TestRail...
+2026-07-19 01:58:35 [INFO] TestRail credentials loaded.
+2026-07-19 01:58:35 [INFO] initializeTestCasesFromPlan is called
+2026-07-19 01:58:37 [INFO] Plan JSON : {
+  "id": 126,
+  "name": "Collection Automation June Sprint 2026",
+  "refs": null,
+  "description": null,
+  "milestone_id": 33,
+  "assignedto_id": null,
+  "is_completed": false,
+  "completed_on": null,
+  "is_archived": false,
+  "archived_on": null,
+  "passed_count": 7,
+  "blocked_count": 0,
+  "untested_count": 7,
+  "retest_count": 0,
+  "failed_count": 0,
+  "custom_status1_count": 0,
+  "custom_status2_count": 0,
+  "custom_status3_count": 0,
+  "custom_status4_count": 0,
+  "custom_status5_count": 0,
+  "custom_status6_count": 0,
+  "custom_status7_count": 0,
+  "project_id": 2,
+  "created_on": 1784266674,
+  "start_on": 1784246400,
+  "due_on": 1785456000,
+  "created_by": 2,
+  "url": "https://tatacapital.testrail.io/index.php?/plans/view/126",
+  "entries": [
+    {
+      "id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+      "suite_id": 6,
+      "name": "Collection June 2026 Sprint Test Run",
+      "refs": null,
+      "description": null,
+      "include_all": false,
+      "dynamic_filters": null,
+      "runs": [
+        {
+          "id": 127,
+          "suite_id": 6,
+          "name": "Collection June 2026 Sprint Test Run",
+          "description": null,
+          "milestone_id": 33,
+          "assignedto_id": null,
+          "include_all": false,
+          "is_completed": false,
+          "completed_on": null,
+          "is_archived": false,
+          "archived_on": null,
+          "passed_count": 7,
+          "blocked_count": 0,
+          "untested_count": 7,
+          "retest_count": 0,
+          "failed_count": 0,
+          "custom_status1_count": 0,
+          "custom_status2_count": 0,
+          "custom_status3_count": 0,
+          "custom_status4_count": 0,
+          "custom_status5_count": 0,
+          "custom_status6_count": 0,
+          "custom_status7_count": 0,
+          "project_id": 2,
+          "plan_id": 126,
+          "entry_index": 1,
+          "entry_id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+          "config": null,
+          "config_ids": [],
+          "created_on": 1784266674,
+          "refs": null,
+          "created_by": 2,
+          "start_on": null,
+          "due_on": null,
+          "dynamic_filters": null,
+          "url": "https://tatacapital.testrail.io/index.php?/runs/view/127"
+        }
+      ]
+    }
+  ]
+}
+2026-07-19 01:58:37 [INFO] Build Name : Collection Automation June Sprint 2026
+2026-07-19 01:58:38 [INFO] Project : {"id":2,"name":"Collection","announcement":null,"show_announcement":false,"is_completed":false,"completed_on":null,"suite_mode":1,"default_role_id":null,"url":"https://tatacapital.testrail.io/index.php?/projects/overview/2","users":[{"user_id":2,"global_role_id":1,"global_role":"Lead","project_role_id":1,"project_role":"Lead","i18n_custom_id":"roles_lead"},{"user_id":4,"global_role_id":4,"global_role":"Read-only","project_role_id":4,"project_role":"Read-only","i18n_custom_id":"roles_read_only"},{"user_id":5,"global_role_id":3,"global_role":"Tester","project_role_id":3,"project_role":"Tester","i18n_custom_id":"roles_tester"}],"groups":[]}
+2026-07-19 01:58:38 [INFO] Project Name : Collection
+2026-07-19 01:58:39 [INFO] Test Case Map Loaded with 14 cases.
+2026-07-19 01:58:39 [INFO] Test Case Id : 5948
+2026-07-19 01:58:39 [INFO] Scenario : title
+2026-07-19 01:58:39 [INFO] Project : Collection
+2026-07-19 01:58:39 [INFO] Build : SagesyntaxBuild
+2026-07-19 01:58:39 [INFO] Browser : chromium
+2026-07-19 01:58:40 [INFO] Trace Started
+2026-07-19 01:58:40 [INFO] ======================================
+2026-07-19 01:58:40 [INFO] Scenario Started : title
+2026-07-19 01:58:40 [INFO] ======================================
+2026-07-19 01:58:42 [INFO] Fill -> #username : sagesyntaxacademy
+2026-07-19 01:58:42 [INFO] Fill -> #password : BuildingExcellence@111
+2026-07-19 01:58:42 [INFO] Click -> button[type='submit']
+2026-07-19 01:58:44 [INFO] =================================================
+2026-07-19 01:58:44 [INFO] After Scenario Started
+2026-07-19 01:58:44 [INFO] Scenario Name : title
+2026-07-19 01:58:44 [INFO] =================================================
+2026-07-19 01:58:45 [ERROR] Screenshot Captured : title.png
+2026-07-19 01:58:45 [INFO] Updating TestRail FAIL
+2026-07-19 01:58:46 [INFO] Updated TestRail Case 5948
+2026-07-19 01:58:46 [INFO] TestRail updated successfully for Case ID 5948 (FAIL)
+2026-07-19 01:58:46 [INFO] Trace Saved
+2026-07-19 01:58:47 [INFO] Browser Closed
+2026-07-19 01:58:47 [INFO] =================================================
+2026-07-19 01:58:47 [INFO] After Scenario Completed
+2026-07-19 01:58:47 [INFO] =================================================
+2026-07-19 01:58:47 [INFO] Scenario Finished : title
+2026-07-19 01:58:47 [INFO] Status : FAILED
+2026-07-19 01:58:47 [INFO] ======================================
+2026-07-19 01:58:47 [INFO] Execution Completed
+2026-07-19 01:58:47 [INFO] ======================================
+2026-07-19 02:03:36 [INFO] ======================================
+2026-07-19 02:03:36 [INFO] Starting Test Execution
+2026-07-19 02:03:36 [INFO] Environment : qa
+2026-07-19 02:03:36 [INFO] ======================================
+2026-07-19 02:03:36 [INFO] ----------------------------------------------The value of isTestrail is :true
+2026-07-19 02:03:36 [INFO] ----------------------------------------------The value of updateTestRail is:true
+2026-07-19 02:03:36 [INFO] -----------------------------------------------The value of updateLambda is:true
+2026-07-19 02:03:36 [INFO] Initializing TestRail...
+2026-07-19 02:03:36 [INFO] TestRail credentials loaded.
+2026-07-19 02:03:36 [INFO] initializeTestCasesFromPlan is called
+2026-07-19 02:03:37 [INFO] Plan JSON : {
+  "id": 126,
+  "name": "Collection Automation June Sprint 2026",
+  "refs": null,
+  "description": null,
+  "milestone_id": 33,
+  "assignedto_id": null,
+  "is_completed": false,
+  "completed_on": null,
+  "is_archived": false,
+  "archived_on": null,
+  "passed_count": 7,
+  "blocked_count": 0,
+  "untested_count": 7,
+  "retest_count": 0,
+  "failed_count": 0,
+  "custom_status1_count": 0,
+  "custom_status2_count": 0,
+  "custom_status3_count": 0,
+  "custom_status4_count": 0,
+  "custom_status5_count": 0,
+  "custom_status6_count": 0,
+  "custom_status7_count": 0,
+  "project_id": 2,
+  "created_on": 1784266674,
+  "start_on": 1784246400,
+  "due_on": 1785456000,
+  "created_by": 2,
+  "url": "https://tatacapital.testrail.io/index.php?/plans/view/126",
+  "entries": [
+    {
+      "id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+      "suite_id": 6,
+      "name": "Collection June 2026 Sprint Test Run",
+      "refs": null,
+      "description": null,
+      "include_all": false,
+      "dynamic_filters": null,
+      "runs": [
+        {
+          "id": 127,
+          "suite_id": 6,
+          "name": "Collection June 2026 Sprint Test Run",
+          "description": null,
+          "milestone_id": 33,
+          "assignedto_id": null,
+          "include_all": false,
+          "is_completed": false,
+          "completed_on": null,
+          "is_archived": false,
+          "archived_on": null,
+          "passed_count": 7,
+          "blocked_count": 0,
+          "untested_count": 7,
+          "retest_count": 0,
+          "failed_count": 0,
+          "custom_status1_count": 0,
+          "custom_status2_count": 0,
+          "custom_status3_count": 0,
+          "custom_status4_count": 0,
+          "custom_status5_count": 0,
+          "custom_status6_count": 0,
+          "custom_status7_count": 0,
+          "project_id": 2,
+          "plan_id": 126,
+          "entry_index": 1,
+          "entry_id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+          "config": null,
+          "config_ids": [],
+          "created_on": 1784266674,
+          "refs": null,
+          "created_by": 2,
+          "start_on": null,
+          "due_on": null,
+          "dynamic_filters": null,
+          "url": "https://tatacapital.testrail.io/index.php?/runs/view/127"
+        }
+      ]
+    }
+  ]
+}
+2026-07-19 02:03:37 [INFO] Build Name : Collection Automation June Sprint 2026
+2026-07-19 02:03:38 [INFO] Project : {"id":2,"name":"Collection","announcement":null,"show_announcement":false,"is_completed":false,"completed_on":null,"suite_mode":1,"default_role_id":null,"url":"https://tatacapital.testrail.io/index.php?/projects/overview/2","users":[{"user_id":2,"global_role_id":1,"global_role":"Lead","project_role_id":1,"project_role":"Lead","i18n_custom_id":"roles_lead"},{"user_id":4,"global_role_id":4,"global_role":"Read-only","project_role_id":4,"project_role":"Read-only","i18n_custom_id":"roles_read_only"},{"user_id":5,"global_role_id":3,"global_role":"Tester","project_role_id":3,"project_role":"Tester","i18n_custom_id":"roles_tester"}],"groups":[]}
+2026-07-19 02:03:38 [INFO] Project Name : Collection
+2026-07-19 02:03:40 [INFO] Test Case Map Loaded with 14 cases.
+2026-07-19 02:03:40 [INFO] Test Case Id : 5948
+2026-07-19 02:03:40 [INFO] Scenario : title
+2026-07-19 02:03:40 [INFO] Project : Collection
+2026-07-19 02:03:40 [INFO] Build : SagesyntaxBuild
+2026-07-19 02:03:40 [INFO] Browser : chromium
+2026-07-19 02:03:41 [INFO] Trace Started
+2026-07-19 02:03:41 [INFO] ======================================
+2026-07-19 02:03:41 [INFO] Scenario Started : title
+2026-07-19 02:03:41 [INFO] ======================================
+2026-07-19 02:03:44 [INFO] Fill -> #username : sagesyntaxacademy
+2026-07-19 02:03:44 [INFO] Fill -> #password : BuildingExcellence@111
+2026-07-19 02:03:44 [INFO] Click -> button[type='submit']
+2026-07-19 02:03:47 [INFO] =================================================
+2026-07-19 02:03:47 [INFO] After Scenario Started
+2026-07-19 02:03:47 [INFO] Scenario Name : title
+2026-07-19 02:03:47 [INFO] =================================================
+2026-07-19 02:03:47 [ERROR] Screenshot Captured : title.png
+2026-07-19 02:03:47 [INFO] Updating TestRail FAIL
+2026-07-19 02:03:48 [INFO] Updated TestRail Case 5948
+2026-07-19 02:03:48 [INFO] TestRail updated successfully for Case ID 5948 (FAIL)
+2026-07-19 02:03:48 [INFO] Trace Saved
+2026-07-19 02:03:49 [INFO] Browser Closed
+2026-07-19 02:03:49 [INFO] =================================================
+2026-07-19 02:03:49 [INFO] After Scenario Completed
+2026-07-19 02:03:49 [INFO] =================================================
+2026-07-19 02:03:49 [INFO] Scenario Finished : title
+2026-07-19 02:03:49 [INFO] Status : FAILED
+2026-07-19 02:03:49 [INFO] ======================================
+2026-07-19 02:03:49 [INFO] Execution Completed
+2026-07-19 02:03:49 [INFO] ======================================

@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2981362600
+              "duration": 4705814499
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2041295700
+              "duration": 2907947300
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 508411100
+              "duration": 465730700
             }
           },
           {
@@ -52,8 +52,9 @@
               "location": "features\\stepdefinitions\\Steps.js:31"
             },
             "result": {
-              "status": "passed",
-              "duration": 2174194399
+              "status": "failed",
+              "duration": 2253435900,
+              "error_message": "Error: Dashboard validation failed intentionally.\n    at CustomWorld.<anonymous> (E:\\AutomationProject\\Framework\\features\\stepdefinitions\\Steps.js:39:7)"
             }
           },
           {
@@ -61,13 +62,22 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 820541499
+              "duration": 2881343499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 4531500,
+              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at CustomWorld.<anonymous> (E:\\AutomationProject\\Framework\\features\\hooks\\hooks.js:155:37)"
             }
           }
         ],
         "tags": [
           {
-            "name": "@Login",
+            "name": "@C5948",
             "line": 9
           }
         ],

@@ -36,6 +36,6 @@ Then("the dashboard should be displayed", async function () {
             waitUntil: "networkidle"
         }
     );
-
+throw new Error("Dashboard validation failed intentionally.");
 });
 

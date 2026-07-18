@@ -568,5 +568,6 @@ class TestRailManager {
 
     }
 
+
 }
 module.exports = TestRailManager;
