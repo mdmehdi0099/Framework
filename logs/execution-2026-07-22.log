@@ -1,0 +1,556 @@
+2026-07-22 00:16:37 [INFO] ======================================
+2026-07-22 00:16:37 [INFO] Starting Test Execution
+2026-07-22 00:16:37 [INFO] Environment : qa
+2026-07-22 00:16:37 [INFO] ======================================
+2026-07-22 00:16:37 [INFO] ----------------------------------------------The value of isTestrail is :false
+2026-07-22 00:16:37 [INFO] ----------------------------------------------The value of updateTestRail is:false
+2026-07-22 00:16:37 [INFO] -----------------------------------------------The value of updateLambda is:true
+2026-07-22 00:16:37 [INFO] Test Case Id : 5948
+2026-07-22 00:16:37 [INFO] Scenario : title
+2026-07-22 00:16:37 [INFO] Build : PlaywrightIntegration
+2026-07-22 00:16:37 [INFO] Browser : chromium
+2026-07-22 00:16:42 [INFO] =================================================
+2026-07-22 00:16:42 [INFO] After Scenario Started
+2026-07-22 00:16:42 [INFO] Scenario Name : title
+2026-07-22 00:16:42 [INFO] =================================================
+2026-07-22 00:16:42 [ERROR] Unexpected Error in After Hook : TypeError: Cannot read properties of null (reading 'screenshot')
+    at CustomWorld.<anonymous> (E:\AutomationProject\Framework\features\hooks\hooks.js:230:45)
+    at Object.run (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\user_code_runner.js:24:27)
+    at E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:31:114
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at runInTestCaseScope (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\scope\test_case_scope.js:9:26)
+    at Object.run (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:31:63)
+    at async TestCaseRunner.invokeStep (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:90:16)
+    at async TestCaseRunner.runHook (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:203:28)
+    at async E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:174:28
+    at async TestCaseRunner.aroundTestStep (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:118:32)
+2026-07-22 00:16:42 [ERROR] Error closing browser : Cannot read properties of null (reading 'evaluate')
+2026-07-22 00:16:42 [INFO] =================================================
+2026-07-22 00:16:42 [INFO] After Scenario Completed
+2026-07-22 00:16:42 [INFO] =================================================
+2026-07-22 00:16:42 [INFO] Scenario Finished : title
+2026-07-22 00:16:42 [INFO] Status : FAILED
+2026-07-22 00:16:42 [INFO] Browser Closed
+2026-07-22 00:16:42 [INFO] ======================================
+2026-07-22 00:16:42 [INFO] Execution Completed
+2026-07-22 00:16:42 [INFO] ======================================
+2026-07-22 00:24:19 [INFO] ======================================
+2026-07-22 00:24:19 [INFO] Starting Test Execution
+2026-07-22 00:24:19 [INFO] Environment : qa
+2026-07-22 00:24:19 [INFO] ======================================
+2026-07-22 00:24:19 [INFO] ----------------------------------------------The value of isTestrail is :false
+2026-07-22 00:24:20 [INFO] ----------------------------------------------The value of updateTestRail is:false
+2026-07-22 00:24:20 [INFO] -----------------------------------------------The value of updateLambda is:true
+2026-07-22 00:24:20 [INFO] Test Case Id : 5948
+2026-07-22 00:24:20 [INFO] Scenario : title
+2026-07-22 00:24:20 [INFO] Build : PlaywrightIntegration
+2026-07-22 00:24:20 [INFO] Browser : chromium
+2026-07-22 00:24:25 [INFO] =================================================
+2026-07-22 00:24:25 [INFO] After Scenario Started
+2026-07-22 00:24:25 [INFO] Scenario Name : title
+2026-07-22 00:24:25 [INFO] =================================================
+2026-07-22 00:24:25 [ERROR] Unexpected Error in After Hook : TypeError: Cannot read properties of null (reading 'screenshot')
+    at CustomWorld.<anonymous> (E:\AutomationProject\Framework\features\hooks\hooks.js:234:45)
+    at Object.run (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\user_code_runner.js:24:27)
+    at E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:31:114
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at runInTestCaseScope (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\scope\test_case_scope.js:9:26)
+    at Object.run (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:31:63)
+    at async TestCaseRunner.invokeStep (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:90:16)
+    at async TestCaseRunner.runHook (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:203:28)
+    at async E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:174:28
+    at async TestCaseRunner.aroundTestStep (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:118:32)
+2026-07-22 00:24:25 [ERROR] Error closing browser : Cannot read properties of null (reading 'evaluate')
+2026-07-22 00:24:25 [INFO] =================================================
+2026-07-22 00:24:25 [INFO] After Scenario Completed
+2026-07-22 00:24:25 [INFO] =================================================
+2026-07-22 00:26:49 [INFO] ======================================
+2026-07-22 00:26:49 [INFO] Starting Test Execution
+2026-07-22 00:26:49 [INFO] Environment : qa
+2026-07-22 00:26:49 [INFO] ======================================
+2026-07-22 00:26:49 [INFO] ----------------------------------------------The value of isTestrail is :false
+2026-07-22 00:26:49 [INFO] ----------------------------------------------The value of updateTestRail is:false
+2026-07-22 00:26:49 [INFO] -----------------------------------------------The value of updateLambda is:true
+2026-07-22 00:26:49 [INFO] Test Case Id : 5948
+2026-07-22 00:26:49 [INFO] Scenario : title
+2026-07-22 00:26:49 [INFO] Build : PlaywrightIntegration
+2026-07-22 00:26:49 [INFO] Browser : chromium
+2026-07-22 00:26:54 [INFO] =================================================
+2026-07-22 00:26:54 [INFO] After Scenario Started
+2026-07-22 00:26:54 [INFO] Scenario Name : title
+2026-07-22 00:26:54 [INFO] =================================================
+2026-07-22 00:26:54 [ERROR] Unexpected Error in After Hook : TypeError: Cannot read properties of null (reading 'screenshot')
+    at CustomWorld.<anonymous> (E:\AutomationProject\Framework\features\hooks\hooks.js:234:45)
+    at Object.run (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\user_code_runner.js:24:27)
+    at E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:31:114
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at runInTestCaseScope (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\scope\test_case_scope.js:9:26)
+    at Object.run (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:31:63)
+    at async TestCaseRunner.invokeStep (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:90:16)
+    at async TestCaseRunner.runHook (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:203:28)
+    at async E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:174:28
+    at async TestCaseRunner.aroundTestStep (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:118:32)
+2026-07-22 00:26:54 [ERROR] Error closing browser : Cannot read properties of null (reading 'evaluate')
+2026-07-22 00:26:54 [INFO] =================================================
+2026-07-22 00:26:54 [INFO] After Scenario Completed
+2026-07-22 00:26:54 [INFO] =================================================
+2026-07-22 01:01:17 [INFO] ======================================
+2026-07-22 01:01:17 [INFO] Starting Test Execution
+2026-07-22 01:01:17 [INFO] Environment : qa
+2026-07-22 01:01:17 [INFO] ======================================
+2026-07-22 01:01:17 [INFO] ----------------------------------------------The value of isTestrail is :false
+2026-07-22 01:01:17 [INFO] ----------------------------------------------The value of updateTestRail is:false
+2026-07-22 01:01:17 [INFO] -----------------------------------------------The value of updateLambda is:true
+2026-07-22 01:01:17 [INFO] Test Case Id : 5948
+2026-07-22 01:01:17 [INFO] Scenario : title
+2026-07-22 01:01:17 [INFO] Build : PlaywrightIntegration
+2026-07-22 01:01:17 [INFO] Browser : chromium
+2026-07-22 01:01:22 [INFO] =================================================
+2026-07-22 01:01:22 [INFO] After Scenario Started
+2026-07-22 01:01:22 [INFO] Scenario Name : title
+2026-07-22 01:01:22 [INFO] =================================================
+2026-07-22 01:01:22 [ERROR] Unexpected Error in After Hook : TypeError: Cannot read properties of null (reading 'screenshot')
+    at CustomWorld.<anonymous> (E:\AutomationProject\Framework\features\hooks\hooks.js:234:45)
+    at Object.run (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\user_code_runner.js:24:27)
+    at E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:31:114
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at runInTestCaseScope (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\scope\test_case_scope.js:9:26)
+    at Object.run (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:31:63)
+    at async TestCaseRunner.invokeStep (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:90:16)
+    at async TestCaseRunner.runHook (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:203:28)
+    at async E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:174:28
+    at async TestCaseRunner.aroundTestStep (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:118:32)
+2026-07-22 01:01:22 [ERROR] Error closing browser : Cannot read properties of null (reading 'evaluate')
+2026-07-22 01:01:22 [INFO] =================================================
+2026-07-22 01:01:22 [INFO] After Scenario Completed
+2026-07-22 01:01:22 [INFO] =================================================
+2026-07-22 01:02:19 [INFO] ======================================
+2026-07-22 01:02:19 [INFO] Starting Test Execution
+2026-07-22 01:02:19 [INFO] Environment : qa
+2026-07-22 01:02:19 [INFO] ======================================
+2026-07-22 01:02:19 [INFO] ----------------------------------------------The value of isTestrail is :false
+2026-07-22 01:02:19 [INFO] ----------------------------------------------The value of updateTestRail is:false
+2026-07-22 01:02:19 [INFO] -----------------------------------------------The value of updateLambda is:true
+2026-07-22 01:02:19 [INFO] Test Case Id : 5948
+2026-07-22 01:02:19 [INFO] Scenario : title
+2026-07-22 01:02:19 [INFO] Build : PlaywrightIntegration
+2026-07-22 01:02:19 [INFO] Browser : chromium
+2026-07-22 01:02:24 [INFO] =================================================
+2026-07-22 01:02:24 [INFO] After Scenario Started
+2026-07-22 01:02:24 [INFO] Scenario Name : title
+2026-07-22 01:02:24 [INFO] =================================================
+2026-07-22 01:02:24 [ERROR] Unexpected Error in After Hook : TypeError: Cannot read properties of null (reading 'screenshot')
+    at CustomWorld.<anonymous> (E:\AutomationProject\Framework\features\hooks\hooks.js:234:45)
+    at Object.run (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\user_code_runner.js:24:27)
+    at E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:31:114
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at runInTestCaseScope (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\scope\test_case_scope.js:9:26)
+    at Object.run (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:31:63)
+    at async TestCaseRunner.invokeStep (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:90:16)
+    at async TestCaseRunner.runHook (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:203:28)
+    at async E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:174:28
+    at async TestCaseRunner.aroundTestStep (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:118:32)
+2026-07-22 01:02:24 [INFO] Browser Closed
+2026-07-22 01:02:24 [INFO] =================================================
+2026-07-22 01:02:24 [INFO] After Scenario Completed
+2026-07-22 01:02:24 [INFO] =================================================
+2026-07-22 01:05:31 [INFO] ======================================
+2026-07-22 01:05:31 [INFO] Starting Test Execution
+2026-07-22 01:05:31 [INFO] Environment : qa
+2026-07-22 01:05:31 [INFO] ======================================
+2026-07-22 01:05:31 [INFO] ----------------------------------------------The value of isTestrail is :false
+2026-07-22 01:05:31 [INFO] ----------------------------------------------The value of updateTestRail is:false
+2026-07-22 01:05:31 [INFO] -----------------------------------------------The value of updateLambda is:true
+2026-07-22 01:05:31 [INFO] Test Case Id : 5948
+2026-07-22 01:05:31 [INFO] Scenario : title
+2026-07-22 01:05:31 [INFO] Build : PlaywrightIntegration
+2026-07-22 01:05:31 [INFO] Browser : chromium
+2026-07-22 01:05:36 [INFO] =================================================
+2026-07-22 01:05:36 [INFO] After Scenario Started
+2026-07-22 01:05:36 [INFO] Scenario Name : title
+2026-07-22 01:05:36 [INFO] =================================================
+2026-07-22 01:05:36 [ERROR] Unexpected Error in After Hook : TypeError: Cannot read properties of null (reading 'screenshot')
+    at CustomWorld.<anonymous> (E:\AutomationProject\Framework\features\hooks\hooks.js:234:45)
+    at Object.run (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\user_code_runner.js:24:27)
+    at E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:31:114
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at runInTestCaseScope (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\scope\test_case_scope.js:9:26)
+    at Object.run (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:31:63)
+    at async TestCaseRunner.invokeStep (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:90:16)
+    at async TestCaseRunner.runHook (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:203:28)
+    at async E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:174:28
+    at async TestCaseRunner.aroundTestStep (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:118:32)
+2026-07-22 01:05:36 [INFO] Browser Closed
+2026-07-22 01:05:36 [INFO] =================================================
+2026-07-22 01:05:36 [INFO] After Scenario Completed
+2026-07-22 01:05:36 [INFO] =================================================
+2026-07-22 01:06:43 [INFO] ======================================
+2026-07-22 01:06:43 [INFO] Starting Test Execution
+2026-07-22 01:06:43 [INFO] Environment : qa
+2026-07-22 01:06:43 [INFO] ======================================
+2026-07-22 01:06:43 [INFO] ----------------------------------------------The value of isTestrail is :false
+2026-07-22 01:06:43 [INFO] ----------------------------------------------The value of updateTestRail is:false
+2026-07-22 01:06:43 [INFO] -----------------------------------------------The value of updateLambda is:true
+2026-07-22 01:06:43 [INFO] Test Case Id : 5948
+2026-07-22 01:06:43 [INFO] Scenario : title
+2026-07-22 01:06:43 [INFO] Build : PlaywrightIntegration
+2026-07-22 01:06:43 [INFO] Browser : chromium
+2026-07-22 01:06:48 [INFO] =================================================
+2026-07-22 01:06:48 [INFO] After Scenario Started
+2026-07-22 01:06:48 [INFO] Scenario Name : title
+2026-07-22 01:06:48 [INFO] =================================================
+2026-07-22 01:06:48 [ERROR] Unexpected Error in After Hook : TypeError: Cannot read properties of null (reading 'screenshot')
+    at CustomWorld.<anonymous> (E:\AutomationProject\Framework\features\hooks\hooks.js:234:45)
+    at Object.run (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\user_code_runner.js:24:27)
+    at E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:31:114
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at runInTestCaseScope (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\scope\test_case_scope.js:9:26)
+    at Object.run (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:31:63)
+    at async TestCaseRunner.invokeStep (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:90:16)
+    at async TestCaseRunner.runHook (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:203:28)
+    at async E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:174:28
+    at async TestCaseRunner.aroundTestStep (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:118:32)
+2026-07-22 01:06:48 [INFO] Browser Closed
+2026-07-22 01:06:48 [INFO] =================================================
+2026-07-22 01:06:48 [INFO] After Scenario Completed
+2026-07-22 01:06:48 [INFO] =================================================
+2026-07-22 01:10:59 [INFO] ======================================
+2026-07-22 01:10:59 [INFO] Starting Test Execution
+2026-07-22 01:10:59 [INFO] Environment : qa
+2026-07-22 01:10:59 [INFO] ======================================
+2026-07-22 01:10:59 [INFO] ----------------------------------------------The value of isTestrail is :false
+2026-07-22 01:10:59 [INFO] ----------------------------------------------The value of updateTestRail is:false
+2026-07-22 01:10:59 [INFO] -----------------------------------------------The value of updateLambda is:true
+2026-07-22 01:10:59 [INFO] Test Case Id : 5948
+2026-07-22 01:10:59 [INFO] Scenario : title
+2026-07-22 01:10:59 [INFO] Build : PlaywrightIntegration
+2026-07-22 01:10:59 [INFO] Browser : chromium
+2026-07-22 01:11:04 [INFO] =================================================
+2026-07-22 01:11:04 [INFO] After Scenario Started
+2026-07-22 01:11:04 [INFO] Scenario Name : title
+2026-07-22 01:11:04 [INFO] =================================================
+2026-07-22 01:11:04 [ERROR] Unexpected Error in After Hook : TypeError: Cannot read properties of null (reading 'screenshot')
+    at CustomWorld.<anonymous> (E:\AutomationProject\Framework\features\hooks\hooks.js:234:45)
+    at Object.run (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\user_code_runner.js:24:27)
+    at E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:31:114
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at runInTestCaseScope (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\scope\test_case_scope.js:9:26)
+    at Object.run (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:31:63)
+    at async TestCaseRunner.invokeStep (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:90:16)
+    at async TestCaseRunner.runHook (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:203:28)
+    at async E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:174:28
+    at async TestCaseRunner.aroundTestStep (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:118:32)
+2026-07-22 01:11:04 [INFO] Browser Closed
+2026-07-22 01:11:04 [INFO] =================================================
+2026-07-22 01:11:04 [INFO] After Scenario Completed
+2026-07-22 01:11:04 [INFO] =================================================
+2026-07-22 01:15:19 [INFO] ======================================
+2026-07-22 01:15:19 [INFO] Starting Test Execution
+2026-07-22 01:15:19 [INFO] Environment : qa
+2026-07-22 01:15:19 [INFO] ======================================
+2026-07-22 01:15:19 [INFO] ----------------------------------------------The value of isTestrail is :false
+2026-07-22 01:15:19 [INFO] ----------------------------------------------The value of updateTestRail is:false
+2026-07-22 01:15:19 [INFO] -----------------------------------------------The value of updateLambda is:true
+2026-07-22 01:15:19 [INFO] Test Case Id : 5948
+2026-07-22 01:15:19 [INFO] Scenario : title
+2026-07-22 01:15:19 [INFO] Build : PlaywrightIntegration
+2026-07-22 01:15:19 [INFO] Browser : chromium
+2026-07-22 01:15:23 [INFO] Trace Started
+2026-07-22 01:15:23 [INFO] ======================================
+2026-07-22 01:15:23 [INFO] Scenario Started : title
+2026-07-22 01:15:23 [INFO] ======================================
+2026-07-22 01:15:24 [INFO] Fill -> #username : sagesyntaxacademy
+2026-07-22 01:15:25 [INFO] Fill -> #password : BuildingExcellence@111
+2026-07-22 01:15:25 [INFO] Click -> button[type='submit']
+2026-07-22 01:15:28 [INFO] =================================================
+2026-07-22 01:15:28 [INFO] After Scenario Started
+2026-07-22 01:15:28 [INFO] Scenario Name : title
+2026-07-22 01:15:28 [INFO] =================================================
+2026-07-22 01:15:28 [ERROR] Screenshot Captured : title.png
+2026-07-22 01:15:29 [INFO] Trace Saved
+2026-07-22 01:15:30 [INFO] Browser Closed
+2026-07-22 01:15:30 [INFO] =================================================
+2026-07-22 01:15:30 [INFO] After Scenario Completed
+2026-07-22 01:15:30 [INFO] =================================================
+2026-07-22 01:19:57 [INFO] ======================================
+2026-07-22 01:19:57 [INFO] Starting Test Execution
+2026-07-22 01:19:57 [INFO] Environment : qa
+2026-07-22 01:19:57 [INFO] ======================================
+2026-07-22 01:19:57 [INFO] ----------------------------------------------The value of isTestrail is :false
+2026-07-22 01:19:57 [INFO] ----------------------------------------------The value of updateTestRail is:false
+2026-07-22 01:19:57 [INFO] -----------------------------------------------The value of updateLambda is:true
+2026-07-22 01:19:57 [INFO] Test Case Id : 5948
+2026-07-22 01:19:57 [INFO] Scenario : title
+2026-07-22 01:19:57 [INFO] Build : PlaywrightIntegration
+2026-07-22 01:19:57 [INFO] Browser : chromium
+2026-07-22 01:19:59 [INFO] Trace Started
+2026-07-22 01:19:59 [INFO] ======================================
+2026-07-22 01:19:59 [INFO] Scenario Started : title
+2026-07-22 01:19:59 [INFO] ======================================
+2026-07-22 01:20:01 [INFO] Fill -> #username : sagesyntaxacademy
+2026-07-22 01:20:01 [INFO] Fill -> #password : BuildingExcellence@111
+2026-07-22 01:20:01 [INFO] Click -> button[type='submit']
+2026-07-22 01:20:02 [INFO] =================================================
+2026-07-22 01:20:02 [INFO] After Scenario Started
+2026-07-22 01:20:02 [INFO] Scenario Name : title
+2026-07-22 01:20:02 [INFO] =================================================
+2026-07-22 01:20:02 [INFO] Trace Saved
+2026-07-22 01:20:03 [INFO] Browser Closed
+2026-07-22 01:20:03 [INFO] =================================================
+2026-07-22 01:20:03 [INFO] After Scenario Completed
+2026-07-22 01:20:03 [INFO] =================================================
+2026-07-22 01:19:47 [INFO] ======================================
+2026-07-22 01:19:47 [INFO]  Playwright Enterprise Test Runner
+2026-07-22 01:19:47 [INFO] ======================================
+2026-07-22 01:19:47 [INFO] Environment : qa
+2026-07-22 01:19:47 [INFO] Browser    : chromium
+2026-07-22 01:19:47 [INFO] Parallel   : 1
+2026-07-22 01:19:47 [INFO] Tag        : @C5948
+2026-07-22 01:19:47 [INFO] --------------------------------------
+2026-07-22 01:19:47 [INFO] Command : npx cucumber-js --tags "@C5948" --parallel 1
+2026-07-22 01:19:47 [INFO] ======================================
+2026-07-22 01:25:27 [INFO] ======================================
+2026-07-22 01:25:27 [INFO] Starting Test Execution
+2026-07-22 01:25:27 [INFO] Environment : qa
+2026-07-22 01:25:27 [INFO] ======================================
+2026-07-22 01:25:27 [INFO] ----------------------------------------------The value of isTestrail is :true
+2026-07-22 01:25:27 [INFO] ----------------------------------------------The value of updateTestRail is:false
+2026-07-22 01:25:27 [INFO] -----------------------------------------------The value of updateLambda is:true
+2026-07-22 01:25:27 [INFO] Initializing TestRail...
+2026-07-22 01:25:27 [INFO] TestRail credentials loaded.
+2026-07-22 01:25:27 [INFO] initializeTestCasesFromPlan is called
+2026-07-22 01:25:28 [INFO] Plan JSON : {
+  "id": 126,
+  "name": "Collection Automation June Sprint 2026",
+  "refs": null,
+  "description": null,
+  "milestone_id": 33,
+  "assignedto_id": null,
+  "is_completed": false,
+  "completed_on": null,
+  "is_archived": false,
+  "archived_on": null,
+  "passed_count": 13,
+  "blocked_count": 0,
+  "untested_count": 0,
+  "retest_count": 0,
+  "failed_count": 1,
+  "custom_status1_count": 0,
+  "custom_status2_count": 0,
+  "custom_status3_count": 0,
+  "custom_status4_count": 0,
+  "custom_status5_count": 0,
+  "custom_status6_count": 0,
+  "custom_status7_count": 0,
+  "project_id": 2,
+  "created_on": 1784266674,
+  "start_on": 1784246400,
+  "due_on": 1785456000,
+  "created_by": 2,
+  "url": "https://tatacapital.testrail.io/index.php?/plans/view/126",
+  "entries": [
+    {
+      "id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+      "suite_id": 6,
+      "name": "Collection June 2026 Sprint Test Run",
+      "refs": null,
+      "description": null,
+      "include_all": false,
+      "dynamic_filters": null,
+      "runs": [
+        {
+          "id": 127,
+          "suite_id": 6,
+          "name": "Collection June 2026 Sprint Test Run",
+          "description": null,
+          "milestone_id": 33,
+          "assignedto_id": null,
+          "include_all": false,
+          "is_completed": false,
+          "completed_on": null,
+          "is_archived": false,
+          "archived_on": null,
+          "passed_count": 13,
+          "blocked_count": 0,
+          "untested_count": 0,
+          "retest_count": 0,
+          "failed_count": 1,
+          "custom_status1_count": 0,
+          "custom_status2_count": 0,
+          "custom_status3_count": 0,
+          "custom_status4_count": 0,
+          "custom_status5_count": 0,
+          "custom_status6_count": 0,
+          "custom_status7_count": 0,
+          "project_id": 2,
+          "plan_id": 126,
+          "entry_index": 1,
+          "entry_id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+          "config": null,
+          "config_ids": [],
+          "created_on": 1784266674,
+          "refs": null,
+          "created_by": 2,
+          "start_on": null,
+          "due_on": null,
+          "dynamic_filters": null,
+          "url": "https://tatacapital.testrail.io/index.php?/runs/view/127"
+        }
+      ]
+    }
+  ]
+}
+2026-07-22 01:25:28 [INFO] Build Name : Collection Automation June Sprint 2026
+2026-07-22 01:25:29 [INFO] Project : {"id":2,"name":"Collection","announcement":null,"show_announcement":false,"is_completed":false,"completed_on":null,"suite_mode":1,"default_role_id":null,"url":"https://tatacapital.testrail.io/index.php?/projects/overview/2","users":[{"user_id":2,"global_role_id":1,"global_role":"Lead","project_role_id":1,"project_role":"Lead","i18n_custom_id":"roles_lead"},{"user_id":4,"global_role_id":4,"global_role":"Read-only","project_role_id":4,"project_role":"Read-only","i18n_custom_id":"roles_read_only"},{"user_id":5,"global_role_id":3,"global_role":"Tester","project_role_id":3,"project_role":"Tester","i18n_custom_id":"roles_tester"}],"groups":[]}
+2026-07-22 01:25:29 [INFO] Project Name : Collection
+2026-07-22 01:25:30 [INFO] Test Case Map Loaded with 14 cases.
+2026-07-22 01:25:30 [INFO] Test Case Id : 5948
+2026-07-22 01:25:30 [INFO] Scenario : title
+2026-07-22 01:25:31 [INFO] Project : Collection
+2026-07-22 01:25:31 [INFO] Build : PlaywrightIntegration
+2026-07-22 01:25:31 [INFO] Browser : chromium
+2026-07-22 01:25:31 [INFO] Trace Started
+2026-07-22 01:25:31 [INFO] ======================================
+2026-07-22 01:25:31 [INFO] Scenario Started : title
+2026-07-22 01:25:31 [INFO] ======================================
+2026-07-22 01:25:33 [INFO] Fill -> #username : sagesyntaxacademy
+2026-07-22 01:25:33 [INFO] Fill -> #password : BuildingExcellence@111
+2026-07-22 01:25:33 [INFO] Click -> button[type='submit']
+2026-07-22 01:25:34 [INFO] =================================================
+2026-07-22 01:25:34 [INFO] After Scenario Started
+2026-07-22 01:25:34 [INFO] Scenario Name : title
+2026-07-22 01:25:34 [INFO] =================================================
+2026-07-22 01:25:34 [INFO] Trace Saved
+2026-07-22 01:25:34 [INFO] Browser Closed
+2026-07-22 01:25:34 [INFO] =================================================
+2026-07-22 01:25:34 [INFO] After Scenario Completed
+2026-07-22 01:25:34 [INFO] =================================================
+2026-07-22 01:25:21 [INFO] ======================================
+2026-07-22 01:25:21 [INFO]  Playwright Enterprise Test Runner
+2026-07-22 01:25:21 [INFO] ======================================
+2026-07-22 01:25:21 [INFO] Environment : qa
+2026-07-22 01:25:21 [INFO] Browser    : chromium
+2026-07-22 01:25:21 [INFO] Parallel   : 1
+2026-07-22 01:25:21 [INFO] Tag        : @C5948
+2026-07-22 01:25:21 [INFO] --------------------------------------
+2026-07-22 01:25:21 [INFO] Command : npx cucumber-js --tags "@C5948" --parallel 1
+2026-07-22 01:25:21 [INFO] ======================================
+2026-07-22 01:26:12 [INFO] ======================================
+2026-07-22 01:26:12 [INFO] Starting Test Execution
+2026-07-22 01:26:12 [INFO] Environment : qa
+2026-07-22 01:26:12 [INFO] ======================================
+2026-07-22 01:26:13 [INFO] ----------------------------------------------The value of isTestrail is :true
+2026-07-22 01:26:13 [INFO] ----------------------------------------------The value of updateTestRail is:false
+2026-07-22 01:26:13 [INFO] -----------------------------------------------The value of updateLambda is:true
+2026-07-22 01:26:13 [INFO] Initializing TestRail...
+2026-07-22 01:26:13 [INFO] TestRail credentials loaded.
+2026-07-22 01:26:13 [INFO] initializeTestCasesFromPlan is called
+2026-07-22 01:26:13 [INFO] Plan JSON : {
+  "id": 126,
+  "name": "Collection Automation June Sprint 2026",
+  "refs": null,
+  "description": null,
+  "milestone_id": 33,
+  "assignedto_id": null,
+  "is_completed": false,
+  "completed_on": null,
+  "is_archived": false,
+  "archived_on": null,
+  "passed_count": 13,
+  "blocked_count": 0,
+  "untested_count": 0,
+  "retest_count": 0,
+  "failed_count": 1,
+  "custom_status1_count": 0,
+  "custom_status2_count": 0,
+  "custom_status3_count": 0,
+  "custom_status4_count": 0,
+  "custom_status5_count": 0,
+  "custom_status6_count": 0,
+  "custom_status7_count": 0,
+  "project_id": 2,
+  "created_on": 1784266674,
+  "start_on": 1784246400,
+  "due_on": 1785456000,
+  "created_by": 2,
+  "url": "https://tatacapital.testrail.io/index.php?/plans/view/126",
+  "entries": [
+    {
+      "id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+      "suite_id": 6,
+      "name": "Collection June 2026 Sprint Test Run",
+      "refs": null,
+      "description": null,
+      "include_all": false,
+      "dynamic_filters": null,
+      "runs": [
+        {
+          "id": 127,
+          "suite_id": 6,
+          "name": "Collection June 2026 Sprint Test Run",
+          "description": null,
+          "milestone_id": 33,
+          "assignedto_id": null,
+          "include_all": false,
+          "is_completed": false,
+          "completed_on": null,
+          "is_archived": false,
+          "archived_on": null,
+          "passed_count": 13,
+          "blocked_count": 0,
+          "untested_count": 0,
+          "retest_count": 0,
+          "failed_count": 1,
+          "custom_status1_count": 0,
+          "custom_status2_count": 0,
+          "custom_status3_count": 0,
+          "custom_status4_count": 0,
+          "custom_status5_count": 0,
+          "custom_status6_count": 0,
+          "custom_status7_count": 0,
+          "project_id": 2,
+          "plan_id": 126,
+          "entry_index": 1,
+          "entry_id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+          "config": null,
+          "config_ids": [],
+          "created_on": 1784266674,
+          "refs": null,
+          "created_by": 2,
+          "start_on": null,
+          "due_on": null,
+          "dynamic_filters": null,
+          "url": "https://tatacapital.testrail.io/index.php?/runs/view/127"
+        }
+      ]
+    }
+  ]
+}
+2026-07-22 01:26:13 [INFO] Build Name : Collection Automation June Sprint 2026
+2026-07-22 01:26:14 [INFO] Project : {"id":2,"name":"Collection","announcement":null,"show_announcement":false,"is_completed":false,"completed_on":null,"suite_mode":1,"default_role_id":null,"url":"https://tatacapital.testrail.io/index.php?/projects/overview/2","users":[{"user_id":2,"global_role_id":1,"global_role":"Lead","project_role_id":1,"project_role":"Lead","i18n_custom_id":"roles_lead"},{"user_id":4,"global_role_id":4,"global_role":"Read-only","project_role_id":4,"project_role":"Read-only","i18n_custom_id":"roles_read_only"},{"user_id":5,"global_role_id":3,"global_role":"Tester","project_role_id":3,"project_role":"Tester","i18n_custom_id":"roles_tester"}],"groups":[]}
+2026-07-22 01:26:14 [INFO] Project Name : Collection
+2026-07-22 01:26:15 [INFO] Test Case Map Loaded with 14 cases.
+2026-07-22 01:26:15 [INFO] Test Case Id : 5948
+2026-07-22 01:26:15 [INFO] Scenario : title
+2026-07-22 01:26:15 [INFO] Project : Collection
+2026-07-22 01:26:15 [INFO] Build : PlaywrightIntegration
+2026-07-22 01:26:15 [INFO] Browser : chromium
+2026-07-22 01:26:18 [INFO] =================================================
+2026-07-22 01:26:18 [INFO] After Scenario Started
+2026-07-22 01:26:18 [INFO] Scenario Name : title
+2026-07-22 01:26:18 [INFO] =================================================
+2026-07-22 01:26:18 [ERROR] Unexpected Error in After Hook : TypeError: Cannot read properties of null (reading 'screenshot')
+    at CustomWorld.<anonymous> (E:\AutomationProject\Framework\features\hooks\hooks.js:234:45)
+    at Object.run (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\user_code_runner.js:24:27)
+    at E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:31:114
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at runInTestCaseScope (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\scope\test_case_scope.js:9:26)
+    at Object.run (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:31:63)
+    at async TestCaseRunner.invokeStep (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:90:16)
+    at async TestCaseRunner.runHook (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:203:28)
+    at async E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:174:28
+    at async TestCaseRunner.aroundTestStep (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:118:32)
+2026-07-22 01:26:18 [ERROR] Error closing browser : Cannot read properties of null (reading 'evaluate')
+2026-07-22 01:26:18 [INFO] =================================================
+2026-07-22 01:26:18 [INFO] After Scenario Completed
+2026-07-22 01:26:18 [INFO] =================================================

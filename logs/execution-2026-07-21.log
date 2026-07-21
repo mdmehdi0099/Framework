@@ -1,0 +1,496 @@
+2026-07-21 00:36:08 [INFO] ======================================
+2026-07-21 00:36:08 [INFO] Starting Test Execution
+2026-07-21 00:36:08 [INFO] Environment : qa
+2026-07-21 00:36:08 [INFO] ======================================
+2026-07-21 00:36:08 [INFO] ----------------------------------------------The value of isTestrail is :true
+2026-07-21 00:36:08 [INFO] ----------------------------------------------The value of updateTestRail is:true
+2026-07-21 00:36:08 [INFO] -----------------------------------------------The value of updateLambda is:true
+2026-07-21 00:36:08 [INFO] Initializing TestRail...
+2026-07-21 00:36:08 [INFO] TestRail credentials loaded.
+2026-07-21 00:36:08 [INFO] initializeTestCasesFromPlan is called
+2026-07-21 00:36:09 [INFO] Plan JSON : {
+  "id": 126,
+  "name": "Collection Automation June Sprint 2026",
+  "refs": null,
+  "description": null,
+  "milestone_id": 33,
+  "assignedto_id": null,
+  "is_completed": false,
+  "completed_on": null,
+  "is_archived": false,
+  "archived_on": null,
+  "passed_count": 11,
+  "blocked_count": 0,
+  "untested_count": 3,
+  "retest_count": 0,
+  "failed_count": 0,
+  "custom_status1_count": 0,
+  "custom_status2_count": 0,
+  "custom_status3_count": 0,
+  "custom_status4_count": 0,
+  "custom_status5_count": 0,
+  "custom_status6_count": 0,
+  "custom_status7_count": 0,
+  "project_id": 2,
+  "created_on": 1784266674,
+  "start_on": 1784246400,
+  "due_on": 1785456000,
+  "created_by": 2,
+  "url": "https://tatacapital.testrail.io/index.php?/plans/view/126",
+  "entries": [
+    {
+      "id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+      "suite_id": 6,
+      "name": "Collection June 2026 Sprint Test Run",
+      "refs": null,
+      "description": null,
+      "include_all": false,
+      "dynamic_filters": null,
+      "runs": [
+        {
+          "id": 127,
+          "suite_id": 6,
+          "name": "Collection June 2026 Sprint Test Run",
+          "description": null,
+          "milestone_id": 33,
+          "assignedto_id": null,
+          "include_all": false,
+          "is_completed": false,
+          "completed_on": null,
+          "is_archived": false,
+          "archived_on": null,
+          "passed_count": 11,
+          "blocked_count": 0,
+          "untested_count": 3,
+          "retest_count": 0,
+          "failed_count": 0,
+          "custom_status1_count": 0,
+          "custom_status2_count": 0,
+          "custom_status3_count": 0,
+          "custom_status4_count": 0,
+          "custom_status5_count": 0,
+          "custom_status6_count": 0,
+          "custom_status7_count": 0,
+          "project_id": 2,
+          "plan_id": 126,
+          "entry_index": 1,
+          "entry_id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+          "config": null,
+          "config_ids": [],
+          "created_on": 1784266674,
+          "refs": null,
+          "created_by": 2,
+          "start_on": null,
+          "due_on": null,
+          "dynamic_filters": null,
+          "url": "https://tatacapital.testrail.io/index.php?/runs/view/127"
+        }
+      ]
+    }
+  ]
+}
+2026-07-21 00:36:09 [INFO] Build Name : Collection Automation June Sprint 2026
+2026-07-21 00:36:09 [INFO] Project : {"id":2,"name":"Collection","announcement":null,"show_announcement":false,"is_completed":false,"completed_on":null,"suite_mode":1,"default_role_id":null,"url":"https://tatacapital.testrail.io/index.php?/projects/overview/2","users":[{"user_id":2,"global_role_id":1,"global_role":"Lead","project_role_id":1,"project_role":"Lead","i18n_custom_id":"roles_lead"},{"user_id":4,"global_role_id":4,"global_role":"Read-only","project_role_id":4,"project_role":"Read-only","i18n_custom_id":"roles_read_only"},{"user_id":5,"global_role_id":3,"global_role":"Tester","project_role_id":3,"project_role":"Tester","i18n_custom_id":"roles_tester"}],"groups":[]}
+2026-07-21 00:36:09 [INFO] Project Name : Collection
+2026-07-21 00:36:11 [INFO] Test Case Map Loaded with 14 cases.
+2026-07-21 00:36:11 [INFO] Test Case Id : 5948
+2026-07-21 00:36:11 [INFO] Scenario : title
+2026-07-21 00:36:11 [INFO] Project : Collection
+2026-07-21 00:36:11 [INFO] Build : SagesyntaxBuild
+2026-07-21 00:36:11 [INFO] Browser : chromium
+2026-07-21 00:36:12 [INFO] =================================================
+2026-07-21 00:36:12 [INFO] After Scenario Started
+2026-07-21 00:36:12 [INFO] Scenario Name : title
+2026-07-21 00:36:12 [INFO] =================================================
+2026-07-21 00:36:12 [ERROR] Unexpected Error in After Hook : TypeError: Cannot read properties of null (reading 'screenshot')
+    at CustomWorld.<anonymous> (E:\AutomationProject\Framework\features\hooks\hooks.js:230:45)
+    at Object.run (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\user_code_runner.js:24:27)
+    at E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:31:114
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at runInTestCaseScope (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\scope\test_case_scope.js:9:26)
+    at Object.run (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:31:63)
+    at async TestCaseRunner.invokeStep (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:90:16)
+    at async TestCaseRunner.runHook (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:203:28)
+    at async E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:174:28
+    at async TestCaseRunner.aroundTestStep (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:118:32)
+2026-07-21 00:36:12 [ERROR] Error closing browser : Cannot read properties of null (reading 'evaluate')
+2026-07-21 00:36:12 [INFO] =================================================
+2026-07-21 00:36:12 [INFO] After Scenario Completed
+2026-07-21 00:36:12 [INFO] =================================================
+2026-07-21 00:36:12 [INFO] Scenario Finished : title
+2026-07-21 00:36:12 [INFO] Status : FAILED
+2026-07-21 00:36:12 [INFO] ======================================
+2026-07-21 00:36:12 [INFO] Execution Completed
+2026-07-21 00:36:12 [INFO] ======================================
+2026-07-21 00:41:00 [INFO] ======================================
+2026-07-21 00:41:00 [INFO] Starting Test Execution
+2026-07-21 00:41:00 [INFO] Environment : qa
+2026-07-21 00:41:00 [INFO] ======================================
+2026-07-21 00:41:00 [INFO] ----------------------------------------------The value of isTestrail is :true
+2026-07-21 00:41:00 [INFO] ----------------------------------------------The value of updateTestRail is:true
+2026-07-21 00:41:00 [INFO] -----------------------------------------------The value of updateLambda is:true
+2026-07-21 00:41:00 [INFO] Initializing TestRail...
+2026-07-21 00:41:00 [INFO] TestRail credentials loaded.
+2026-07-21 00:41:00 [INFO] initializeTestCasesFromPlan is called
+2026-07-21 00:41:01 [INFO] Plan JSON : {
+  "id": 126,
+  "name": "Collection Automation June Sprint 2026",
+  "refs": null,
+  "description": null,
+  "milestone_id": 33,
+  "assignedto_id": null,
+  "is_completed": false,
+  "completed_on": null,
+  "is_archived": false,
+  "archived_on": null,
+  "passed_count": 11,
+  "blocked_count": 0,
+  "untested_count": 3,
+  "retest_count": 0,
+  "failed_count": 0,
+  "custom_status1_count": 0,
+  "custom_status2_count": 0,
+  "custom_status3_count": 0,
+  "custom_status4_count": 0,
+  "custom_status5_count": 0,
+  "custom_status6_count": 0,
+  "custom_status7_count": 0,
+  "project_id": 2,
+  "created_on": 1784266674,
+  "start_on": 1784246400,
+  "due_on": 1785456000,
+  "created_by": 2,
+  "url": "https://tatacapital.testrail.io/index.php?/plans/view/126",
+  "entries": [
+    {
+      "id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+      "suite_id": 6,
+      "name": "Collection June 2026 Sprint Test Run",
+      "refs": null,
+      "description": null,
+      "include_all": false,
+      "dynamic_filters": null,
+      "runs": [
+        {
+          "id": 127,
+          "suite_id": 6,
+          "name": "Collection June 2026 Sprint Test Run",
+          "description": null,
+          "milestone_id": 33,
+          "assignedto_id": null,
+          "include_all": false,
+          "is_completed": false,
+          "completed_on": null,
+          "is_archived": false,
+          "archived_on": null,
+          "passed_count": 11,
+          "blocked_count": 0,
+          "untested_count": 3,
+          "retest_count": 0,
+          "failed_count": 0,
+          "custom_status1_count": 0,
+          "custom_status2_count": 0,
+          "custom_status3_count": 0,
+          "custom_status4_count": 0,
+          "custom_status5_count": 0,
+          "custom_status6_count": 0,
+          "custom_status7_count": 0,
+          "project_id": 2,
+          "plan_id": 126,
+          "entry_index": 1,
+          "entry_id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+          "config": null,
+          "config_ids": [],
+          "created_on": 1784266674,
+          "refs": null,
+          "created_by": 2,
+          "start_on": null,
+          "due_on": null,
+          "dynamic_filters": null,
+          "url": "https://tatacapital.testrail.io/index.php?/runs/view/127"
+        }
+      ]
+    }
+  ]
+}
+2026-07-21 00:41:01 [INFO] Build Name : Collection Automation June Sprint 2026
+2026-07-21 00:41:01 [INFO] Project : {"id":2,"name":"Collection","announcement":null,"show_announcement":false,"is_completed":false,"completed_on":null,"suite_mode":1,"default_role_id":null,"url":"https://tatacapital.testrail.io/index.php?/projects/overview/2","users":[{"user_id":2,"global_role_id":1,"global_role":"Lead","project_role_id":1,"project_role":"Lead","i18n_custom_id":"roles_lead"},{"user_id":4,"global_role_id":4,"global_role":"Read-only","project_role_id":4,"project_role":"Read-only","i18n_custom_id":"roles_read_only"},{"user_id":5,"global_role_id":3,"global_role":"Tester","project_role_id":3,"project_role":"Tester","i18n_custom_id":"roles_tester"}],"groups":[]}
+2026-07-21 00:41:01 [INFO] Project Name : Collection
+2026-07-21 00:41:02 [INFO] Test Case Map Loaded with 14 cases.
+2026-07-21 00:41:02 [INFO] Test Case Id : 5948
+2026-07-21 00:41:02 [INFO] Scenario : title
+2026-07-21 00:41:03 [INFO] Project : Collection
+2026-07-21 00:41:03 [INFO] Build : SagesyntaxBuild
+2026-07-21 00:41:03 [INFO] Browser : chromium
+2026-07-21 00:41:03 [INFO] =================================================
+2026-07-21 00:41:03 [INFO] After Scenario Started
+2026-07-21 00:41:03 [INFO] Scenario Name : title
+2026-07-21 00:41:03 [INFO] =================================================
+2026-07-21 00:41:03 [ERROR] Unexpected Error in After Hook : TypeError: Cannot read properties of null (reading 'screenshot')
+    at CustomWorld.<anonymous> (E:\AutomationProject\Framework\features\hooks\hooks.js:230:45)
+    at Object.run (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\user_code_runner.js:24:27)
+    at E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:31:114
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at runInTestCaseScope (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\scope\test_case_scope.js:9:26)
+    at Object.run (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:31:63)
+    at async TestCaseRunner.invokeStep (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:90:16)
+    at async TestCaseRunner.runHook (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:203:28)
+    at async E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:174:28
+    at async TestCaseRunner.aroundTestStep (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:118:32)
+2026-07-21 00:41:03 [ERROR] Error closing browser : Cannot read properties of null (reading 'evaluate')
+2026-07-21 00:41:03 [INFO] =================================================
+2026-07-21 00:41:03 [INFO] After Scenario Completed
+2026-07-21 00:41:03 [INFO] =================================================
+2026-07-21 00:41:03 [INFO] Scenario Finished : title
+2026-07-21 00:41:03 [INFO] Status : FAILED
+2026-07-21 00:41:03 [INFO] ======================================
+2026-07-21 00:41:03 [INFO] Execution Completed
+2026-07-21 00:41:03 [INFO] ======================================
+2026-07-21 00:45:23 [INFO] ======================================
+2026-07-21 00:45:23 [INFO] Starting Test Execution
+2026-07-21 00:45:23 [INFO] Environment : qa
+2026-07-21 00:45:23 [INFO] ======================================
+2026-07-21 00:45:23 [INFO] ----------------------------------------------The value of isTestrail is :true
+2026-07-21 00:45:23 [INFO] ----------------------------------------------The value of updateTestRail is:true
+2026-07-21 00:45:23 [INFO] -----------------------------------------------The value of updateLambda is:true
+2026-07-21 00:45:23 [INFO] Initializing TestRail...
+2026-07-21 00:45:23 [INFO] TestRail credentials loaded.
+2026-07-21 00:45:23 [INFO] initializeTestCasesFromPlan is called
+2026-07-21 00:45:24 [INFO] Plan JSON : {
+  "id": 126,
+  "name": "Collection Automation June Sprint 2026",
+  "refs": null,
+  "description": null,
+  "milestone_id": 33,
+  "assignedto_id": null,
+  "is_completed": false,
+  "completed_on": null,
+  "is_archived": false,
+  "archived_on": null,
+  "passed_count": 11,
+  "blocked_count": 0,
+  "untested_count": 3,
+  "retest_count": 0,
+  "failed_count": 0,
+  "custom_status1_count": 0,
+  "custom_status2_count": 0,
+  "custom_status3_count": 0,
+  "custom_status4_count": 0,
+  "custom_status5_count": 0,
+  "custom_status6_count": 0,
+  "custom_status7_count": 0,
+  "project_id": 2,
+  "created_on": 1784266674,
+  "start_on": 1784246400,
+  "due_on": 1785456000,
+  "created_by": 2,
+  "url": "https://tatacapital.testrail.io/index.php?/plans/view/126",
+  "entries": [
+    {
+      "id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+      "suite_id": 6,
+      "name": "Collection June 2026 Sprint Test Run",
+      "refs": null,
+      "description": null,
+      "include_all": false,
+      "dynamic_filters": null,
+      "runs": [
+        {
+          "id": 127,
+          "suite_id": 6,
+          "name": "Collection June 2026 Sprint Test Run",
+          "description": null,
+          "milestone_id": 33,
+          "assignedto_id": null,
+          "include_all": false,
+          "is_completed": false,
+          "completed_on": null,
+          "is_archived": false,
+          "archived_on": null,
+          "passed_count": 11,
+          "blocked_count": 0,
+          "untested_count": 3,
+          "retest_count": 0,
+          "failed_count": 0,
+          "custom_status1_count": 0,
+          "custom_status2_count": 0,
+          "custom_status3_count": 0,
+          "custom_status4_count": 0,
+          "custom_status5_count": 0,
+          "custom_status6_count": 0,
+          "custom_status7_count": 0,
+          "project_id": 2,
+          "plan_id": 126,
+          "entry_index": 1,
+          "entry_id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+          "config": null,
+          "config_ids": [],
+          "created_on": 1784266674,
+          "refs": null,
+          "created_by": 2,
+          "start_on": null,
+          "due_on": null,
+          "dynamic_filters": null,
+          "url": "https://tatacapital.testrail.io/index.php?/runs/view/127"
+        }
+      ]
+    }
+  ]
+}
+2026-07-21 00:45:25 [INFO] Build Name : Collection Automation June Sprint 2026
+2026-07-21 00:45:25 [INFO] Project : {"id":2,"name":"Collection","announcement":null,"show_announcement":false,"is_completed":false,"completed_on":null,"suite_mode":1,"default_role_id":null,"url":"https://tatacapital.testrail.io/index.php?/projects/overview/2","users":[{"user_id":2,"global_role_id":1,"global_role":"Lead","project_role_id":1,"project_role":"Lead","i18n_custom_id":"roles_lead"},{"user_id":4,"global_role_id":4,"global_role":"Read-only","project_role_id":4,"project_role":"Read-only","i18n_custom_id":"roles_read_only"},{"user_id":5,"global_role_id":3,"global_role":"Tester","project_role_id":3,"project_role":"Tester","i18n_custom_id":"roles_tester"}],"groups":[]}
+2026-07-21 00:45:25 [INFO] Project Name : Collection
+2026-07-21 00:45:26 [INFO] Test Case Map Loaded with 14 cases.
+2026-07-21 00:45:26 [INFO] Test Case Id : 5948
+2026-07-21 00:45:26 [INFO] Scenario : title
+2026-07-21 00:45:26 [INFO] Project : Collection
+2026-07-21 00:45:26 [INFO] Build : SagesyntaxBuild
+2026-07-21 00:45:26 [INFO] Browser : chromium
+2026-07-21 00:45:28 [INFO] =================================================
+2026-07-21 00:45:28 [INFO] After Scenario Started
+2026-07-21 00:45:28 [INFO] Scenario Name : title
+2026-07-21 00:45:28 [INFO] =================================================
+2026-07-21 00:45:28 [ERROR] Unexpected Error in After Hook : TypeError: Cannot read properties of null (reading 'screenshot')
+    at CustomWorld.<anonymous> (E:\AutomationProject\Framework\features\hooks\hooks.js:230:45)
+    at Object.run (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\user_code_runner.js:24:27)
+    at E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:31:114
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at runInTestCaseScope (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\scope\test_case_scope.js:9:26)
+    at Object.run (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:31:63)
+    at async TestCaseRunner.invokeStep (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:90:16)
+    at async TestCaseRunner.runHook (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:203:28)
+    at async E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:174:28
+    at async TestCaseRunner.aroundTestStep (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:118:32)
+2026-07-21 00:45:28 [ERROR] Error closing browser : Cannot read properties of null (reading 'evaluate')
+2026-07-21 00:45:28 [INFO] =================================================
+2026-07-21 00:45:28 [INFO] After Scenario Completed
+2026-07-21 00:45:28 [INFO] =================================================
+2026-07-21 00:45:28 [INFO] Scenario Finished : title
+2026-07-21 00:45:28 [INFO] Status : FAILED
+2026-07-21 00:45:28 [INFO] ======================================
+2026-07-21 00:45:28 [INFO] Execution Completed
+2026-07-21 00:45:28 [INFO] ======================================
+2026-07-21 00:47:19 [INFO] ======================================
+2026-07-21 00:47:19 [INFO] Starting Test Execution
+2026-07-21 00:47:19 [INFO] Environment : qa
+2026-07-21 00:47:19 [INFO] ======================================
+2026-07-21 00:47:19 [INFO] ----------------------------------------------The value of isTestrail is :true
+2026-07-21 00:47:19 [INFO] ----------------------------------------------The value of updateTestRail is:true
+2026-07-21 00:47:19 [INFO] -----------------------------------------------The value of updateLambda is:true
+2026-07-21 00:47:19 [INFO] Initializing TestRail...
+2026-07-21 00:47:19 [INFO] TestRail credentials loaded.
+2026-07-21 00:47:19 [INFO] initializeTestCasesFromPlan is called
+2026-07-21 00:47:20 [INFO] Plan JSON : {
+  "id": 126,
+  "name": "Collection Automation June Sprint 2026",
+  "refs": null,
+  "description": null,
+  "milestone_id": 33,
+  "assignedto_id": null,
+  "is_completed": false,
+  "completed_on": null,
+  "is_archived": false,
+  "archived_on": null,
+  "passed_count": 11,
+  "blocked_count": 0,
+  "untested_count": 3,
+  "retest_count": 0,
+  "failed_count": 0,
+  "custom_status1_count": 0,
+  "custom_status2_count": 0,
+  "custom_status3_count": 0,
+  "custom_status4_count": 0,
+  "custom_status5_count": 0,
+  "custom_status6_count": 0,
+  "custom_status7_count": 0,
+  "project_id": 2,
+  "created_on": 1784266674,
+  "start_on": 1784246400,
+  "due_on": 1785456000,
+  "created_by": 2,
+  "url": "https://tatacapital.testrail.io/index.php?/plans/view/126",
+  "entries": [
+    {
+      "id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+      "suite_id": 6,
+      "name": "Collection June 2026 Sprint Test Run",
+      "refs": null,
+      "description": null,
+      "include_all": false,
+      "dynamic_filters": null,
+      "runs": [
+        {
+          "id": 127,
+          "suite_id": 6,
+          "name": "Collection June 2026 Sprint Test Run",
+          "description": null,
+          "milestone_id": 33,
+          "assignedto_id": null,
+          "include_all": false,
+          "is_completed": false,
+          "completed_on": null,
+          "is_archived": false,
+          "archived_on": null,
+          "passed_count": 11,
+          "blocked_count": 0,
+          "untested_count": 3,
+          "retest_count": 0,
+          "failed_count": 0,
+          "custom_status1_count": 0,
+          "custom_status2_count": 0,
+          "custom_status3_count": 0,
+          "custom_status4_count": 0,
+          "custom_status5_count": 0,
+          "custom_status6_count": 0,
+          "custom_status7_count": 0,
+          "project_id": 2,
+          "plan_id": 126,
+          "entry_index": 1,
+          "entry_id": "fb4342c5-4d2c-4327-b6c6-5886546f41b2",
+          "config": null,
+          "config_ids": [],
+          "created_on": 1784266674,
+          "refs": null,
+          "created_by": 2,
+          "start_on": null,
+          "due_on": null,
+          "dynamic_filters": null,
+          "url": "https://tatacapital.testrail.io/index.php?/runs/view/127"
+        }
+      ]
+    }
+  ]
+}
+2026-07-21 00:47:20 [INFO] Build Name : Collection Automation June Sprint 2026
+2026-07-21 00:47:21 [INFO] Project : {"id":2,"name":"Collection","announcement":null,"show_announcement":false,"is_completed":false,"completed_on":null,"suite_mode":1,"default_role_id":null,"url":"https://tatacapital.testrail.io/index.php?/projects/overview/2","users":[{"user_id":2,"global_role_id":1,"global_role":"Lead","project_role_id":1,"project_role":"Lead","i18n_custom_id":"roles_lead"},{"user_id":4,"global_role_id":4,"global_role":"Read-only","project_role_id":4,"project_role":"Read-only","i18n_custom_id":"roles_read_only"},{"user_id":5,"global_role_id":3,"global_role":"Tester","project_role_id":3,"project_role":"Tester","i18n_custom_id":"roles_tester"}],"groups":[]}
+2026-07-21 00:47:21 [INFO] Project Name : Collection
+2026-07-21 00:47:22 [INFO] Test Case Map Loaded with 14 cases.
+2026-07-21 00:47:22 [INFO] Test Case Id : 5948
+2026-07-21 00:47:22 [INFO] Scenario : title
+2026-07-21 00:47:22 [INFO] Project : Collection
+2026-07-21 00:47:22 [INFO] Build : PlaywrightIntegration
+2026-07-21 00:47:22 [INFO] Browser : chromium
+2026-07-21 00:47:24 [INFO] =================================================
+2026-07-21 00:47:24 [INFO] After Scenario Started
+2026-07-21 00:47:24 [INFO] Scenario Name : title
+2026-07-21 00:47:24 [INFO] =================================================
+2026-07-21 00:47:24 [ERROR] Unexpected Error in After Hook : TypeError: Cannot read properties of null (reading 'screenshot')
+    at CustomWorld.<anonymous> (E:\AutomationProject\Framework\features\hooks\hooks.js:230:45)
+    at Object.run (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\user_code_runner.js:24:27)
+    at E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:31:114
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at runInTestCaseScope (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\scope\test_case_scope.js:9:26)
+    at Object.run (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:31:63)
+    at async TestCaseRunner.invokeStep (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:90:16)
+    at async TestCaseRunner.runHook (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:203:28)
+    at async E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:174:28
+    at async TestCaseRunner.aroundTestStep (E:\AutomationProject\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:118:32)
+2026-07-21 00:47:24 [ERROR] Error closing browser : Cannot read properties of null (reading 'evaluate')
+2026-07-21 00:47:24 [INFO] =================================================
+2026-07-21 00:47:24 [INFO] After Scenario Completed
+2026-07-21 00:47:24 [INFO] =================================================
+2026-07-21 00:47:24 [INFO] Scenario Finished : title
+2026-07-21 00:47:24 [INFO] Status : FAILED
+2026-07-21 00:47:24 [INFO] ======================================
+2026-07-21 00:47:24 [INFO] Execution Completed
+2026-07-21 00:47:24 [INFO] ======================================

@@ -51,14 +51,11 @@ Before(async function (scenario) {
       //=====================================================
       // TestRail Configuration
       //=====================================================
-      const isTestRail =
-          config.get("TestrailReadTestCase") === "true";
+      const isTestRail =config.get("TestrailReadTestCase") === "true";
           logger.info("----------------------------------------------The value of isTestrail is :"+isTestRail);
-      const updateTestRail =
-          config.get("UpdateTestRail") === "true";
+      const updateTestRail =config.get("UpdateTestRail") === "true";
           logger.info("----------------------------------------------The value of updateTestRail is:"+updateTestRail);
-      const updateLambda =
-          config.get("UpdateLambda") === "true";
+      const updateLambda =config.get("UpdateLambda") === "true";
           logger.info("-----------------------------------------------The value of updateLambda is:"+updateLambda);
       this.testContext.isTestRail = isTestRail;
       this.testContext.updateTestRail = updateTestRail;
@@ -146,40 +143,47 @@ Before(async function (scenario) {
       logger.info(`Scenario Started : ${scenario.pickle.name}`);
       logger.info("======================================");
   });
+  /*
     After(async function (scenario) {
-    logger.info(`Scenario Finished : ${scenario.pickle.name}`);
-    logger.info(`Status : ${scenario.result.status}`);
-    // Screenshot on Failure
-    if (scenario.result.status === Status.FAILED && config.takeScreenshotOnFail()) {
-        const screenshotName = scenario.pickle.name.replace(/\s+/g, "_");
-        await this.testContext.page.screenshot({
-            path: `screenshots/${screenshotName}.png`,
-            fullPage: true
-        });
-        logger.error(`Screenshot Captured : ${screenshotName}.png`);
-    }
-    // Stop Trace
-    if (config.isTraceEnabled()) {
-    try {
-        await this.testContext.context.tracing.stop({
-            path: `traces/${Date.now()}.zip`
-        });
+        logger.info(`Scenario Finished : ${scenario.pickle.name}`);
+        logger.info(`Status : ${scenario.result.status}`);
+        if (
+            scenario.result.status === Status.FAILED &&
+            config.takeScreenshotOnFail() &&
+            this.testContext &&
+            this.testContext.page
+        ) {
+            const screenshotName =scenario.pickle.name.replace(/\s+/g, "_");
+            await this.testContext.page.screenshot({
+                path: `screenshots/${screenshotName}.png`,
+                fullPage: true
+            });
+            logger.error(`Screenshot Captured : ${screenshotName}.png`);
+        }
+        if (config.isTraceEnabled() && this.testContext && this.testContext.context) {
+            try {
+                await this.testContext.context.tracing.stop({
+                    path: `traces/${Date.now()}.zip`
+                });
+                logger.info("Trace Saved");
+            }catch (err) {
+                logger.warn("Trace not available.");
+            }
+        }
+        if (this.browserManager) {
+            await this.browserManager.closeBrowser();
+            logger.info("Browser Closed");
+        }
+    });
 
-        logger.info("Trace Saved");
-    } catch (err) {
-        logger.warn("Trace was not started. Skipping trace save.");
-    }
-    }
-    // Close Browser
-    await this.browserManager.closeBrowser();
-    logger.info("Browser Closed");
-});
-
+    */
+/*
 AfterAll(async function () {
     logger.info("======================================");
     logger.info("Execution Completed");
     logger.info("======================================");
 });
+*/
 After(async function (scenario) {
 
     logger.info("=================================================");
@@ -303,6 +307,11 @@ After(async function (scenario) {
         // Close Browser
         //-------------------------------------------------
         try {
+            const executionType = config.get("ExecutionType");
+            if (executionType.toLowerCase() === "remote") {
+                const status =scenario.result.status === Status.PASSED? "passed": "failed";
+                await this.browserManager.updateLambdaStatus(status,scenario.result?.message || "");
+            }
             await this.browserManager.closeBrowser();
             logger.info("Browser Closed");
         } catch (e) {

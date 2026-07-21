@@ -6,15 +6,16 @@
         "description": "",
         "id": "login;title",
         "keyword": "Scenario Outline",
-        "line": 16,
+        "line": 15,
         "name": "title",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 4705814499
+              "status": "failed",
+              "duration": 5030733099,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (E:\\AutomationProject\\Framework\\node_modules\\@cucumber\\cucumber\\lib\\time.js:31:20)\n    at listOnTimeout (node:internal/timers:605:17)\n    at process.processTimers (node:internal/timers:541:7)"
             }
           },
           {
@@ -26,8 +27,8 @@
               "location": "features\\stepdefinitions\\Steps.js:10"
             },
             "result": {
-              "status": "passed",
-              "duration": 2907947300
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -39,22 +40,8 @@
               "location": "features\\stepdefinitions\\Steps.js:18"
             },
             "result": {
-              "status": "passed",
-              "duration": 465730700
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 13,
-            "name": "the dashboard should be displayed",
-            "match": {
-              "location": "features\\stepdefinitions\\Steps.js:31"
-            },
-            "result": {
-              "status": "failed",
-              "duration": 2253435900,
-              "error_message": "Error: Dashboard validation failed intentionally.\n    at CustomWorld.<anonymous> (E:\\AutomationProject\\Framework\\features\\stepdefinitions\\Steps.js:39:7)"
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -62,16 +49,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2881343499
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "failed",
-              "duration": 4531500,
-              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at CustomWorld.<anonymous> (E:\\AutomationProject\\Framework\\features\\hooks\\hooks.js:155:37)"
+              "duration": 3074900
             }
           }
         ],

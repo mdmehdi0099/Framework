@@ -28,14 +28,4 @@ When('the user logs in with valid username {string} and password {string} creden
     );
 });
 
-Then("the dashboard should be displayed", async function () {
-
-    await this.testContext.page.waitForURL(
-        "**/home",
-        {
-            waitUntil: "networkidle"
-        }
-    );
-throw new Error("Dashboard validation failed intentionally.");
-});
 
