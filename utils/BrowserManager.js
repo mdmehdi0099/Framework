@@ -7,19 +7,25 @@ console.log("Loading BrowserManager...");
 console.log("Resolved Path :", __filename);
 console.log("========================================");
 
-const playwrightVersion = cp
-    .execSync("npx playwright --version")
-    .toString()
-    .trim()
-    .split(" ")[1];
 
 class BrowserManager {
-
     constructor() {
         this.browser = null;
         this.context = null;
         this.page = null;
     }
+    getPlaywrightVersion() {
+    try {
+        return cp
+            .execSync("npx playwright --version")
+            .toString()
+            .trim()
+            .split(" ")[1];
+    } catch (e) {
+        console.warn("Unable to determine Playwright version.");
+        return "1.55.0";
+    }
+}
 
     /**
      * Initialize Browser
@@ -67,9 +73,8 @@ class BrowserManager {
                         slowMo: config.getSlowMo()
                     });
             }
-            return;
+            return this.browser;
         }
-
         //------------------------------------------------------
         // LAMBDATEST EXECUTION
         //------------------------------------------------------
@@ -86,7 +91,7 @@ class BrowserManager {
                 video: true,
                 console: true,
                 tunnel: false,
-                playwrightClientVersion: playwrightVersion
+                playwrightClientVersion: this.getPlaywrightVersion()
             }
         };
         //------------------------------------------------------
@@ -108,19 +113,21 @@ class BrowserManager {
             default:
                 capabilities.browserName = "pw-chromium";
         }
-        const wsEndpoint =`wss://cdp.lambdatest.com/playwright?capabilities=${encodeURIComponent(
-                JSON.stringify(capabilities)
-            )}`;
+        const wsEndpoint =`wss://cdp.lambdatest.com/playwright?capabilities=${encodeURIComponent(JSON.stringify(capabilities))}`;
         console.log("Connecting to LambdaTest...");
         console.log(wsEndpoint);
         this.browser = await chromium.connect({
             wsEndpoint
         });
+        return this.browser;
     }
     /**
      * Create Context
      */
     async createContext() {
+        if (!this.browser) {
+            throw new Error("Browser is not initialized.");
+        }
         this.context = await this.browser.newContext({
             viewport: {
                 width: 1920,
@@ -129,8 +136,8 @@ class BrowserManager {
             acceptDownloads: true,
             recordVideo: config.isVideoEnabled()
                 ? {
-                    dir: "videos"
-                }
+                      dir: "videos"
+                  }
                 : undefined
         });
         return this.context;
@@ -139,12 +146,14 @@ class BrowserManager {
     /**
      * Create Page
      */
-    async createPage() {
-        this.page = await this.context.newPage();
-        this.page.setDefaultTimeout(config.getTimeout());
-        return this.page;
+async createPage() {
+    if (!this.context) {
+        throw new Error("Browser Context is not initialized.");
     }
-
+    this.page = await this.context.newPage();
+    this.page.setDefaultTimeout(config.getTimeout());
+    return this.page;
+}
     /**
      * Update LambdaTest Status
      */
@@ -160,16 +169,34 @@ class BrowserManager {
                 remark
             }
         };
-        await this.page.evaluate(() => {},`lambdatest_action: ${JSON.stringify(payload)}`);
+        if (!this.page) {
+             return;
+        }
+        await this.page.evaluate(
+             () => {},
+                    `lambdatest_action: ${JSON.stringify(payload)}`
+        );
     }
-
     /**
      * Close Browser
      */
     async closeBrowser() {
-        if (this.browser) {
-            await this.browser.close();
+        try {
+            if (this.page) {
+                await this.page.close();
+                this.page = null;
+            }
+            if (this.context) {
+                await this.context.close();
+                this.context = null;
+            }
+            if (this.browser) {
+                await this.browser.close();
+                this.browser = null;
+            }
             console.log("Browser Closed");
+        } catch (e) {
+            console.error("Unable to close browser", e);
         }
     }
 }

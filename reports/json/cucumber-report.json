@@ -13,9 +13,8 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 5030733099,
-              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (E:\\AutomationProject\\Framework\\node_modules\\@cucumber\\cucumber\\lib\\time.js:31:20)\n    at listOnTimeout (node:internal/timers:605:17)\n    at process.processTimers (node:internal/timers:541:7)"
+              "status": "passed",
+              "duration": 25614474900
             }
           },
           {
@@ -27,8 +26,8 @@
               "location": "features\\stepdefinitions\\Steps.js:10"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 3294050300
             }
           },
           {
@@ -40,8 +39,8 @@
               "location": "features\\stepdefinitions\\Steps.js:18"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1174466899
             }
           },
           {
@@ -49,7 +48,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3074900
+              "duration": 5531835100
             }
           }
         ],

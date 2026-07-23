@@ -5,7 +5,6 @@ Feature: Login
   So that I can access the dashboard
 
 
-
         @C5948
         Scenario Outline: title
             Given the user launches the application

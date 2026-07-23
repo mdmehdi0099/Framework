@@ -39,6 +39,7 @@ class TestRunner {
         logger.info(`Command : ${command}`);
         logger.info("======================================");
         try {
+            logger.info("===============In Test runner before ExecSync=======================");
             execSync(command, {
                 stdio: "inherit",
                 env: {
