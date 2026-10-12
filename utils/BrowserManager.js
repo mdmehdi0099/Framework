@@ -25,7 +25,7 @@ class BrowserManager {
         console.warn("Unable to determine Playwright version.");
         return "1.55.0";
     }
-}
+    }
 
     /**
      * Initialize Browser

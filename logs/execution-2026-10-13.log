@@ -1,0 +1,100 @@
+2026-10-13 01:40:47 [INFO] logger...
+2026-10-13 01:40:47 [INFO] config...
+2026-10-13 01:40:47 [INFO] BrowserFixture...
+2026-10-13 01:40:47 [INFO] PageFixture...
+2026-10-13 01:40:47 [INFO] BrowserManager...
+2026-10-13 01:40:47 [INFO] TestRailManager...
+2026-10-13 01:40:47 [INFO] logger...
+2026-10-13 01:40:47 [INFO] config...
+2026-10-13 01:40:47 [INFO] BrowserFixture...
+2026-10-13 01:40:47 [INFO] PageFixture...
+2026-10-13 01:40:47 [INFO] BrowserManager...
+2026-10-13 01:40:47 [INFO] TestRailManager...
+2026-10-13 01:40:47 [INFO] =================================================
+2026-10-13 01:40:47 [INFO] Before Scenario Started
+2026-10-13 01:40:47 [INFO] Scenario : title
+2026-10-13 01:40:47 [INFO] =================================================
+2026-10-13 01:40:47 [INFO] Execution Type : Local
+2026-10-13 01:40:47 [INFO] Read TestRail : false
+2026-10-13 01:40:47 [INFO] Update TestRail : false
+2026-10-13 01:40:47 [INFO] Update Lambda : false
+2026-10-13 01:40:47 [INFO] Test Case Id : 5948
+2026-10-13 01:40:47 [INFO] Browser : chromium
+2026-10-13 01:40:47 [ERROR] Unable to launch browser : browserType.launch: Executable doesn't exist at C:\Users\mdmeh\AppData\Local\ms-playwright\chromium-1228\chrome-win64\chrome.exe
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     npx playwright install                                 ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2026-10-13 01:40:47 [INFO] =================================================
+2026-10-13 01:40:47 [INFO] After Scenario Started
+2026-10-13 01:40:47 [INFO] Scenario Name : title
+2026-10-13 01:40:47 [INFO] =================================================
+2026-10-13 01:40:47 [ERROR] Unexpected Error in After Hook : TypeError: Cannot read properties of null (reading 'screenshot')
+    at CustomWorld.<anonymous> (D:\Framework\Framework\features\hooks\hooks.js:186:45)
+    at Object.run (D:\Framework\Framework\node_modules\@cucumber\cucumber\lib\user_code_runner.js:24:27)
+    at D:\Framework\Framework\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:31:114
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:65:14)
+    at runInTestCaseScope (D:\Framework\Framework\node_modules\@cucumber\cucumber\lib\runtime\scope\test_case_scope.js:9:26)
+    at Object.run (D:\Framework\Framework\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:31:63)
+    at async TestCaseRunner.invokeStep (D:\Framework\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:90:16)
+    at async TestCaseRunner.runHook (D:\Framework\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:203:28)
+    at async D:\Framework\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:174:28
+    at async TestCaseRunner.aroundTestStep (D:\Framework\Framework\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:118:32)
+2026-10-13 01:40:47 [INFO] Browser Closed
+2026-10-13 01:40:47 [INFO] =================================================
+2026-10-13 01:40:47 [INFO] After Scenario Completed
+2026-10-13 01:40:47 [INFO] =================================================
+2026-10-13 01:47:49 [INFO] logger...
+2026-10-13 01:47:49 [INFO] config...
+2026-10-13 01:47:49 [INFO] BrowserFixture...
+2026-10-13 01:47:49 [INFO] PageFixture...
+2026-10-13 01:47:49 [INFO] BrowserManager...
+2026-10-13 01:47:49 [INFO] TestRailManager...
+2026-10-13 01:47:50 [INFO] logger...
+2026-10-13 01:47:50 [INFO] config...
+2026-10-13 01:47:50 [INFO] BrowserFixture...
+2026-10-13 01:47:50 [INFO] PageFixture...
+2026-10-13 01:47:50 [INFO] BrowserManager...
+2026-10-13 01:47:50 [INFO] TestRailManager...
+2026-10-13 01:47:50 [INFO] =================================================
+2026-10-13 01:47:50 [INFO] Before Scenario Started
+2026-10-13 01:47:50 [INFO] Scenario : title
+2026-10-13 01:47:50 [INFO] =================================================
+2026-10-13 01:47:50 [INFO] Execution Type : Local
+2026-10-13 01:47:50 [INFO] Read TestRail : false
+2026-10-13 01:47:50 [INFO] Update TestRail : false
+2026-10-13 01:47:50 [INFO] Update Lambda : false
+2026-10-13 01:47:50 [INFO] Test Case Id : 5948
+2026-10-13 01:47:50 [INFO] Browser : chromium
+2026-10-13 01:48:10 [INFO] Browser launched successfully.
+2026-10-13 01:48:10 [INFO] Tracing Started
+2026-10-13 01:48:10 [INFO] =================================================
+2026-10-13 01:48:10 [INFO] Before Scenario Completed
+2026-10-13 01:48:10 [INFO] =================================================
+2026-10-13 01:48:11 [INFO] Fill -> #username : sagesyntaxacademy
+2026-10-13 01:48:12 [INFO] Fill -> #password : BuildingExcellence@111
+2026-10-13 01:48:12 [INFO] Click -> button[type='submit']
+2026-10-13 01:48:13 [INFO] =================================================
+2026-10-13 01:48:13 [INFO] After Scenario Started
+2026-10-13 01:48:13 [INFO] Scenario Name : title
+2026-10-13 01:48:13 [INFO] =================================================
+2026-10-13 01:48:13 [INFO] Trace Saved
+2026-10-13 01:48:13 [INFO] Browser Closed
+2026-10-13 01:48:13 [INFO] =================================================
+2026-10-13 01:48:13 [INFO] After Scenario Completed
+2026-10-13 01:48:13 [INFO] =================================================
+2026-10-13 01:47:48 [INFO] ======================================
+2026-10-13 01:47:48 [INFO]  Playwright Enterprise Test Runner
+2026-10-13 01:47:48 [INFO] ======================================
+2026-10-13 01:47:48 [INFO] Environment : qa
+2026-10-13 01:47:48 [INFO] Browser    : chromium
+2026-10-13 01:47:48 [INFO] Parallel   : 1
+2026-10-13 01:47:48 [INFO] Tag        : @C5948
+2026-10-13 01:47:48 [INFO] --------------------------------------
+2026-10-13 01:47:48 [INFO] Command : npx cucumber-js --tags "@C5948" --parallel 1
+2026-10-13 01:47:48 [INFO] ======================================
+2026-10-13 01:47:48 [INFO] ===============In Test runner before ExecSync=======================

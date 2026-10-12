@@ -6,7 +6,7 @@
         "description": "",
         "id": "login;title",
         "keyword": "Scenario Outline",
-        "line": 15,
+        "line": 14,
         "name": "title",
         "steps": [
           {
@@ -14,33 +14,33 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 25614474900
+              "duration": 19970758099
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 11,
+            "line": 10,
             "name": "the user launches the application",
             "match": {
               "location": "features\\stepdefinitions\\Steps.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 3294050300
+              "duration": 1369993500
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 12,
+            "line": 11,
             "name": "the user logs in with valid username \"sagesyntaxacademy\" and password \"BuildingExcellence@111\" credentials",
             "match": {
               "location": "features\\stepdefinitions\\Steps.js:18"
             },
             "result": {
               "status": "passed",
-              "duration": 1174466899
+              "duration": 1288032699
             }
           },
           {
@@ -48,14 +48,14 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 5531835100
+              "duration": 518487900
             }
           }
         ],
         "tags": [
           {
             "name": "@C5948",
-            "line": 9
+            "line": 8
           }
         ],
         "type": "scenario"
