@@ -11,5 +11,4 @@ class APIException extends Error {
     }
 
 }
-
 module.exports = APIException;

@@ -1,0 +1,86 @@
+2026-10-14 20:48:06 [INFO] logger...
+2026-10-14 20:48:06 [INFO] config...
+2026-10-14 20:48:06 [INFO] BrowserFixture...
+2026-10-14 20:48:06 [INFO] PageFixture...
+2026-10-14 20:48:06 [INFO] BrowserManager...
+2026-10-14 20:48:06 [INFO] TestRailManager...
+2026-10-14 20:48:06 [INFO] logger...
+2026-10-14 20:48:06 [INFO] config...
+2026-10-14 20:48:06 [INFO] BrowserFixture...
+2026-10-14 20:48:06 [INFO] PageFixture...
+2026-10-14 20:48:06 [INFO] BrowserManager...
+2026-10-14 20:48:06 [INFO] TestRailManager...
+2026-10-14 20:48:06 [INFO] =================================================
+2026-10-14 20:48:06 [INFO] Before Scenario Started
+2026-10-14 20:48:06 [INFO] Scenario : title
+2026-10-14 20:48:06 [INFO] =================================================
+2026-10-14 20:48:06 [INFO] Execution Type : Local
+2026-10-14 20:48:06 [INFO] Read TestRail : false
+2026-10-14 20:48:06 [INFO] Update TestRail : false
+2026-10-14 20:48:06 [INFO] Update Lambda : false
+2026-10-14 20:48:06 [INFO] Test Case Id : 5948
+2026-10-14 20:48:06 [INFO] Browser : chromium
+2026-10-14 20:48:08 [INFO] Browser launched successfully.
+2026-10-14 20:48:08 [INFO] Tracing Started
+2026-10-14 20:48:08 [INFO] =================================================
+2026-10-14 20:48:08 [INFO] Before Scenario Completed
+2026-10-14 20:48:08 [INFO] =================================================
+2026-10-14 20:48:13 [INFO] Fill -> #username : sagesyntaxacademy
+2026-10-14 20:48:13 [INFO] Fill -> #password : BuildingExcellence@111
+2026-10-14 20:48:13 [INFO] Click -> button[type='submit']
+2026-10-14 20:48:13 [INFO] =================================================
+2026-10-14 20:48:13 [INFO] After Scenario Started
+2026-10-14 20:48:13 [INFO] Scenario Name : title
+2026-10-14 20:48:13 [INFO] =================================================
+2026-10-14 20:48:14 [INFO] Trace Saved
+2026-10-14 20:48:14 [INFO] Browser Closed
+2026-10-14 20:48:14 [INFO] =================================================
+2026-10-14 20:48:14 [INFO] After Scenario Completed
+2026-10-14 20:48:14 [INFO] =================================================
+2026-10-14 20:48:05 [INFO] ======================================
+2026-10-14 20:48:05 [INFO]  Playwright Enterprise Test Runner
+2026-10-14 20:48:05 [INFO] ======================================
+2026-10-14 20:48:05 [INFO] Environment : qa
+2026-10-14 20:48:05 [INFO] Browser    : chromium
+2026-10-14 20:48:05 [INFO] Parallel   : 1
+2026-10-14 20:48:05 [INFO] Tag        : @C5948
+2026-10-14 20:48:05 [INFO] --------------------------------------
+2026-10-14 20:48:05 [INFO] Command : npx cucumber-js --tags "@C5948" --parallel 1
+2026-10-14 20:48:05 [INFO] ======================================
+2026-10-14 20:48:05 [INFO] ===============In Test runner before ExecSync=======================
+2026-10-14 21:51:13 [INFO] logger...
+2026-10-14 21:51:13 [INFO] config...
+2026-10-14 21:51:13 [INFO] BrowserFixture...
+2026-10-14 21:51:13 [INFO] PageFixture...
+2026-10-14 21:51:13 [INFO] BrowserManager...
+2026-10-14 21:51:13 [INFO] TestRailManager...
+2026-10-14 21:51:14 [INFO] logger...
+2026-10-14 21:51:14 [INFO] config...
+2026-10-14 21:51:14 [INFO] BrowserFixture...
+2026-10-14 21:51:14 [INFO] PageFixture...
+2026-10-14 21:51:14 [INFO] BrowserManager...
+2026-10-14 21:51:14 [INFO] TestRailManager...
+2026-10-14 21:51:14 [INFO] =================================================
+2026-10-14 21:51:14 [INFO] Before Scenario Started
+2026-10-14 21:51:14 [INFO] Scenario : Verify the login functionality of the application using valid credential
+2026-10-14 21:51:14 [INFO] =================================================
+2026-10-14 21:51:14 [INFO] Execution Type : Local
+2026-10-14 21:51:14 [INFO] Read TestRail : false
+2026-10-14 21:51:14 [INFO] Update TestRail : false
+2026-10-14 21:51:14 [INFO] Update Lambda : false
+2026-10-14 21:51:14 [INFO] Test Case Id : 5948
+2026-10-14 21:51:14 [INFO] Browser : chromium
+2026-10-14 21:51:14 [INFO] Browser launched successfully.
+2026-10-14 21:51:14 [INFO] Tracing Started
+2026-10-14 21:51:14 [INFO] =================================================
+2026-10-14 21:51:14 [INFO] Before Scenario Completed
+2026-10-14 21:51:14 [INFO] =================================================
+2026-10-14 21:51:14 [INFO] =================================================
+2026-10-14 21:51:14 [INFO] After Scenario Started
+2026-10-14 21:51:14 [INFO] Scenario Name : Verify the login functionality of the application using valid credential
+2026-10-14 21:51:14 [INFO] =================================================
+2026-10-14 21:51:14 [INFO] Trace Saved
+2026-10-14 21:51:14 [INFO] Browser Closed
+2026-10-14 21:51:14 [INFO] =================================================
+2026-10-14 21:51:14 [INFO] After Scenario Completed
+2026-10-14 21:51:14 [INFO] =================================================

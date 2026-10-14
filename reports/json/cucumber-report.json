@@ -1,46 +1,60 @@
 [
   {
-    "description": "              As a registered user\n              I want to log in to the application\n  So that I can access the dashboard",
+    "description": "              As a registered user\n              I want to log in to the application, So that I can access the dashboard",
     "elements": [
       {
         "description": "",
-        "id": "login;title",
+        "id": "verify-the-login-functionality-of-the-application;verify-the-login-functionality-of-the-application-using-valid-credential",
         "keyword": "Scenario Outline",
-        "line": 14,
-        "name": "title",
+        "line": 23,
+        "name": "Verify the login functionality of the application using valid credential",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 19970758099
+              "duration": 218542600
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 10,
-            "name": "the user launches the application",
-            "match": {
-              "location": "features\\stepdefinitions\\Steps.js:10"
-            },
+            "line": 17,
+            "name": "the user launches the application \"https://automationpracticehub.com/\"",
             "result": {
-              "status": "passed",
-              "duration": 1369993500
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "the user enters the valid username \"sagesyntaxacademy\" and password \"BuildingExcellence@111\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 11,
-            "name": "the user logs in with valid username \"sagesyntaxacademy\" and password \"BuildingExcellence@111\" credentials",
-            "match": {
-              "location": "features\\stepdefinitions\\Steps.js:18"
-            },
+            "line": 19,
+            "name": "the user clicks on login button",
             "result": {
-              "status": "passed",
-              "duration": 1288032699
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the user should be redirected to the HomePage \"https://automationpracticehub.com/home\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
             }
           },
           {
@@ -48,23 +62,23 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 518487900
+              "duration": 133637700
             }
           }
         ],
         "tags": [
           {
             "name": "@C5948",
-            "line": 8
+            "line": 15
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "login",
+    "id": "verify-the-login-functionality-of-the-application",
     "line": 2,
     "keyword": "Feature",
-    "name": "Login",
+    "name": "Verify the Login Functionality of the Application",
     "tags": [],
     "uri": "features\\login.feature"
   }

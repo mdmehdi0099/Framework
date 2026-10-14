@@ -1,6 +1,7 @@
 const BasePage = require("./BasePage");
-const LoginLocator = require("../locators/LoginLocator");
 const config = require("../config/ConfigManager");
+const LoginLocator = require("../locators/LoginLocator");
+
 
 class LoginPage extends BasePage {
 
@@ -8,8 +9,15 @@ class LoginPage extends BasePage {
         super(page);
     }
 
-    async navigateToLoginPage() {
+    async navigateToLoginPage1() {
     const url = config.getBaseUrl();
+    console.log("Base URL:", url);
+    await this.page.goto(url, {
+        waitUntil: "networkidle"
+    });
+    }
+     async navigateToLoginPage(url) {
+    //const url = config.getBaseUrl();
     console.log("Base URL:", url);
     await this.page.goto(url, {
         waitUntil: "networkidle"
