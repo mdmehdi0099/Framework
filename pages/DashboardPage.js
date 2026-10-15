@@ -8,19 +8,14 @@ class DashboardPage extends BasePage {
         super(page);
     }
 
-    async navigateToLoginPage() {
-    const url = config.getBaseUrl();
-    console.log("Base URL:", url);
-    await this.page.goto(url, {
-        waitUntil: "networkidle"
-    });
-    }
+   async capturePopupMessage(){
+     await this.waitForVisible(DashboardPageLocator.popupCapture);
+   }
+    
+   async capturePageTitle(){
+     return await this.getTitle();
+   }
 
-    async login(username, password) {
-        await this.fill(LoginLocator.username, username);
-        await this.fill(LoginLocator.password, password);
-        await this.click(LoginLocator.loginButton);
-    }
 }
 
 module.exports = DashboardPage;

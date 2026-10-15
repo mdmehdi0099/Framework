@@ -1,6 +1,4 @@
 class DashboardPageLocator {
-    static username = "#username";
-    static password = "#password";
-   static loginButton = "button[type='submit']";
+    static popupCapture="div.bg-green-400";
 }
 module.exports = DashboardPageLocator;

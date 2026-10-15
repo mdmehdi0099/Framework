@@ -21,7 +21,26 @@ Feature: Verify the Login Functionality of the Application
         Examples:
                 | URL                                | username          | password               | dashboardPage                           |
                 | https://automationpracticehub.com/ | sagesyntaxacademy | BuildingExcellence@111 | https://automationpracticehub.com/home  |
+                | https://automationpracticehub.com/ | sagesyntaxacademy | BuildingExcellence@111 | https://automationpracticehub.com/home  |
                 #| https://automationpracticehub.com/ | sagesyntaxacademy | BuildingExcellence@111 | https://automationpracticehub.com/home  |
+                #| https://automationpracticehub.com/ | sagesyntaxacademy | BuildingExcellence@111 | https://automationpracticehub.com/home  |
+                #| https://automationpracticehub.com/ | sagesyntaxacademy | BuildingExcellence@111 | https://automationpracticehub.com/home  |
+                #| https://automationpracticehub.com/ | sagesyntaxacademy | BuildingExcellence@111 | https://automationpracticehub.com/home  |
+                #| https://automationpracticehub.com/ | sagesyntaxacademy | BuildingExcellence@111 | https://automationpracticehub.com/home  |
+                #| https://automationpracticehub.com/ | sagesyntaxacademy | BuildingExcellence@111 | https://automationpracticehub.com/home  |
+                #| https://automationpracticehub.com/ | sagesyntaxacademy | BuildingExcellence@111 | https://automationpracticehub.com/home  |
+                #| https://automationpracticehub.com/ | sagesyntaxacademy | BuildingExcellence@111 | https://automationpracticehub.com/home  |
+        
+             @C5949
+        Scenario Outline: Verify the login functionality of the application using valid credential
+            Given the user launches the application "<URL>"
+            Given the user enters the valid username "<username>" and password "<password>"
+            When the user clicks on login button
+            Then the user should be redirected to the HomePage "<dashboardPage>"
+        Examples:
+                | URL                                | username          | password               | dashboardPage                           |
+                | https://automationpracticehub.com/ | sagesyntaxacademy | BuildingExcellence@111 | https://automationpracticehub.com/home  |
+                | https://automationpracticehub.com/ | sagesyntaxacademy | BuildingExcellence@111 | https://automationpracticehub.com/home  |
                 #| https://automationpracticehub.com/ | sagesyntaxacademy | BuildingExcellence@111 | https://automationpracticehub.com/home  |
                 #| https://automationpracticehub.com/ | sagesyntaxacademy | BuildingExcellence@111 | https://automationpracticehub.com/home  |
                 #| https://automationpracticehub.com/ | sagesyntaxacademy | BuildingExcellence@111 | https://automationpracticehub.com/home  |

@@ -1,4 +1,6 @@
 const LoginPage = require("./LoginPage");
+const DashboardPage = require("./DashboardPage");
+
 
 class PageObjectManager {
     constructor(page) {
@@ -11,14 +13,12 @@ class PageObjectManager {
         }
         return this.pages.get(PageClass);
     }
+    
     getLoginPage() {
         return this.getPage(LoginPage);
     }
     getDashboardPage() {
         return this.getPage(DashboardPage);
-    }
-    getHomePage() {
-        return this.getPage(HomePage);
     }
 }
 module.exports = PageObjectManager;

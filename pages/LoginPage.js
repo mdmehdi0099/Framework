@@ -16,6 +16,7 @@ class LoginPage extends BasePage {
         waitUntil: "networkidle"
     });
     }
+
      async navigateToLoginPage(url) {
     //const url = config.getBaseUrl();
     console.log("Base URL:", url);
@@ -27,8 +28,10 @@ class LoginPage extends BasePage {
     async login(username, password) {
         await this.fill(LoginLocator.username, username);
         await this.fill(LoginLocator.password, password);
+    }
+
+    async clickOnLogin() {
         await this.click(LoginLocator.loginButton);
     }
 }
-
 module.exports = LoginPage;
