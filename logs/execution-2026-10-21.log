@@ -1,0 +1,1068 @@
+2026-10-21 19:57:14 [INFO] logger...
+2026-10-21 19:57:14 [INFO] config...
+2026-10-21 19:57:14 [INFO] BrowserFixture...
+2026-10-21 19:57:14 [INFO] PageFixture...
+2026-10-21 19:57:14 [INFO] BrowserManager...
+2026-10-21 19:57:14 [INFO] TestRailManager...
+2026-10-21 19:57:15 [INFO] logger...
+2026-10-21 19:57:15 [INFO] config...
+2026-10-21 19:57:15 [INFO] BrowserFixture...
+2026-10-21 19:57:15 [INFO] PageFixture...
+2026-10-21 19:57:15 [INFO] BrowserManager...
+2026-10-21 19:57:15 [INFO] TestRailManager...
+2026-10-21 19:57:15 [INFO] =================================================
+2026-10-21 19:57:15 [INFO] Before Scenario Started
+2026-10-21 19:57:15 [INFO] Scenario : Verify the login functionality of the application using valid credential
+2026-10-21 19:57:15 [INFO] =================================================
+2026-10-21 19:57:15 [INFO] Execution Type : Local
+2026-10-21 19:57:15 [INFO] Read TestRail : true
+2026-10-21 19:57:15 [INFO] Update TestRail : true
+2026-10-21 19:57:15 [INFO] Update Lambda : false
+2026-10-21 19:57:15 [INFO] Loading TestRail Test Plan...
+2026-10-21 19:57:15 [INFO] TestRail credentials loaded.
+2026-10-21 19:57:15 [INFO] initializeTestCasesFromPlan is called
+2026-10-21 19:57:16 [INFO] Plan JSON : {
+  "id": 1,
+  "name": "October sprint Test Plan Cycle 1",
+  "refs": null,
+  "description": null,
+  "milestone_id": 1,
+  "assignedto_id": null,
+  "is_completed": false,
+  "completed_on": null,
+  "is_archived": false,
+  "archived_on": null,
+  "passed_count": 0,
+  "blocked_count": 0,
+  "untested_count": 2,
+  "retest_count": 0,
+  "failed_count": 0,
+  "custom_status1_count": 0,
+  "custom_status2_count": 0,
+  "custom_status3_count": 0,
+  "custom_status4_count": 0,
+  "custom_status5_count": 0,
+  "custom_status6_count": 0,
+  "custom_status7_count": 0,
+  "project_id": 1,
+  "created_on": 1792591986,
+  "updated_on": 1792591986,
+  "updated_by": 1,
+  "start_on": 1790812800,
+  "due_on": 1793404800,
+  "created_by": 1,
+  "url": "https://sagesyntax40.testrail.io/index.php?/plans/view/1",
+  "entries": [
+    {
+      "id": "659855ec-1e8f-4bae-9720-180a0a89fe10",
+      "suite_id": 1,
+      "name": "Test Run 10/21/2026",
+      "refs": null,
+      "description": null,
+      "include_all": true,
+      "dataset_id": null,
+      "dynamic_filters": null,
+      "runs": [
+        {
+          "id": 2,
+          "suite_id": 1,
+          "name": "Test Run 10/21/2026",
+          "description": null,
+          "milestone_id": 1,
+          "assignedto_id": null,
+          "include_all": true,
+          "is_completed": false,
+          "completed_on": null,
+          "is_archived": false,
+          "archived_on": null,
+          "passed_count": 0,
+          "blocked_count": 0,
+          "untested_count": 2,
+          "retest_count": 0,
+          "failed_count": 0,
+          "custom_status1_count": 0,
+          "custom_status2_count": 0,
+          "custom_status3_count": 0,
+          "custom_status4_count": 0,
+          "custom_status5_count": 0,
+          "custom_status6_count": 0,
+          "custom_status7_count": 0,
+          "project_id": 1,
+          "plan_id": 1,
+          "entry_index": 1,
+          "entry_id": "659855ec-1e8f-4bae-9720-180a0a89fe10",
+          "config": null,
+          "config_ids": [],
+          "created_on": 1792591986,
+          "refs": null,
+          "created_by": 1,
+          "dataset_id": null,
+          "start_on": null,
+          "due_on": null,
+          "dynamic_filters": null,
+          "url": "https://sagesyntax40.testrail.io/index.php?/runs/view/2"
+        }
+      ]
+    }
+  ]
+}
+2026-10-21 19:57:16 [INFO] Build Name : October sprint Test Plan Cycle 1
+2026-10-21 19:57:17 [INFO] Project : {"id":1,"name":"AutomationPracticeHub","announcement":null,"show_announcement":false,"is_completed":false,"completed_on":null,"suite_mode":1,"default_role_id":null,"case_statuses_enabled":false,"url":"https://sagesyntax40.testrail.io/index.php?/projects/overview/1","users":[],"groups":[]}
+2026-10-21 19:57:17 [INFO] Project Name : AutomationPracticeHub
+2026-10-21 19:57:17 [INFO] Test Case Map Loaded with 2 cases.
+2026-10-21 19:57:17 [INFO] Test Case Id : 1
+2026-10-21 19:57:17 [INFO] Browser : chrome
+2026-10-21 19:57:27 [INFO] Browser launched successfully.
+2026-10-21 19:57:27 [INFO] Tracing Started
+2026-10-21 19:57:27 [INFO] =================================================
+2026-10-21 19:57:27 [INFO] Before Scenario Completed
+2026-10-21 19:57:27 [INFO] =================================================
+2026-10-21 19:57:29 [INFO] Fill -> #username : sagesyntaxacademy
+2026-10-21 19:57:29 [INFO] Fill -> #password : BuildingExcellence@111
+2026-10-21 19:57:29 [INFO] Click -> //button[text()='Sign In']
+2026-10-21 19:57:32 [INFO] =================================================
+2026-10-21 19:57:32 [INFO] After Scenario Started
+2026-10-21 19:57:32 [INFO] Scenario Name : Verify the login functionality of the application using valid credential
+2026-10-21 19:57:32 [INFO] =================================================
+2026-10-21 19:57:32 [INFO] Updating TestRail PASS
+2026-10-21 19:57:33 [INFO] Updated TestRail Case 1
+2026-10-21 19:57:33 [INFO] TestRail updated successfully for Case ID 1 (PASS)
+2026-10-21 19:57:33 [INFO] Trace Saved
+2026-10-21 19:57:33 [INFO] Browser Closed
+2026-10-21 19:57:33 [INFO] =================================================
+2026-10-21 19:57:33 [INFO] After Scenario Completed
+2026-10-21 19:57:33 [INFO] =================================================
+2026-10-21 19:57:33 [INFO] =================================================
+2026-10-21 19:57:33 [INFO] Before Scenario Started
+2026-10-21 19:57:33 [INFO] Scenario : Verify the login functionality of the application using valid credential
+2026-10-21 19:57:33 [INFO] =================================================
+2026-10-21 19:57:33 [INFO] Execution Type : Local
+2026-10-21 19:57:33 [INFO] Read TestRail : true
+2026-10-21 19:57:33 [INFO] Update TestRail : true
+2026-10-21 19:57:33 [INFO] Update Lambda : false
+2026-10-21 19:57:33 [INFO] Test Case Id : 1
+2026-10-21 19:57:34 [INFO] Browser : chrome
+2026-10-21 19:57:34 [INFO] Browser launched successfully.
+2026-10-21 19:57:34 [INFO] Tracing Started
+2026-10-21 19:57:34 [INFO] =================================================
+2026-10-21 19:57:34 [INFO] Before Scenario Completed
+2026-10-21 19:57:34 [INFO] =================================================
+2026-10-21 19:57:35 [INFO] Fill -> #username : sagesyntaxacademy
+2026-10-21 19:57:35 [INFO] Fill -> #password : BuildingExcellence@111
+2026-10-21 19:57:35 [INFO] Click -> //button[text()='Sign In']
+2026-10-21 19:57:38 [INFO] =================================================
+2026-10-21 19:57:38 [INFO] After Scenario Started
+2026-10-21 19:57:38 [INFO] Scenario Name : Verify the login functionality of the application using valid credential
+2026-10-21 19:57:38 [INFO] =================================================
+2026-10-21 19:57:38 [INFO] Updating TestRail PASS
+2026-10-21 19:57:39 [INFO] Updated TestRail Case 1
+2026-10-21 19:57:39 [INFO] TestRail updated successfully for Case ID 1 (PASS)
+2026-10-21 19:57:39 [INFO] Trace Saved
+2026-10-21 19:57:39 [INFO] Browser Closed
+2026-10-21 19:57:39 [INFO] =================================================
+2026-10-21 19:57:39 [INFO] After Scenario Completed
+2026-10-21 19:57:39 [INFO] =================================================
+2026-10-21 19:57:12 [INFO] ======================================
+2026-10-21 19:57:12 [INFO]  Playwright Enterprise Test Runner
+2026-10-21 19:57:12 [INFO] ======================================
+2026-10-21 19:57:12 [INFO] Environment : qa
+2026-10-21 19:57:12 [INFO] Browser    : chromium
+2026-10-21 19:57:12 [INFO] Parallel   : 1
+2026-10-21 19:57:12 [INFO] Tag        : @C1
+2026-10-21 19:57:12 [INFO] --------------------------------------
+2026-10-21 19:57:12 [INFO] Command : npx cucumber-js --tags "@C1" --parallel 1
+2026-10-21 19:57:12 [INFO] ======================================
+2026-10-21 19:57:12 [INFO] ===============In Test runner before ExecSync=======================
+2026-10-21 19:58:48 [INFO] logger...
+2026-10-21 19:58:48 [INFO] config...
+2026-10-21 19:58:48 [INFO] BrowserFixture...
+2026-10-21 19:58:48 [INFO] PageFixture...
+2026-10-21 19:58:48 [INFO] BrowserManager...
+2026-10-21 19:58:48 [INFO] TestRailManager...
+2026-10-21 19:58:48 [INFO] logger...
+2026-10-21 19:58:48 [INFO] config...
+2026-10-21 19:58:48 [INFO] BrowserFixture...
+2026-10-21 19:58:48 [INFO] PageFixture...
+2026-10-21 19:58:48 [INFO] BrowserManager...
+2026-10-21 19:58:48 [INFO] TestRailManager...
+2026-10-21 19:58:48 [INFO] =================================================
+2026-10-21 19:58:48 [INFO] Before Scenario Started
+2026-10-21 19:58:48 [INFO] Scenario : Verify the login functionality of the application using valid credential
+2026-10-21 19:58:48 [INFO] =================================================
+2026-10-21 19:58:48 [INFO] Execution Type : Remote
+2026-10-21 19:58:48 [INFO] Read TestRail : true
+2026-10-21 19:58:48 [INFO] Update TestRail : true
+2026-10-21 19:58:48 [INFO] Update Lambda : false
+2026-10-21 19:58:48 [INFO] Loading TestRail Test Plan...
+2026-10-21 19:58:48 [INFO] TestRail credentials loaded.
+2026-10-21 19:58:48 [INFO] initializeTestCasesFromPlan is called
+2026-10-21 19:58:49 [INFO] Plan JSON : {
+  "id": 1,
+  "name": "October sprint Test Plan Cycle 1",
+  "refs": null,
+  "description": null,
+  "milestone_id": 1,
+  "assignedto_id": null,
+  "is_completed": false,
+  "completed_on": null,
+  "is_archived": false,
+  "archived_on": null,
+  "passed_count": 1,
+  "blocked_count": 0,
+  "untested_count": 1,
+  "retest_count": 0,
+  "failed_count": 0,
+  "custom_status1_count": 0,
+  "custom_status2_count": 0,
+  "custom_status3_count": 0,
+  "custom_status4_count": 0,
+  "custom_status5_count": 0,
+  "custom_status6_count": 0,
+  "custom_status7_count": 0,
+  "project_id": 1,
+  "created_on": 1792591986,
+  "updated_on": 1792591986,
+  "updated_by": 1,
+  "start_on": 1790812800,
+  "due_on": 1793404800,
+  "created_by": 1,
+  "url": "https://sagesyntax40.testrail.io/index.php?/plans/view/1",
+  "entries": [
+    {
+      "id": "659855ec-1e8f-4bae-9720-180a0a89fe10",
+      "suite_id": 1,
+      "name": "Test Run 10/21/2026",
+      "refs": null,
+      "description": null,
+      "include_all": true,
+      "dataset_id": null,
+      "dynamic_filters": null,
+      "runs": [
+        {
+          "id": 2,
+          "suite_id": 1,
+          "name": "Test Run 10/21/2026",
+          "description": null,
+          "milestone_id": 1,
+          "assignedto_id": null,
+          "include_all": true,
+          "is_completed": false,
+          "completed_on": null,
+          "is_archived": false,
+          "archived_on": null,
+          "passed_count": 1,
+          "blocked_count": 0,
+          "untested_count": 1,
+          "retest_count": 0,
+          "failed_count": 0,
+          "custom_status1_count": 0,
+          "custom_status2_count": 0,
+          "custom_status3_count": 0,
+          "custom_status4_count": 0,
+          "custom_status5_count": 0,
+          "custom_status6_count": 0,
+          "custom_status7_count": 0,
+          "project_id": 1,
+          "plan_id": 1,
+          "entry_index": 1,
+          "entry_id": "659855ec-1e8f-4bae-9720-180a0a89fe10",
+          "config": null,
+          "config_ids": [],
+          "created_on": 1792591986,
+          "refs": null,
+          "created_by": 1,
+          "dataset_id": null,
+          "start_on": null,
+          "due_on": null,
+          "dynamic_filters": null,
+          "url": "https://sagesyntax40.testrail.io/index.php?/runs/view/2"
+        }
+      ]
+    }
+  ]
+}
+2026-10-21 19:58:49 [INFO] Build Name : October sprint Test Plan Cycle 1
+2026-10-21 19:58:50 [INFO] Project : {"id":1,"name":"AutomationPracticeHub","announcement":null,"show_announcement":false,"is_completed":false,"completed_on":null,"suite_mode":1,"default_role_id":null,"case_statuses_enabled":false,"url":"https://sagesyntax40.testrail.io/index.php?/projects/overview/1","users":[],"groups":[]}
+2026-10-21 19:58:50 [INFO] Project Name : AutomationPracticeHub
+2026-10-21 19:58:50 [INFO] Test Case Map Loaded with 2 cases.
+2026-10-21 19:58:50 [INFO] Test Case Id : 1
+2026-10-21 19:58:50 [INFO] Browser : chrome
+2026-10-21 20:00:07 [INFO] Browser launched successfully.
+2026-10-21 20:00:07 [INFO] Tracing Started
+2026-10-21 20:00:07 [INFO] =================================================
+2026-10-21 20:00:07 [INFO] Before Scenario Completed
+2026-10-21 20:00:07 [INFO] =================================================
+2026-10-21 20:00:09 [INFO] Fill -> #username : sagesyntaxacademy
+2026-10-21 20:00:10 [INFO] Fill -> #password : BuildingExcellence@111
+2026-10-21 20:00:10 [INFO] Click -> //button[text()='Sign In']
+2026-10-21 20:00:13 [INFO] =================================================
+2026-10-21 20:00:13 [INFO] After Scenario Started
+2026-10-21 20:00:13 [INFO] Scenario Name : Verify the login functionality of the application using valid credential
+2026-10-21 20:00:13 [INFO] =================================================
+2026-10-21 20:00:13 [INFO] Updating TestRail PASS
+2026-10-21 20:00:13 [INFO] Updated TestRail Case 1
+2026-10-21 20:00:13 [INFO] TestRail updated successfully for Case ID 1 (PASS)
+2026-10-21 20:00:15 [INFO] Trace Saved
+2026-10-21 20:00:17 [INFO] Browser Closed
+2026-10-21 20:00:17 [INFO] =================================================
+2026-10-21 20:00:17 [INFO] After Scenario Completed
+2026-10-21 20:00:17 [INFO] =================================================
+2026-10-21 20:00:17 [INFO] =================================================
+2026-10-21 20:00:17 [INFO] Before Scenario Started
+2026-10-21 20:00:17 [INFO] Scenario : Verify the login functionality of the application using valid credential
+2026-10-21 20:00:17 [INFO] =================================================
+2026-10-21 20:00:17 [INFO] Execution Type : Remote
+2026-10-21 20:00:17 [INFO] Read TestRail : true
+2026-10-21 20:00:17 [INFO] Update TestRail : true
+2026-10-21 20:00:17 [INFO] Update Lambda : false
+2026-10-21 20:00:17 [INFO] Test Case Id : 1
+2026-10-21 20:00:18 [INFO] Browser : chrome
+2026-10-21 20:01:38 [INFO] Browser launched successfully.
+2026-10-21 20:01:39 [INFO] Tracing Started
+2026-10-21 20:01:39 [INFO] =================================================
+2026-10-21 20:01:39 [INFO] Before Scenario Completed
+2026-10-21 20:01:39 [INFO] =================================================
+2026-10-21 20:01:40 [INFO] Fill -> #username : sagesyntaxacademy
+2026-10-21 20:01:40 [INFO] Fill -> #password : BuildingExcellence@111
+2026-10-21 20:01:40 [INFO] Click -> //button[text()='Sign In']
+2026-10-21 20:01:43 [INFO] =================================================
+2026-10-21 20:01:43 [INFO] After Scenario Started
+2026-10-21 20:01:43 [INFO] Scenario Name : Verify the login functionality of the application using valid credential
+2026-10-21 20:01:43 [INFO] =================================================
+2026-10-21 20:01:43 [INFO] Updating TestRail PASS
+2026-10-21 20:01:44 [INFO] Updated TestRail Case 1
+2026-10-21 20:01:44 [INFO] TestRail updated successfully for Case ID 1 (PASS)
+2026-10-21 20:01:45 [INFO] Trace Saved
+2026-10-21 20:01:47 [INFO] Browser Closed
+2026-10-21 20:01:47 [INFO] =================================================
+2026-10-21 20:01:47 [INFO] After Scenario Completed
+2026-10-21 20:01:47 [INFO] =================================================
+2026-10-21 19:58:46 [INFO] ======================================
+2026-10-21 19:58:46 [INFO]  Playwright Enterprise Test Runner
+2026-10-21 19:58:46 [INFO] ======================================
+2026-10-21 19:58:46 [INFO] Environment : qa
+2026-10-21 19:58:46 [INFO] Browser    : chromium
+2026-10-21 19:58:46 [INFO] Parallel   : 1
+2026-10-21 19:58:46 [INFO] Tag        : @C1
+2026-10-21 19:58:46 [INFO] --------------------------------------
+2026-10-21 19:58:46 [INFO] Command : npx cucumber-js --tags "@C1" --parallel 1
+2026-10-21 19:58:46 [INFO] ======================================
+2026-10-21 19:58:46 [INFO] ===============In Test runner before ExecSync=======================
+2026-10-21 21:24:11 [INFO] logger...
+2026-10-21 21:24:11 [INFO] config...
+2026-10-21 21:24:11 [INFO] BrowserFixture...
+2026-10-21 21:24:11 [INFO] PageFixture...
+2026-10-21 21:24:11 [INFO] BrowserManager...
+2026-10-21 21:24:11 [INFO] TestRailManager...
+2026-10-21 21:24:12 [INFO] logger...
+2026-10-21 21:24:12 [INFO] config...
+2026-10-21 21:24:12 [INFO] BrowserFixture...
+2026-10-21 21:24:12 [INFO] PageFixture...
+2026-10-21 21:24:12 [INFO] BrowserManager...
+2026-10-21 21:24:12 [INFO] TestRailManager...
+2026-10-21 21:24:12 [INFO] =================================================
+2026-10-21 21:24:12 [INFO] Before Scenario Started
+2026-10-21 21:24:12 [INFO] Scenario : Verify the login functionality of the application using valid credential
+2026-10-21 21:24:12 [INFO] =================================================
+2026-10-21 21:24:12 [INFO] Execution Type : Remote
+2026-10-21 21:24:12 [INFO] Read TestRail : true
+2026-10-21 21:24:12 [INFO] Update TestRail : true
+2026-10-21 21:24:12 [INFO] Update Lambda : false
+2026-10-21 21:24:12 [INFO] Loading TestRail Test Plan...
+2026-10-21 21:24:12 [INFO] TestRail credentials loaded.
+2026-10-21 21:24:12 [INFO] initializeTestCasesFromPlan is called
+2026-10-21 21:24:13 [INFO] Plan JSON : {
+  "id": 1,
+  "name": "October sprint Test Plan Cycle 1",
+  "refs": null,
+  "description": null,
+  "milestone_id": 1,
+  "assignedto_id": null,
+  "is_completed": false,
+  "completed_on": null,
+  "is_archived": false,
+  "archived_on": null,
+  "passed_count": 1,
+  "blocked_count": 0,
+  "untested_count": 1,
+  "retest_count": 0,
+  "failed_count": 0,
+  "custom_status1_count": 0,
+  "custom_status2_count": 0,
+  "custom_status3_count": 0,
+  "custom_status4_count": 0,
+  "custom_status5_count": 0,
+  "custom_status6_count": 0,
+  "custom_status7_count": 0,
+  "project_id": 1,
+  "created_on": 1792591986,
+  "updated_on": 1792591986,
+  "updated_by": 1,
+  "start_on": 1790812800,
+  "due_on": 1793404800,
+  "created_by": 1,
+  "url": "https://sagesyntax40.testrail.io/index.php?/plans/view/1",
+  "entries": [
+    {
+      "id": "659855ec-1e8f-4bae-9720-180a0a89fe10",
+      "suite_id": 1,
+      "name": "Test Run 10/21/2026",
+      "refs": null,
+      "description": null,
+      "include_all": true,
+      "dataset_id": null,
+      "dynamic_filters": null,
+      "runs": [
+        {
+          "id": 2,
+          "suite_id": 1,
+          "name": "Test Run 10/21/2026",
+          "description": null,
+          "milestone_id": 1,
+          "assignedto_id": null,
+          "include_all": true,
+          "is_completed": false,
+          "completed_on": null,
+          "is_archived": false,
+          "archived_on": null,
+          "passed_count": 1,
+          "blocked_count": 0,
+          "untested_count": 1,
+          "retest_count": 0,
+          "failed_count": 0,
+          "custom_status1_count": 0,
+          "custom_status2_count": 0,
+          "custom_status3_count": 0,
+          "custom_status4_count": 0,
+          "custom_status5_count": 0,
+          "custom_status6_count": 0,
+          "custom_status7_count": 0,
+          "project_id": 1,
+          "plan_id": 1,
+          "entry_index": 1,
+          "entry_id": "659855ec-1e8f-4bae-9720-180a0a89fe10",
+          "config": null,
+          "config_ids": [],
+          "created_on": 1792591986,
+          "refs": null,
+          "created_by": 1,
+          "dataset_id": null,
+          "start_on": null,
+          "due_on": null,
+          "dynamic_filters": null,
+          "url": "https://sagesyntax40.testrail.io/index.php?/runs/view/2"
+        }
+      ]
+    }
+  ]
+}
+2026-10-21 21:24:13 [INFO] Build Name : October sprint Test Plan Cycle 1
+2026-10-21 21:24:14 [INFO] Project : {"id":1,"name":"AutomationPracticeHub","announcement":null,"show_announcement":false,"is_completed":false,"completed_on":null,"suite_mode":1,"default_role_id":null,"case_statuses_enabled":false,"url":"https://sagesyntax40.testrail.io/index.php?/projects/overview/1","users":[],"groups":[]}
+2026-10-21 21:24:14 [INFO] Project Name : AutomationPracticeHub
+2026-10-21 21:24:14 [INFO] Test Case Map Loaded with 2 cases.
+2026-10-21 21:24:14 [INFO] Test Case Id : 1
+2026-10-21 21:24:15 [INFO] Browser : chrome
+2026-10-21 21:24:46 [INFO] logger...
+2026-10-21 21:24:46 [INFO] config...
+2026-10-21 21:24:46 [INFO] BrowserFixture...
+2026-10-21 21:24:46 [INFO] PageFixture...
+2026-10-21 21:24:46 [INFO] BrowserManager...
+2026-10-21 21:24:46 [INFO] TestRailManager...
+2026-10-21 21:24:47 [INFO] logger...
+2026-10-21 21:24:47 [INFO] config...
+2026-10-21 21:24:47 [INFO] BrowserFixture...
+2026-10-21 21:24:47 [INFO] PageFixture...
+2026-10-21 21:24:47 [INFO] BrowserManager...
+2026-10-21 21:24:47 [INFO] TestRailManager...
+2026-10-21 21:24:47 [INFO] =================================================
+2026-10-21 21:24:47 [INFO] Before Scenario Started
+2026-10-21 21:24:47 [INFO] Scenario : Verify the login functionality of the application using valid credential
+2026-10-21 21:24:47 [INFO] =================================================
+2026-10-21 21:24:47 [INFO] Execution Type : Local
+2026-10-21 21:24:47 [INFO] Read TestRail : true
+2026-10-21 21:24:47 [INFO] Update TestRail : true
+2026-10-21 21:24:47 [INFO] Update Lambda : false
+2026-10-21 21:24:47 [INFO] Loading TestRail Test Plan...
+2026-10-21 21:24:47 [INFO] TestRail credentials loaded.
+2026-10-21 21:24:47 [INFO] initializeTestCasesFromPlan is called
+2026-10-21 21:24:48 [INFO] Plan JSON : {
+  "id": 1,
+  "name": "October sprint Test Plan Cycle 1",
+  "refs": null,
+  "description": null,
+  "milestone_id": 1,
+  "assignedto_id": null,
+  "is_completed": false,
+  "completed_on": null,
+  "is_archived": false,
+  "archived_on": null,
+  "passed_count": 1,
+  "blocked_count": 0,
+  "untested_count": 1,
+  "retest_count": 0,
+  "failed_count": 0,
+  "custom_status1_count": 0,
+  "custom_status2_count": 0,
+  "custom_status3_count": 0,
+  "custom_status4_count": 0,
+  "custom_status5_count": 0,
+  "custom_status6_count": 0,
+  "custom_status7_count": 0,
+  "project_id": 1,
+  "created_on": 1792591986,
+  "updated_on": 1792591986,
+  "updated_by": 1,
+  "start_on": 1790812800,
+  "due_on": 1793404800,
+  "created_by": 1,
+  "url": "https://sagesyntax40.testrail.io/index.php?/plans/view/1",
+  "entries": [
+    {
+      "id": "659855ec-1e8f-4bae-9720-180a0a89fe10",
+      "suite_id": 1,
+      "name": "Test Run 10/21/2026",
+      "refs": null,
+      "description": null,
+      "include_all": true,
+      "dataset_id": null,
+      "dynamic_filters": null,
+      "runs": [
+        {
+          "id": 2,
+          "suite_id": 1,
+          "name": "Test Run 10/21/2026",
+          "description": null,
+          "milestone_id": 1,
+          "assignedto_id": null,
+          "include_all": true,
+          "is_completed": false,
+          "completed_on": null,
+          "is_archived": false,
+          "archived_on": null,
+          "passed_count": 1,
+          "blocked_count": 0,
+          "untested_count": 1,
+          "retest_count": 0,
+          "failed_count": 0,
+          "custom_status1_count": 0,
+          "custom_status2_count": 0,
+          "custom_status3_count": 0,
+          "custom_status4_count": 0,
+          "custom_status5_count": 0,
+          "custom_status6_count": 0,
+          "custom_status7_count": 0,
+          "project_id": 1,
+          "plan_id": 1,
+          "entry_index": 1,
+          "entry_id": "659855ec-1e8f-4bae-9720-180a0a89fe10",
+          "config": null,
+          "config_ids": [],
+          "created_on": 1792591986,
+          "refs": null,
+          "created_by": 1,
+          "dataset_id": null,
+          "start_on": null,
+          "due_on": null,
+          "dynamic_filters": null,
+          "url": "https://sagesyntax40.testrail.io/index.php?/runs/view/2"
+        }
+      ]
+    }
+  ]
+}
+2026-10-21 21:24:48 [INFO] Build Name : October sprint Test Plan Cycle 1
+2026-10-21 21:24:49 [INFO] Project : {"id":1,"name":"AutomationPracticeHub","announcement":null,"show_announcement":false,"is_completed":false,"completed_on":null,"suite_mode":1,"default_role_id":null,"case_statuses_enabled":false,"url":"https://sagesyntax40.testrail.io/index.php?/projects/overview/1","users":[],"groups":[]}
+2026-10-21 21:24:49 [INFO] Project Name : AutomationPracticeHub
+2026-10-21 21:24:49 [INFO] Test Case Map Loaded with 2 cases.
+2026-10-21 21:24:49 [INFO] Test Case Id : 1
+2026-10-21 21:24:49 [INFO] Browser : chrome
+2026-10-21 21:24:50 [INFO] Browser launched successfully.
+2026-10-21 21:24:50 [INFO] Tracing Started
+2026-10-21 21:24:50 [INFO] =================================================
+2026-10-21 21:24:50 [INFO] Before Scenario Completed
+2026-10-21 21:24:50 [INFO] =================================================
+2026-10-21 21:24:52 [INFO] Fill -> #username : sagesyntaxacademy
+2026-10-21 21:24:52 [INFO] Fill -> #password : BuildingExcellence@111
+2026-10-21 21:24:53 [INFO] Click -> //button[text()='Sign In']
+2026-10-21 21:24:55 [INFO] =================================================
+2026-10-21 21:24:55 [INFO] After Scenario Started
+2026-10-21 21:24:55 [INFO] Scenario Name : Verify the login functionality of the application using valid credential
+2026-10-21 21:24:55 [INFO] =================================================
+2026-10-21 21:24:55 [INFO] Updating TestRail PASS
+2026-10-21 21:24:56 [INFO] Updated TestRail Case 1
+2026-10-21 21:24:56 [INFO] TestRail updated successfully for Case ID 1 (PASS)
+2026-10-21 21:24:56 [INFO] Trace Saved
+2026-10-21 21:24:57 [INFO] Browser Closed
+2026-10-21 21:24:57 [INFO] =================================================
+2026-10-21 21:24:57 [INFO] After Scenario Completed
+2026-10-21 21:24:57 [INFO] =================================================
+2026-10-21 21:24:57 [INFO] =================================================
+2026-10-21 21:24:57 [INFO] Before Scenario Started
+2026-10-21 21:24:57 [INFO] Scenario : Verify the login functionality of the application using valid credential
+2026-10-21 21:24:57 [INFO] =================================================
+2026-10-21 21:24:57 [INFO] Execution Type : Local
+2026-10-21 21:24:57 [INFO] Read TestRail : true
+2026-10-21 21:24:57 [INFO] Update TestRail : true
+2026-10-21 21:24:57 [INFO] Update Lambda : false
+2026-10-21 21:24:57 [INFO] Test Case Id : 1
+2026-10-21 21:24:58 [INFO] Browser : chrome
+2026-10-21 21:24:58 [INFO] Browser launched successfully.
+2026-10-21 21:24:58 [INFO] Tracing Started
+2026-10-21 21:24:58 [INFO] =================================================
+2026-10-21 21:24:58 [INFO] Before Scenario Completed
+2026-10-21 21:24:58 [INFO] =================================================
+2026-10-21 21:25:00 [INFO] Fill -> #username : sagesyntaxacademy
+2026-10-21 21:25:01 [INFO] Fill -> #password : BuildingExcellence@111
+2026-10-21 21:25:01 [INFO] Click -> //button[text()='Sign In']
+2026-10-21 21:25:03 [INFO] =================================================
+2026-10-21 21:25:03 [INFO] After Scenario Started
+2026-10-21 21:25:03 [INFO] Scenario Name : Verify the login functionality of the application using valid credential
+2026-10-21 21:25:03 [INFO] =================================================
+2026-10-21 21:25:03 [INFO] Updating TestRail PASS
+2026-10-21 21:25:05 [INFO] Updated TestRail Case 1
+2026-10-21 21:25:05 [INFO] TestRail updated successfully for Case ID 1 (PASS)
+2026-10-21 21:25:05 [INFO] Trace Saved
+2026-10-21 21:25:05 [INFO] Browser Closed
+2026-10-21 21:25:05 [INFO] =================================================
+2026-10-21 21:25:05 [INFO] After Scenario Completed
+2026-10-21 21:25:05 [INFO] =================================================
+2026-10-21 21:24:45 [INFO] ======================================
+2026-10-21 21:24:45 [INFO]  Playwright Enterprise Test Runner
+2026-10-21 21:24:45 [INFO] ======================================
+2026-10-21 21:24:45 [INFO] Environment : qa
+2026-10-21 21:24:45 [INFO] Browser    : chromium
+2026-10-21 21:24:45 [INFO] Parallel   : 1
+2026-10-21 21:24:45 [INFO] Tag        : @C1
+2026-10-21 21:24:45 [INFO] --------------------------------------
+2026-10-21 21:24:45 [INFO] Command : npx cucumber-js --tags "@C1" --parallel 1
+2026-10-21 21:24:45 [INFO] ======================================
+2026-10-21 21:24:45 [INFO] ===============In Test runner before ExecSync=======================
+2026-10-21 21:26:40 [INFO] logger...
+2026-10-21 21:26:40 [INFO] config...
+2026-10-21 21:26:40 [INFO] BrowserFixture...
+2026-10-21 21:26:40 [INFO] PageFixture...
+2026-10-21 21:26:40 [INFO] BrowserManager...
+2026-10-21 21:26:40 [INFO] TestRailManager...
+2026-10-21 21:26:41 [INFO] logger...
+2026-10-21 21:26:41 [INFO] config...
+2026-10-21 21:26:41 [INFO] BrowserFixture...
+2026-10-21 21:26:41 [INFO] PageFixture...
+2026-10-21 21:26:41 [INFO] BrowserManager...
+2026-10-21 21:26:41 [INFO] TestRailManager...
+2026-10-21 21:26:41 [INFO] =================================================
+2026-10-21 21:26:41 [INFO] Before Scenario Started
+2026-10-21 21:26:41 [INFO] Scenario : Verify the login functionality of the application using valid credential
+2026-10-21 21:26:41 [INFO] =================================================
+2026-10-21 21:26:41 [INFO] Execution Type : Local
+2026-10-21 21:26:41 [INFO] Read TestRail : false
+2026-10-21 21:26:41 [INFO] Update TestRail : false
+2026-10-21 21:26:41 [INFO] Update Lambda : false
+2026-10-21 21:26:41 [INFO] Test Case Id : 1
+2026-10-21 21:26:41 [INFO] Browser : chromium
+2026-10-21 21:26:41 [INFO] Browser launched successfully.
+2026-10-21 21:26:41 [INFO] Tracing Started
+2026-10-21 21:26:41 [INFO] =================================================
+2026-10-21 21:26:41 [INFO] Before Scenario Completed
+2026-10-21 21:26:41 [INFO] =================================================
+2026-10-21 21:26:43 [INFO] Fill -> #username : sagesyntaxacademy
+2026-10-21 21:26:43 [INFO] Fill -> #password : BuildingExcellence@111
+2026-10-21 21:26:44 [INFO] Click -> //button[text()='Sign In']
+2026-10-21 21:26:46 [INFO] =================================================
+2026-10-21 21:26:46 [INFO] After Scenario Started
+2026-10-21 21:26:46 [INFO] Scenario Name : Verify the login functionality of the application using valid credential
+2026-10-21 21:26:46 [INFO] =================================================
+2026-10-21 21:26:46 [INFO] Trace Saved
+2026-10-21 21:26:47 [INFO] Browser Closed
+2026-10-21 21:26:47 [INFO] =================================================
+2026-10-21 21:26:47 [INFO] After Scenario Completed
+2026-10-21 21:26:47 [INFO] =================================================
+2026-10-21 21:26:47 [INFO] =================================================
+2026-10-21 21:26:47 [INFO] Before Scenario Started
+2026-10-21 21:26:47 [INFO] Scenario : Verify the login functionality of the application using valid credential
+2026-10-21 21:26:47 [INFO] =================================================
+2026-10-21 21:26:47 [INFO] Execution Type : Local
+2026-10-21 21:26:47 [INFO] Read TestRail : false
+2026-10-21 21:26:47 [INFO] Update TestRail : false
+2026-10-21 21:26:47 [INFO] Update Lambda : false
+2026-10-21 21:26:47 [INFO] Test Case Id : 1
+2026-10-21 21:26:47 [INFO] Browser : chromium
+2026-10-21 21:26:47 [INFO] Browser launched successfully.
+2026-10-21 21:26:47 [INFO] Tracing Started
+2026-10-21 21:26:47 [INFO] =================================================
+2026-10-21 21:26:47 [INFO] Before Scenario Completed
+2026-10-21 21:26:47 [INFO] =================================================
+2026-10-21 21:26:49 [INFO] Fill -> #username : sagesyntaxacademy
+2026-10-21 21:26:50 [INFO] Fill -> #password : BuildingExcellence@111
+2026-10-21 21:26:50 [INFO] Click -> //button[text()='Sign In']
+2026-10-21 21:26:52 [INFO] =================================================
+2026-10-21 21:26:52 [INFO] After Scenario Started
+2026-10-21 21:26:52 [INFO] Scenario Name : Verify the login functionality of the application using valid credential
+2026-10-21 21:26:52 [INFO] =================================================
+2026-10-21 21:26:53 [INFO] Trace Saved
+2026-10-21 21:26:53 [INFO] Browser Closed
+2026-10-21 21:26:53 [INFO] =================================================
+2026-10-21 21:26:53 [INFO] After Scenario Completed
+2026-10-21 21:26:53 [INFO] =================================================
+2026-10-21 21:26:39 [INFO] ======================================
+2026-10-21 21:26:39 [INFO]  Playwright Enterprise Test Runner
+2026-10-21 21:26:39 [INFO] ======================================
+2026-10-21 21:26:39 [INFO] Environment : qa
+2026-10-21 21:26:39 [INFO] Browser    : chromium
+2026-10-21 21:26:39 [INFO] Parallel   : 1
+2026-10-21 21:26:39 [INFO] Tag        : @C1
+2026-10-21 21:26:39 [INFO] --------------------------------------
+2026-10-21 21:26:39 [INFO] Command : npx cucumber-js --tags "@C1" --parallel 1
+2026-10-21 21:26:39 [INFO] ======================================
+2026-10-21 21:26:39 [INFO] ===============In Test runner before ExecSync=======================
+2026-10-21 21:27:54 [INFO] logger...
+2026-10-21 21:27:54 [INFO] config...
+2026-10-21 21:27:54 [INFO] BrowserFixture...
+2026-10-21 21:27:54 [INFO] PageFixture...
+2026-10-21 21:27:54 [INFO] BrowserManager...
+2026-10-21 21:27:54 [INFO] TestRailManager...
+2026-10-21 21:27:55 [INFO] logger...
+2026-10-21 21:27:55 [INFO] config...
+2026-10-21 21:27:55 [INFO] BrowserFixture...
+2026-10-21 21:27:55 [INFO] PageFixture...
+2026-10-21 21:27:55 [INFO] BrowserManager...
+2026-10-21 21:27:55 [INFO] TestRailManager...
+2026-10-21 21:27:55 [INFO] =================================================
+2026-10-21 21:27:55 [INFO] Before Scenario Started
+2026-10-21 21:27:55 [INFO] Scenario : Verify the login functionality of the application using valid credential
+2026-10-21 21:27:55 [INFO] =================================================
+2026-10-21 21:27:55 [INFO] Execution Type : Local
+2026-10-21 21:27:55 [INFO] Read TestRail : true
+2026-10-21 21:27:55 [INFO] Update TestRail : true
+2026-10-21 21:27:55 [INFO] Update Lambda : false
+2026-10-21 21:27:55 [INFO] Loading TestRail Test Plan...
+2026-10-21 21:27:55 [INFO] TestRail credentials loaded.
+2026-10-21 21:27:55 [INFO] initializeTestCasesFromPlan is called
+2026-10-21 21:27:56 [INFO] Plan JSON : {
+  "id": 1,
+  "name": "October sprint Test Plan Cycle 1",
+  "refs": null,
+  "description": null,
+  "milestone_id": 1,
+  "assignedto_id": null,
+  "is_completed": false,
+  "completed_on": null,
+  "is_archived": false,
+  "archived_on": null,
+  "passed_count": 1,
+  "blocked_count": 0,
+  "untested_count": 1,
+  "retest_count": 0,
+  "failed_count": 0,
+  "custom_status1_count": 0,
+  "custom_status2_count": 0,
+  "custom_status3_count": 0,
+  "custom_status4_count": 0,
+  "custom_status5_count": 0,
+  "custom_status6_count": 0,
+  "custom_status7_count": 0,
+  "project_id": 1,
+  "created_on": 1792591986,
+  "updated_on": 1792591986,
+  "updated_by": 1,
+  "start_on": 1790812800,
+  "due_on": 1793404800,
+  "created_by": 1,
+  "url": "https://sagesyntax40.testrail.io/index.php?/plans/view/1",
+  "entries": [
+    {
+      "id": "659855ec-1e8f-4bae-9720-180a0a89fe10",
+      "suite_id": 1,
+      "name": "Test Run 10/21/2026",
+      "refs": null,
+      "description": null,
+      "include_all": true,
+      "dataset_id": null,
+      "dynamic_filters": null,
+      "runs": [
+        {
+          "id": 2,
+          "suite_id": 1,
+          "name": "Test Run 10/21/2026",
+          "description": null,
+          "milestone_id": 1,
+          "assignedto_id": null,
+          "include_all": true,
+          "is_completed": false,
+          "completed_on": null,
+          "is_archived": false,
+          "archived_on": null,
+          "passed_count": 1,
+          "blocked_count": 0,
+          "untested_count": 1,
+          "retest_count": 0,
+          "failed_count": 0,
+          "custom_status1_count": 0,
+          "custom_status2_count": 0,
+          "custom_status3_count": 0,
+          "custom_status4_count": 0,
+          "custom_status5_count": 0,
+          "custom_status6_count": 0,
+          "custom_status7_count": 0,
+          "project_id": 1,
+          "plan_id": 1,
+          "entry_index": 1,
+          "entry_id": "659855ec-1e8f-4bae-9720-180a0a89fe10",
+          "config": null,
+          "config_ids": [],
+          "created_on": 1792591986,
+          "refs": null,
+          "created_by": 1,
+          "dataset_id": null,
+          "start_on": null,
+          "due_on": null,
+          "dynamic_filters": null,
+          "url": "https://sagesyntax40.testrail.io/index.php?/runs/view/2"
+        }
+      ]
+    }
+  ]
+}
+2026-10-21 21:27:56 [INFO] Build Name : October sprint Test Plan Cycle 1
+2026-10-21 21:27:56 [INFO] Project : {"id":1,"name":"AutomationPracticeHub","announcement":null,"show_announcement":false,"is_completed":false,"completed_on":null,"suite_mode":1,"default_role_id":null,"case_statuses_enabled":false,"url":"https://sagesyntax40.testrail.io/index.php?/projects/overview/1","users":[],"groups":[]}
+2026-10-21 21:27:56 [INFO] Project Name : AutomationPracticeHub
+2026-10-21 21:27:57 [INFO] Test Case Map Loaded with 2 cases.
+2026-10-21 21:27:57 [INFO] Test Case Id : 1
+2026-10-21 21:27:57 [INFO] Browser : chrome
+2026-10-21 21:27:57 [INFO] Browser launched successfully.
+2026-10-21 21:27:58 [INFO] Tracing Started
+2026-10-21 21:27:58 [INFO] =================================================
+2026-10-21 21:27:58 [INFO] Before Scenario Completed
+2026-10-21 21:27:58 [INFO] =================================================
+2026-10-21 21:28:00 [INFO] Fill -> #username : sagesyntaxacademy
+2026-10-21 21:28:00 [INFO] Fill -> #password : BuildingExcellence@111
+2026-10-21 21:28:00 [INFO] Click -> //button[text()='Sign In']
+2026-10-21 21:28:03 [INFO] =================================================
+2026-10-21 21:28:03 [INFO] After Scenario Started
+2026-10-21 21:28:03 [INFO] Scenario Name : Verify the login functionality of the application using valid credential
+2026-10-21 21:28:03 [INFO] =================================================
+2026-10-21 21:28:03 [INFO] Updating TestRail PASS
+2026-10-21 21:28:03 [INFO] Updated TestRail Case 1
+2026-10-21 21:28:03 [INFO] TestRail updated successfully for Case ID 1 (PASS)
+2026-10-21 21:28:04 [INFO] Trace Saved
+2026-10-21 21:28:04 [INFO] Browser Closed
+2026-10-21 21:28:04 [INFO] =================================================
+2026-10-21 21:28:04 [INFO] After Scenario Completed
+2026-10-21 21:28:04 [INFO] =================================================
+2026-10-21 21:28:04 [INFO] =================================================
+2026-10-21 21:28:04 [INFO] Before Scenario Started
+2026-10-21 21:28:04 [INFO] Scenario : Verify the login functionality of the application using valid credential
+2026-10-21 21:28:04 [INFO] =================================================
+2026-10-21 21:28:04 [INFO] Execution Type : Local
+2026-10-21 21:28:04 [INFO] Read TestRail : true
+2026-10-21 21:28:04 [INFO] Update TestRail : true
+2026-10-21 21:28:04 [INFO] Update Lambda : false
+2026-10-21 21:28:04 [INFO] Test Case Id : 1
+2026-10-21 21:28:05 [INFO] Browser : chrome
+2026-10-21 21:28:05 [INFO] Browser launched successfully.
+2026-10-21 21:28:05 [INFO] Tracing Started
+2026-10-21 21:28:05 [INFO] =================================================
+2026-10-21 21:28:05 [INFO] Before Scenario Completed
+2026-10-21 21:28:05 [INFO] =================================================
+2026-10-21 21:28:07 [INFO] Fill -> #username : sagesyntaxacademy
+2026-10-21 21:28:07 [INFO] Fill -> #password : BuildingExcellence@111
+2026-10-21 21:28:07 [INFO] Click -> //button[text()='Sign In']
+2026-10-21 21:28:10 [INFO] =================================================
+2026-10-21 21:28:10 [INFO] After Scenario Started
+2026-10-21 21:28:10 [INFO] Scenario Name : Verify the login functionality of the application using valid credential
+2026-10-21 21:28:10 [INFO] =================================================
+2026-10-21 21:28:10 [INFO] Updating TestRail PASS
+2026-10-21 21:28:11 [INFO] Updated TestRail Case 1
+2026-10-21 21:28:11 [INFO] TestRail updated successfully for Case ID 1 (PASS)
+2026-10-21 21:28:11 [INFO] Trace Saved
+2026-10-21 21:28:11 [INFO] Browser Closed
+2026-10-21 21:28:11 [INFO] =================================================
+2026-10-21 21:28:11 [INFO] After Scenario Completed
+2026-10-21 21:28:11 [INFO] =================================================
+2026-10-21 21:27:53 [INFO] ======================================
+2026-10-21 21:27:53 [INFO]  Playwright Enterprise Test Runner
+2026-10-21 21:27:53 [INFO] ======================================
+2026-10-21 21:27:53 [INFO] Environment : qa
+2026-10-21 21:27:53 [INFO] Browser    : chromium
+2026-10-21 21:27:53 [INFO] Parallel   : 1
+2026-10-21 21:27:53 [INFO] Tag        : @C1
+2026-10-21 21:27:53 [INFO] --------------------------------------
+2026-10-21 21:27:53 [INFO] Command : npx cucumber-js --tags "@C1" --parallel 1
+2026-10-21 21:27:53 [INFO] ======================================
+2026-10-21 21:27:53 [INFO] ===============In Test runner before ExecSync=======================
+2026-10-21 21:34:37 [INFO] logger...
+2026-10-21 21:34:37 [INFO] config...
+2026-10-21 21:34:37 [INFO] BrowserFixture...
+2026-10-21 21:34:37 [INFO] PageFixture...
+2026-10-21 21:34:37 [INFO] BrowserManager...
+2026-10-21 21:34:37 [INFO] TestRailManager...
+2026-10-21 21:34:37 [INFO] logger...
+2026-10-21 21:34:37 [INFO] config...
+2026-10-21 21:34:37 [INFO] BrowserFixture...
+2026-10-21 21:34:37 [INFO] PageFixture...
+2026-10-21 21:34:37 [INFO] BrowserManager...
+2026-10-21 21:34:37 [INFO] TestRailManager...
+2026-10-21 21:34:37 [INFO] =================================================
+2026-10-21 21:34:37 [INFO] Before Scenario Started
+2026-10-21 21:34:37 [INFO] Scenario : Verify the login functionality of the application using valid credential
+2026-10-21 21:34:37 [INFO] =================================================
+2026-10-21 21:34:37 [INFO] Execution Type : Remote
+2026-10-21 21:34:37 [INFO] Read TestRail : true
+2026-10-21 21:34:37 [INFO] Update TestRail : true
+2026-10-21 21:34:37 [INFO] Update Lambda : true
+2026-10-21 21:34:37 [INFO] Loading TestRail Test Plan...
+2026-10-21 21:34:37 [INFO] TestRail credentials loaded.
+2026-10-21 21:34:37 [INFO] initializeTestCasesFromPlan is called
+2026-10-21 21:34:38 [INFO] Plan JSON : {
+  "id": 1,
+  "name": "October sprint Test Plan Cycle 1",
+  "refs": null,
+  "description": null,
+  "milestone_id": 1,
+  "assignedto_id": null,
+  "is_completed": false,
+  "completed_on": null,
+  "is_archived": false,
+  "archived_on": null,
+  "passed_count": 1,
+  "blocked_count": 0,
+  "untested_count": 1,
+  "retest_count": 0,
+  "failed_count": 0,
+  "custom_status1_count": 0,
+  "custom_status2_count": 0,
+  "custom_status3_count": 0,
+  "custom_status4_count": 0,
+  "custom_status5_count": 0,
+  "custom_status6_count": 0,
+  "custom_status7_count": 0,
+  "project_id": 1,
+  "created_on": 1792591986,
+  "updated_on": 1792591986,
+  "updated_by": 1,
+  "start_on": 1790812800,
+  "due_on": 1793404800,
+  "created_by": 1,
+  "url": "https://sagesyntax40.testrail.io/index.php?/plans/view/1",
+  "entries": [
+    {
+      "id": "659855ec-1e8f-4bae-9720-180a0a89fe10",
+      "suite_id": 1,
+      "name": "Test Run 10/21/2026",
+      "refs": null,
+      "description": null,
+      "include_all": true,
+      "dataset_id": null,
+      "dynamic_filters": null,
+      "runs": [
+        {
+          "id": 2,
+          "suite_id": 1,
+          "name": "Test Run 10/21/2026",
+          "description": null,
+          "milestone_id": 1,
+          "assignedto_id": null,
+          "include_all": true,
+          "is_completed": false,
+          "completed_on": null,
+          "is_archived": false,
+          "archived_on": null,
+          "passed_count": 1,
+          "blocked_count": 0,
+          "untested_count": 1,
+          "retest_count": 0,
+          "failed_count": 0,
+          "custom_status1_count": 0,
+          "custom_status2_count": 0,
+          "custom_status3_count": 0,
+          "custom_status4_count": 0,
+          "custom_status5_count": 0,
+          "custom_status6_count": 0,
+          "custom_status7_count": 0,
+          "project_id": 1,
+          "plan_id": 1,
+          "entry_index": 1,
+          "entry_id": "659855ec-1e8f-4bae-9720-180a0a89fe10",
+          "config": null,
+          "config_ids": [],
+          "created_on": 1792591986,
+          "refs": null,
+          "created_by": 1,
+          "dataset_id": null,
+          "start_on": null,
+          "due_on": null,
+          "dynamic_filters": null,
+          "url": "https://sagesyntax40.testrail.io/index.php?/runs/view/2"
+        }
+      ]
+    }
+  ]
+}
+2026-10-21 21:34:38 [INFO] Build Name : October sprint Test Plan Cycle 1
+2026-10-21 21:34:39 [INFO] Project : {"id":1,"name":"AutomationPracticeHub","announcement":null,"show_announcement":false,"is_completed":false,"completed_on":null,"suite_mode":1,"default_role_id":null,"case_statuses_enabled":false,"url":"https://sagesyntax40.testrail.io/index.php?/projects/overview/1","users":[],"groups":[]}
+2026-10-21 21:34:39 [INFO] Project Name : AutomationPracticeHub
+2026-10-21 21:34:39 [INFO] Test Case Map Loaded with 2 cases.
+2026-10-21 21:34:39 [INFO] Test Case Id : 1
+2026-10-21 21:34:40 [INFO] Browser : chrome
+2026-10-21 21:35:43 [INFO] Browser launched successfully.
+2026-10-21 21:35:43 [INFO] Tracing Started
+2026-10-21 21:35:43 [INFO] =================================================
+2026-10-21 21:35:43 [INFO] Before Scenario Completed
+2026-10-21 21:35:43 [INFO] =================================================
+2026-10-21 21:35:45 [INFO] Fill -> #username : sagesyntaxacademy
+2026-10-21 21:35:45 [INFO] Fill -> #password : BuildingExcellence@111
+2026-10-21 21:35:45 [INFO] Click -> //button[text()='Sign In']
+2026-10-21 21:35:49 [INFO] =================================================
+2026-10-21 21:35:49 [INFO] After Scenario Started
+2026-10-21 21:35:49 [INFO] Scenario Name : Verify the login functionality of the application using valid credential
+2026-10-21 21:35:49 [INFO] =================================================
+2026-10-21 21:35:49 [INFO] LambdaTest status updated : passed
+2026-10-21 21:35:49 [INFO] Updating TestRail PASS
+2026-10-21 21:35:50 [INFO] Updated TestRail Case 1
+2026-10-21 21:35:50 [INFO] TestRail updated successfully for Case ID 1 (PASS)
+2026-10-21 21:35:53 [INFO] Trace Saved
+2026-10-21 21:35:55 [INFO] Browser Closed
+2026-10-21 21:35:55 [INFO] =================================================
+2026-10-21 21:35:55 [INFO] After Scenario Completed
+2026-10-21 21:35:55 [INFO] =================================================
+2026-10-21 21:35:55 [INFO] =================================================
+2026-10-21 21:35:55 [INFO] Before Scenario Started
+2026-10-21 21:35:55 [INFO] Scenario : Verify the login functionality of the application using valid credential
+2026-10-21 21:35:55 [INFO] =================================================
+2026-10-21 21:35:55 [INFO] Execution Type : Remote
+2026-10-21 21:35:55 [INFO] Read TestRail : true
+2026-10-21 21:35:55 [INFO] Update TestRail : true
+2026-10-21 21:35:55 [INFO] Update Lambda : true
+2026-10-21 21:35:55 [INFO] Test Case Id : 1
+2026-10-21 21:35:56 [INFO] Browser : chrome
+2026-10-21 21:37:30 [INFO] Browser launched successfully.
+2026-10-21 21:37:30 [INFO] Tracing Started
+2026-10-21 21:37:30 [INFO] =================================================
+2026-10-21 21:37:30 [INFO] Before Scenario Completed
+2026-10-21 21:37:30 [INFO] =================================================
+2026-10-21 21:37:32 [INFO] Fill -> #username : sagesyntaxacademy
+2026-10-21 21:37:32 [INFO] Fill -> #password : BuildingExcellence@111
+2026-10-21 21:37:33 [INFO] Click -> //button[text()='Sign In']
+2026-10-21 21:37:36 [INFO] =================================================
+2026-10-21 21:37:36 [INFO] After Scenario Started
+2026-10-21 21:37:36 [INFO] Scenario Name : Verify the login functionality of the application using valid credential
+2026-10-21 21:37:36 [INFO] =================================================
+2026-10-21 21:37:36 [INFO] LambdaTest status updated : passed
+2026-10-21 21:37:36 [INFO] Updating TestRail PASS
+2026-10-21 21:37:37 [INFO] Updated TestRail Case 1
+2026-10-21 21:37:37 [INFO] TestRail updated successfully for Case ID 1 (PASS)
+2026-10-21 21:37:40 [INFO] Trace Saved
+2026-10-21 21:37:42 [INFO] Browser Closed
+2026-10-21 21:37:42 [INFO] =================================================
+2026-10-21 21:37:42 [INFO] After Scenario Completed
+2026-10-21 21:37:42 [INFO] =================================================
+2026-10-21 21:34:35 [INFO] ======================================
+2026-10-21 21:34:35 [INFO]  Playwright Enterprise Test Runner
+2026-10-21 21:34:35 [INFO] ======================================
+2026-10-21 21:34:35 [INFO] Environment : qa
+2026-10-21 21:34:35 [INFO] Browser    : chromium
+2026-10-21 21:34:35 [INFO] Parallel   : 1
+2026-10-21 21:34:35 [INFO] Tag        : @C1
+2026-10-21 21:34:35 [INFO] --------------------------------------
+2026-10-21 21:34:35 [INFO] Command : npx cucumber-js --tags "@C1" --parallel 1
+2026-10-21 21:34:35 [INFO] ======================================
+2026-10-21 21:34:35 [INFO] ===============In Test runner before ExecSync=======================

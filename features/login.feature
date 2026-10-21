@@ -12,7 +12,7 @@ Feature: Verify the Login Functionality of the Application
                   | username          | password               |
                   | sagesyntaxacademy | BuildingExcellence@111 |
 
-        @C5948
+        @C1
         Scenario Outline: Verify the login functionality of the application using valid credential
             Given the user launches the application "<URL>"
             Given the user enters the valid username "<username>" and password "<password>"
@@ -31,7 +31,7 @@ Feature: Verify the Login Functionality of the Application
                 #| https://automationpracticehub.com/ | sagesyntaxacademy | BuildingExcellence@111 | https://automationpracticehub.com/home  |
                 #| https://automationpracticehub.com/ | sagesyntaxacademy | BuildingExcellence@111 | https://automationpracticehub.com/home  |
         
-             @C5949
+        @C2
         Scenario Outline: Verify the login functionality of the application using valid credential
             Given the user launches the application "<URL>"
             Given the user enters the valid username "<username>" and password "<password>"

@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1228894599
+              "duration": 65907309400
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1753094100
+              "duration": 1639851799
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 353218899
+              "duration": 686429799
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 217107600
+              "duration": 386177299
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2285576500
+              "duration": 2970391799
             }
           },
           {
@@ -74,13 +74,13 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2600369200
+              "duration": 6385540699
             }
           }
         ],
         "tags": [
           {
-            "name": "@C5948",
+            "name": "@C1",
             "line": 15
           }
         ],
@@ -98,7 +98,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1165210799
+              "duration": 95074974199
             }
           },
           {
@@ -111,7 +111,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1699999600
+              "duration": 1831096699
             }
           },
           {
@@ -124,7 +124,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 325504000
+              "duration": 633828399
             }
           },
           {
@@ -137,7 +137,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 176285700
+              "duration": 358303499
             }
           },
           {
@@ -150,7 +150,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2578415399
+              "duration": 2789236200
             }
           },
           {
@@ -158,182 +158,14 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2503920299
+              "duration": 6360650900
             }
           }
         ],
         "tags": [
           {
-            "name": "@C5948",
+            "name": "@C1",
             "line": 15
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "verify-the-login-functionality-of-the-application;verify-the-login-functionality-of-the-application-using-valid-credential",
-        "keyword": "Scenario Outline",
-        "line": 43,
-        "name": "Verify the login functionality of the application using valid credential",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 1274657200
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 36,
-            "name": "the user launches the application \"https://automationpracticehub.com/\"",
-            "match": {
-              "location": "features\\stepdefinitions\\Steps.js:32"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2587171600
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 37,
-            "name": "the user enters the valid username \"sagesyntaxacademy\" and password \"BuildingExcellence@111\"",
-            "match": {
-              "location": "features\\stepdefinitions\\Steps.js:37"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 707765900
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 38,
-            "name": "the user clicks on login button",
-            "match": {
-              "location": "features\\stepdefinitions\\Steps.js:42"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 356998099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 39,
-            "name": "the user should be redirected to the HomePage \"https://automationpracticehub.com/home\"",
-            "match": {
-              "location": "features\\stepdefinitions\\Steps.js:47"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2204191900
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 1319750900
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@C5949",
-            "line": 34
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "verify-the-login-functionality-of-the-application;verify-the-login-functionality-of-the-application-using-valid-credential",
-        "keyword": "Scenario Outline",
-        "line": 42,
-        "name": "Verify the login functionality of the application using valid credential",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 1115792899
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 36,
-            "name": "the user launches the application \"https://automationpracticehub.com/\"",
-            "match": {
-              "location": "features\\stepdefinitions\\Steps.js:32"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1865033599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 37,
-            "name": "the user enters the valid username \"sagesyntaxacademy\" and password \"BuildingExcellence@111\"",
-            "match": {
-              "location": "features\\stepdefinitions\\Steps.js:37"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 354170500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 38,
-            "name": "the user clicks on login button",
-            "match": {
-              "location": "features\\stepdefinitions\\Steps.js:42"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 202182800
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 39,
-            "name": "the user should be redirected to the HomePage \"https://automationpracticehub.com/home\"",
-            "match": {
-              "location": "features\\stepdefinitions\\Steps.js:47"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2729541000
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 2181911399
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@C5949",
-            "line": 34
           }
         ],
         "type": "scenario"
