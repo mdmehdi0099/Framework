@@ -1066,3 +1066,80 @@
 2026-10-21 21:34:35 [INFO] Command : npx cucumber-js --tags "@C1" --parallel 1
 2026-10-21 21:34:35 [INFO] ======================================
 2026-10-21 21:34:35 [INFO] ===============In Test runner before ExecSync=======================
+2026-10-21 22:56:01 [INFO] logger...
+2026-10-21 22:56:01 [INFO] config...
+2026-10-21 22:56:01 [INFO] BrowserFixture...
+2026-10-21 22:56:01 [INFO] PageFixture...
+2026-10-21 22:56:01 [INFO] BrowserManager...
+2026-10-21 22:56:01 [INFO] TestRailManager...
+2026-10-21 22:56:01 [INFO] logger...
+2026-10-21 22:56:01 [INFO] config...
+2026-10-21 22:56:01 [INFO] BrowserFixture...
+2026-10-21 22:56:01 [INFO] PageFixture...
+2026-10-21 22:56:01 [INFO] BrowserManager...
+2026-10-21 22:56:01 [INFO] TestRailManager...
+2026-10-21 22:56:01 [INFO] =================================================
+2026-10-21 22:56:01 [INFO] Before Scenario Started
+2026-10-21 22:56:01 [INFO] Scenario : Verify the login functionality of the application using valid credential
+2026-10-21 22:56:01 [INFO] =================================================
+2026-10-21 22:56:01 [INFO] Execution Type : Local
+2026-10-21 22:56:01 [INFO] Read TestRail : false
+2026-10-21 22:56:01 [INFO] Update TestRail : false
+2026-10-21 22:56:01 [INFO] Update Lambda : false
+2026-10-21 22:56:01 [INFO] Test Case Id : 2
+2026-10-21 22:56:01 [INFO] Browser : chromium
+2026-10-21 22:56:03 [INFO] Browser launched successfully.
+2026-10-21 22:56:03 [INFO] Tracing Started
+2026-10-21 22:56:03 [INFO] =================================================
+2026-10-21 22:56:03 [INFO] Before Scenario Completed
+2026-10-21 22:56:03 [INFO] =================================================
+2026-10-21 22:56:07 [INFO] Fill -> #username : sagesyntaxacademy
+2026-10-21 22:56:07 [INFO] Fill -> #password : BuildingExcellence@111
+2026-10-21 22:56:08 [INFO] Click -> //button[text()='Sign In']
+2026-10-21 22:56:10 [INFO] =================================================
+2026-10-21 22:56:10 [INFO] After Scenario Started
+2026-10-21 22:56:10 [INFO] Scenario Name : Verify the login functionality of the application using valid credential
+2026-10-21 22:56:10 [INFO] =================================================
+2026-10-21 22:56:10 [INFO] Trace Saved
+2026-10-21 22:56:10 [INFO] Browser Closed
+2026-10-21 22:56:10 [INFO] =================================================
+2026-10-21 22:56:10 [INFO] After Scenario Completed
+2026-10-21 22:56:10 [INFO] =================================================
+2026-10-21 22:56:10 [INFO] =================================================
+2026-10-21 22:56:10 [INFO] Before Scenario Started
+2026-10-21 22:56:10 [INFO] Scenario : Verify the login functionality of the application using valid credential
+2026-10-21 22:56:10 [INFO] =================================================
+2026-10-21 22:56:10 [INFO] Execution Type : Local
+2026-10-21 22:56:10 [INFO] Read TestRail : false
+2026-10-21 22:56:10 [INFO] Update TestRail : false
+2026-10-21 22:56:10 [INFO] Update Lambda : false
+2026-10-21 22:56:10 [INFO] Test Case Id : 2
+2026-10-21 22:56:10 [INFO] Browser : chromium
+2026-10-21 22:56:10 [INFO] Browser launched successfully.
+2026-10-21 22:56:10 [INFO] Tracing Started
+2026-10-21 22:56:10 [INFO] =================================================
+2026-10-21 22:56:10 [INFO] Before Scenario Completed
+2026-10-21 22:56:10 [INFO] =================================================
+2026-10-21 22:56:11 [INFO] Fill -> #username : sagesyntaxacademy
+2026-10-21 22:56:12 [INFO] Fill -> #password : BuildingExcellence@111
+2026-10-21 22:56:12 [INFO] Click -> //button[text()='Sign In']
+2026-10-21 22:56:14 [INFO] =================================================
+2026-10-21 22:56:14 [INFO] After Scenario Started
+2026-10-21 22:56:14 [INFO] Scenario Name : Verify the login functionality of the application using valid credential
+2026-10-21 22:56:14 [INFO] =================================================
+2026-10-21 22:56:14 [INFO] Trace Saved
+2026-10-21 22:56:14 [INFO] Browser Closed
+2026-10-21 22:56:14 [INFO] =================================================
+2026-10-21 22:56:14 [INFO] After Scenario Completed
+2026-10-21 22:56:14 [INFO] =================================================
+2026-10-21 22:56:00 [INFO] ======================================
+2026-10-21 22:56:00 [INFO]  Playwright Enterprise Test Runner
+2026-10-21 22:56:00 [INFO] ======================================
+2026-10-21 22:56:00 [INFO] Environment : qa
+2026-10-21 22:56:00 [INFO] Browser    : chromium
+2026-10-21 22:56:00 [INFO] Parallel   : 1
+2026-10-21 22:56:00 [INFO] Tag        : @C2
+2026-10-21 22:56:00 [INFO] --------------------------------------
+2026-10-21 22:56:00 [INFO] Command : npx cucumber-js --tags "@C2" --parallel 1
+2026-10-21 22:56:00 [INFO] ======================================
+2026-10-21 22:56:00 [INFO] ===============In Test runner before ExecSync=======================

@@ -18,7 +18,6 @@ jobs:
 
     - name: Setup Node.js
       uses: actions/setup-node@v4
-      
       with:
         node-version: lts/*
         cache: npm
@@ -31,23 +30,30 @@ jobs:
 
     - name: Clean previous reports
       run: |
-        rm -rf reports test-results playwright-report  
+        rm -rf reports/json reports/html
+        mkdir -p reports/json reports/html
 
     - name: Run Automation Tests
       id: tests
       continue-on-error: true
       run: node runner/TestRunner.js --env=qa --browser=chromium --parallel=1 '--tags=@C2'
 
-    - name: Upload Test Reports
+    - name: Verify generated reports
+      if: always()
+      run: |
+        echo "Checking generated reports..."
+        ls -la reports/json/ || true
+        ls -la reports/html/ || true
+
+    - name: Upload Cucumber Reports
       if: always()
       uses: actions/upload-artifact@v4
       with:
         name: cucumber-test-reports
         path: |
-          reports/
-          test-results/
-          playwright-report/
-        if-no-files-found: ignore
+          reports/json/cucumber-report.json
+          reports/html/cucumber-report.html
+        if-no-files-found: warn
         retention-days: 30
 
     - name: Set final test status
@@ -55,8 +61,8 @@ jobs:
       env:
         TEST_OUTCOME: ${{ steps.tests.outcome }}
       run: |
-          if [ "$TEST_OUTCOME" != "success" ]; then
-            echo "Automation tests failed. Check the test logs and downloaded report."
-            exit 1
-          fi
-          echo "All automation tests passed."
+        if [ "$TEST_OUTCOME" != "success" ]; then
+          echo "Automation tests failed. Check the test logs and downloaded report."
+          exit 1
+        fi
+        echo "All automation tests passed."

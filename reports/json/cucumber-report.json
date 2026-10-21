@@ -6,7 +6,7 @@
         "description": "",
         "id": "verify-the-login-functionality-of-the-application;verify-the-login-functionality-of-the-application-using-valid-credential",
         "keyword": "Scenario Outline",
-        "line": 23,
+        "line": 42,
         "name": "Verify the login functionality of the application using valid credential",
         "steps": [
           {
@@ -14,59 +14,59 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 65907309400
+              "duration": 1791384000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 17,
+            "line": 36,
             "name": "the user launches the application \"https://automationpracticehub.com/\"",
             "match": {
               "location": "features\\stepdefinitions\\Steps.js:32"
             },
             "result": {
               "status": "passed",
-              "duration": 1639851799
+              "duration": 4164790799
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 18,
+            "line": 37,
             "name": "the user enters the valid username \"sagesyntaxacademy\" and password \"BuildingExcellence@111\"",
             "match": {
               "location": "features\\stepdefinitions\\Steps.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 686429799
+              "duration": 320954999
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 19,
+            "line": 38,
             "name": "the user clicks on login button",
             "match": {
               "location": "features\\stepdefinitions\\Steps.js:42"
             },
             "result": {
               "status": "passed",
-              "duration": 386177299
+              "duration": 160683600
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 20,
+            "line": 39,
             "name": "the user should be redirected to the HomePage \"https://automationpracticehub.com/home\"",
             "match": {
               "location": "features\\stepdefinitions\\Steps.js:47"
             },
             "result": {
               "status": "passed",
-              "duration": 2970391799
+              "duration": 2324413300
             }
           },
           {
@@ -74,14 +74,14 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 6385540699
+              "duration": 155182699
             }
           }
         ],
         "tags": [
           {
-            "name": "@C1",
-            "line": 15
+            "name": "@C2",
+            "line": 34
           }
         ],
         "type": "scenario"
@@ -90,7 +90,7 @@
         "description": "",
         "id": "verify-the-login-functionality-of-the-application;verify-the-login-functionality-of-the-application-using-valid-credential",
         "keyword": "Scenario Outline",
-        "line": 24,
+        "line": 43,
         "name": "Verify the login functionality of the application using valid credential",
         "steps": [
           {
@@ -98,59 +98,59 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 95074974199
+              "duration": 121713800
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 17,
+            "line": 36,
             "name": "the user launches the application \"https://automationpracticehub.com/\"",
             "match": {
               "location": "features\\stepdefinitions\\Steps.js:32"
             },
             "result": {
               "status": "passed",
-              "duration": 1831096699
+              "duration": 1116379600
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 18,
+            "line": 37,
             "name": "the user enters the valid username \"sagesyntaxacademy\" and password \"BuildingExcellence@111\"",
             "match": {
               "location": "features\\stepdefinitions\\Steps.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 633828399
+              "duration": 269881299
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 19,
+            "line": 38,
             "name": "the user clicks on login button",
             "match": {
               "location": "features\\stepdefinitions\\Steps.js:42"
             },
             "result": {
               "status": "passed",
-              "duration": 358303499
+              "duration": 162963200
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 20,
+            "line": 39,
             "name": "the user should be redirected to the HomePage \"https://automationpracticehub.com/home\"",
             "match": {
               "location": "features\\stepdefinitions\\Steps.js:47"
             },
             "result": {
               "status": "passed",
-              "duration": 2789236200
+              "duration": 2342552600
             }
           },
           {
@@ -158,14 +158,14 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 6360650900
+              "duration": 185367299
             }
           }
         ],
         "tags": [
           {
-            "name": "@C1",
-            "line": 15
+            "name": "@C2",
+            "line": 34
           }
         ],
         "type": "scenario"
