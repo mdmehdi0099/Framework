@@ -29,21 +29,22 @@ jobs:
       run: npx playwright install --with-deps chromium
 
     - name: Clean previous reports
-      run: |
-        rm -rf reports/json reports/html
-        mkdir -p reports/json reports/html
+      run: rm -rf reports test-results playwright-report
 
     - name: Run Automation Tests
       id: tests
       continue-on-error: true
       run: node runner/TestRunner.js --env=qa --browser=chromium --parallel=1 '--tags=@C2'
 
-    - name: Verify generated reports
+    - name: Find generated reports
       if: always()
       run: |
-        echo "Checking generated reports..."
-        ls -la reports/json/ || true
-        ls -la reports/html/ || true
+        echo "Current directory:"
+        pwd
+        echo "Report files:"
+        find . -type f \( -iname "*.html" -o -iname "*.json" \) \
+          -not -path "./node_modules/*" \
+          -not -path "./.git/*" | sort
 
     - name: Upload Cucumber Reports
       if: always()
@@ -51,8 +52,9 @@ jobs:
       with:
         name: cucumber-test-reports
         path: |
-          reports/json/cucumber-report.json
-          reports/html/cucumber-report.html
+          reports/
+          test-results/
+          playwright-report/
         if-no-files-found: warn
         retention-days: 30
 
