@@ -30,12 +30,13 @@ jobs:
       run: npx playwright install --with-deps chromium
 
     - name: Run Automation Tests
+      id: tests
+      continue-on-error: true
       run: node runner/TestRunner.js --env=qa --browser=chromium --parallel=1 '--tags=@C1'
 
     - name: Upload Test Reports
-      uses: actions/upload-artifact@v4
-    
       if: always()
+      uses: actions/upload-artifact@v4
       with:
         name: cucumber-test-reports
         path: |
@@ -54,4 +55,4 @@ jobs:
             echo "Automation tests failed. Check the test logs and downloaded report."
             exit 1
           fi
-            echo "All automation tests passed."
+          echo "All automation tests passed."
