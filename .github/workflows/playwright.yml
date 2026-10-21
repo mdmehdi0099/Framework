@@ -30,7 +30,7 @@ jobs:
       run: npx playwright install --with-deps chromium
 
     - name: Run Automation Tests
-      run: node runner/TestRunner.js --env=qa --browser=chromium --parallel=1 --tags="@C1"
+      run: node runner/TestRunner.js --env=qa --browser=chromium --parallel=1 '--tags=@C1'
 
     - name: Upload Test Reports
       uses: actions/upload-artifact@v4
@@ -44,3 +44,14 @@ jobs:
           playwright-report/
         if-no-files-found: ignore
         retention-days: 30
+
+    - name: Set final test status
+      if: always()
+      env:
+        TEST_OUTCOME: ${{ steps.tests.outcome }}
+      run: |
+          if [ "$TEST_OUTCOME" != "success" ]; then
+            echo "Automation tests failed. Check the test logs and downloaded report."
+            exit 1
+          fi
+            echo "All automation tests passed."
