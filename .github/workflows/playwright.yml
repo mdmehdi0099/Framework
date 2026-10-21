@@ -29,6 +29,10 @@ jobs:
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps chromium
 
+    - name: Clean previous reports
+      run: |
+        rm -rf reports test-results playwright-report  
+
     - name: Run Automation Tests
       id: tests
       continue-on-error: true
