@@ -34,7 +34,7 @@ jobs:
     - name: Run Automation Tests
       id: tests
       continue-on-error: true
-      run: node runner/TestRunner.js --env=qa --browser=chromium --parallel=1 '--tags=@C2'
+      run: node runner/TestRunner.js --env=qa --browser=chromium --parallel=1 '--tags=@C2 or @C1'
 
     - name: Find generated reports
       if: always()
