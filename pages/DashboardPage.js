@@ -1,5 +1,5 @@
 const BasePage = require("./BasePage");
-const config = require("../config/ConfigManager");
+const config = require("../config/configManager");
 const DashboardPageLocator = require("../locators/DashboardPageLocator");
 
 class DashboardPage extends BasePage {

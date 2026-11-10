@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const https = require("https");
-const config = require("../../config/ConfigManager");
+const config = require("../../config/configManager");
 const APIClient = require("../testrail/APIClient");
 const logger = require("../../utils/Logger");
 

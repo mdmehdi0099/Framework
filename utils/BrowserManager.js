@@ -1,5 +1,5 @@
 const { chromium, firefox, webkit } = require("playwright");
-const config = require("../config/ConfigManager");
+const config = require("../config/configManager");
 const cp = require("child_process");
 
 console.log("========================================");

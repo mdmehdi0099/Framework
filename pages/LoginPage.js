@@ -1,5 +1,5 @@
 const BasePage = require("./BasePage");
-const config = require("../config/ConfigManager");
+const config = require("../config/configManager");
 const LoginLocator = require("../locators/LoginLocator");
 
 
