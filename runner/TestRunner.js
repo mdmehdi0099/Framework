@@ -1,5 +1,5 @@
 const { execSync } = require("child_process");
-const config = require("../config/ConfigManager");
+const config = require("../config/configManager");
 const logger = require("../utils/Logger");
 class TestRunner {
     static run() {
