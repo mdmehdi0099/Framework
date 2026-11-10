@@ -7,7 +7,7 @@ const {
 setDefaultTimeout(120000); // 2 minutes
 const logger = require("../../utils/Logger");
 logger.info("logger...");
-const config = require("../../config/ConfigManager");
+const config = require("../../config/configManager");
 logger.info("config...");
 const BrowserFixture = require("../../fixtures/BrowserFixture");
 logger.info("BrowserFixture...");
